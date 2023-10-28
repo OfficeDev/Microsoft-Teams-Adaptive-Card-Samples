@@ -1,4 +1,8 @@
-# Project
+# Teams Adaptive Card Samples
+
+Samples on different Adaptive Card designs demonstrating the art of possible for inspiration and innovation. Shared designs can be used as such or as a starting point for your own designs.
+
+Here's a teaser of some of the provided designs.
 
 > This repo has been populated by an initial template to help get you started. Please
 > make sure to update the content to build a great experience for community-building.
