@@ -1,0 +1,377 @@
+{
+  "type": "AdaptiveCard",
+  "speak": "Version 2.2 performance optimization",
+  "body": [
+    {
+      "inlines": [
+        {
+          "type": "TextRun",
+          "size": "Small",
+          "text": "Android Scrum Project / SSP-98",
+          "selectAction": {
+            "url": "https://adaptivecards.io",
+            "type": "Action.OpenUrl"
+          }
+        }
+      ],
+      "type": "RichTextBlock"
+    },
+    {
+      "columns": [
+        {
+          "width": "auto",
+          "items": [
+            {
+              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/issue_icon.png",
+              "width": "37px",
+              "height": "auto",
+              "type": "Image"
+            }
+          ],
+          "type": "Column"
+        },
+        {
+          "width": "stretch",
+          "items": [
+            {
+              "size": "Large",
+              "text": "Version 2.2 Performance Optimization",
+              "weight": "Bolder",
+              "wrap": true,
+              "type": "TextBlock"
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "spacing": "Small",
+          "type": "Column"
+        }
+      ],
+      "spacing": "Small",
+      "type": "ColumnSet"
+    },
+    {
+      "type": "Table",
+      "targetWidth": "atLeast:narrow",
+      "columns": [
+        {
+          "width": 1
+        },
+        {
+          "width": 2
+        }
+      ],
+      "rows": [
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Status",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Waiting for Review",
+                  "wrap": true
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Due Date",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "May 21, 2023",
+                  "wrap": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Priority",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Image",
+                          "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/critical_icon.png",
+                          "width": "20px",
+                          "height": "20px",
+                          "horizontalAlignment": "Center"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "color": "Attention",
+                          "text": "Critical",
+                          "wrap": true,
+                          "spacing": "Small",
+                          "type": "TextBlock"
+                        }
+                      ],
+                      "spacing": "Small"
+                    }
+                  ],
+                  "spacing": "Small"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Assigned To",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Image",
+                          "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/avatar.png",
+                          "width": "16px"
+                        }
+                      ],
+                      "verticalContentAlignment": "Center",
+                      "horizontalAlignment": "Center"
+                    },
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Charlotte Waltson",
+                          "wrap": true
+                        }
+                      ],
+                      "spacing": "Small"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "firstRowAsHeaders": false,
+      "showGridLines": false
+    },
+    {
+      "type": "Container",
+      "targetWidth": "veryNarrow",
+      "items": [
+        {
+          "text": "Status",
+          "weight": "Bolder",
+          "wrap": true,
+          "type": "TextBlock"
+        },
+        {
+          "text": "Waiting for Review",
+          "wrap": true,
+          "type": "TextBlock",
+          "spacing": "None"
+        },
+        {
+          "text": "Due Date",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "text": "May 21, 2023",
+          "wrap": true,
+          "spacing": "None",
+          "type": "TextBlock"
+        },
+        {
+          "text": "Priority",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/critical_icon.png",
+                  "width": "20px",
+                  "height": "20px",
+                  "horizontalAlignment": "Center"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "color": "Attention",
+                  "text": "Critical",
+                  "wrap": true,
+                  "spacing": "Small",
+                  "type": "TextBlock"
+                }
+              ],
+              "spacing": "Small"
+            }
+          ],
+          "spacing": "None"
+        },
+        {
+          "text": "Assigned To",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/avatar.png",
+                  "width": "16px"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "horizontalAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Charlotte Waltson",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small"
+            }
+          ],
+          "spacing": "None"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "title": "Comment",
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "title": "Edit Issue",
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
+        }
+      ],
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "ExtraLarge"
+    },
+    {
+      "actions": [
+        {
+          "title": "Comment",
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/edit_icon.png"
+        }
+      ],
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "spacing": "ExtraLarge"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}

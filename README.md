@@ -1,18 +1,12 @@
 # Teams Adaptive Card Samples
 
-Samples on different Adaptive Card designs demonstrating the art of possible for inspiration and innovation. Shared designs can be used as such or as a starting point for your own designs.
+Jujubes candy sesame snaps croissant liquorice shortbread marshmallow. Chupa chups cupcake sweet roll chocolate bar macaroon. Pudding bear claw cupcake sugar plum toffee. Soufflé jujubes jujubes pie muffin.
 
-Here's a teaser of some of the provided designs.
+Check out a few examples to fuel your inspiration.
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+![card samples](assets/card_samples.png "Example of Adaptive Cards")
 
-As the maintainer of this project, please make a few updates:
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
 
 ## Contributing
 
@@ -35,3 +29,8 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+
+## Our ❤️ Core Contributors
+
+<a href="https://github.com/SuzanneTocco"><img src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=62&h=62&fit=cover&mask=circle" title="Suz Tocco" width="64" height="64"></a>

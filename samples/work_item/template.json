@@ -1,0 +1,218 @@
+{
+  "type": "AdaptiveCard",
+  "speak": "Bug 2837, icons not rendering in dark mode",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "${logoUrl}",
+              "width": "56px",
+              "height": "56px",
+              "altText": "Logo"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${title}",
+              "wrap": true,
+              "weight": "Bolder"
+            },
+            {
+              "type": "ColumnSet",
+              "targetWidth": "atLeast:standard",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "${statusIconUrl}",
+                      "width": "8px",
+                      "height": "8px",
+                      "altText": "Red circle"
+                    }
+                  ],
+                  "horizontalAlignment": "Center",
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${statusText}",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "|",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${name}",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "targetWidth": "narrow",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "${statusIconUrl}",
+              "width": "8px",
+              "height": "8px",
+              "altText": "Red circle"
+            }
+          ],
+          "horizontalAlignment": "Center",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${statusText}",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "|",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${name}",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "targetWidth": "veryNarrow",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "${statusIconUrl}",
+                  "width": "8px",
+                  "height": "8px",
+                  "altText": "Red circle"
+                }
+              ],
+              "horizontalAlignment": "Center",
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${statusText}",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small",
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "${name}",
+          "wrap": true,
+          "spacing": "None"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "${openActionUrl}"
+        },
+        {
+          "type": "Action.Submit",
+          "title": "${followText}",
+          "iconUrl": "${followIconUrl}"
+        }
+      ]
+    }
+  ]
+}

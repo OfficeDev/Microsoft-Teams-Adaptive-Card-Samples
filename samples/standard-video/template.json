@@ -1,0 +1,100 @@
+{
+  "type": "AdaptiveCard",
+  "speak": "${videoTitle} video",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "url": "${videoImage}",
+      "altText": "${videoTitle} Video"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${videoTitle}",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${author}",
+      "wrap": true,
+      "spacing": "Small",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${videoInfo}",
+      "wrap": true,
+      "spacing": "None"
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "${actions[0].title}",
+          "url": "${actions[0].url}",
+          "iconUrl": "${actions[0].iconUrl}"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "${actions[1].title}",
+          "iconUrl": "${actions[1].iconUrl}"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "${actions[2].title}",
+          "iconUrl": "${actions[2].iconUrl}"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "${actions[3].title}",
+          "iconUrl": "${actions[3].iconUrl}"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "${actions[4].title}",
+          "iconUrl": "${actions[4].iconUrl}"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "${veryNarrowActions[0].title}",
+          "url": "${veryNarrowActions[0].url}",
+          "iconUrl": "${veryNarrowActions[0].iconUrl}"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "${veryNarrowActions[1].title}",
+          "iconUrl": "${veryNarrowActions[1].iconUrl}"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "${veryNarrowActions[2].title}",
+          "mode": "secondary",
+          "iconUrl": "${veryNarrowActions[2].iconUrl}"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "${veryNarrowActions[3].title}",
+          "mode": "secondary",
+          "iconUrl": "${veryNarrowActions[3].iconUrl}"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "${veryNarrowActions[4].title}",
+          "mode": "secondary",
+          "iconUrl": "${veryNarrowActions[4].iconUrl}"
+        }
+      ]
+    }
+  ]
+}

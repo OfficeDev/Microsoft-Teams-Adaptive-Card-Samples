@@ -1,0 +1,52 @@
+{
+  "videoImage": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/video_image.png",
+  "videoTitle": "Web Development Bootcamp",
+  "author": "HackLab Films",
+  "videoInfo": "24m · 17.1M views · 2 months ago",
+  "actions": [
+    {
+      "title": "Open",
+      "url": "https://adaptivecards.io",
+      "iconUrl": null
+    },
+    {
+      "title": "Add to Calendar",
+      "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/add_to_calendar_icon.png"
+    },
+    {
+      "title": "Share in Teams",
+      "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_teams.png"
+    },
+    {
+      "title": "Download",
+      "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_download.png"
+    },
+    {
+      "title": "Copy link",
+      "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_link.png"
+    }
+  ],
+  "veryNarrowActions": [
+    {
+      "title": "Open",
+      "url": "https://adaptivecards.io",
+      "iconUrl": null
+    },
+    {
+      "title": null,
+      "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/add_to_calendar_icon.png"
+    },
+    {
+      "title": "Share in Teams",
+      "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_teams.png"
+    },
+    {
+      "title": "Download",
+      "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_download.png"
+    },
+    {
+      "title": "Copy link",
+      "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_link.png"
+    }
+  ]
+}
