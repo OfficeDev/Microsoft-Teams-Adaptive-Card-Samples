@@ -99,12 +99,6 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
 
-## Implementation Details
-
-* There are 3 different responsive versions according to the spec; `default`, `narrow` and `veryNarrow`. The main difference between them is the position of the status text / name, so those elements are the ones that will be enabled according to the `targetWidth` while the rest (icon, title, actions) can be kept the same througouht all versions.
-
-* The layout is pretty simple, a `columnSet` is used for the icon and the title with an internal `columnSet` for the status and name to keep them horizontally aligned.
-
 ## Resources & Tools
 
 * **Learn**: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.

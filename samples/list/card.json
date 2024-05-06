@@ -3,16 +3,16 @@
   "speak": "Robin, explore your weekly picks",
   "body": [
     {
+      "type": "TextBlock",
       "size": "large",
       "text": "Robin, explore your weekly picks",
       "weight": "bolder",
-      "wrap": true,
-      "type": "TextBlock"
+      "wrap": true
     },
     {
+      "type": "TextBlock",
       "text": "These resources will teach you how to achieve balance in your life and work with more ease.",
       "wrap": true,
-      "type": "TextBlock",
       "targetWidth": "atLeast:narrow",
       "spacing": "Small"
     },
@@ -229,7 +229,7 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
                       "horizontalAlignment": "Right",
-                      "altText": "⇦",
+                      "altText": "Left Arrow Icon",
                       "width": "32px",
                       "height": "32px",
                       "selectAction": {
@@ -251,7 +251,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "⬤",
+                      "altText": "Filled Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center"
@@ -266,7 +266,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "〇",
+                      "altText": "Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center",
@@ -288,7 +288,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "〇",
+                      "altText": "Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center",
@@ -310,7 +310,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "⇨",
+                      "altText": "Right Arrow Icon",
                       "width": "32px",
                       "height": "32px",
                       "horizontalAlignment": "Left",
@@ -381,7 +381,7 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
                       "horizontalAlignment": "Right",
-                      "altText": "⇦",
+                      "altText": "Left Arrow Icon",
                       "width": "32px",
                       "height": "32px",
                       "selectAction": {
@@ -403,7 +403,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "〇",
+                      "altText": "Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center",
@@ -425,7 +425,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "⬤",
+                      "altText": "Filled Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center"
@@ -440,7 +440,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "〇",
+                      "altText": "Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center",
@@ -462,7 +462,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "⇨",
+                      "altText": "Right Arrow Icon",
                       "width": "32px",
                       "height": "32px",
                       "horizontalAlignment": "Left",
@@ -534,7 +534,7 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
                       "horizontalAlignment": "Right",
-                      "altText": "⇦",
+                      "altText": "Left Arrow Icon",
                       "width": "32px",
                       "height": "32px",
                       "selectAction": {
@@ -556,7 +556,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "〇",
+                      "altText": "Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center",
@@ -578,7 +578,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "〇",
+                      "altText": "Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center",
@@ -600,7 +600,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "⬤",
+                      "altText": "Filled Circle Icon",
                       "width": "8px",
                       "height": "8px",
                       "horizontalAlignment": "Center"
@@ -615,7 +615,7 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "⇨",
+                      "altText": "Right Arrow Icon",
                       "width": "32px",
                       "height": "32px",
                       "horizontalAlignment": "Left",
