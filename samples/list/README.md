@@ -65,12 +65,11 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image small and square to leave ample room for the copy. Add a "Play" button graphic on top of video representations (included in assets folder).
 
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 4px radius to the corners. 
+* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 4px radius to the corners.
 
 #### 3) Link to Associated Content
 
 Point to the appropriate URL from the content blocks.
-
 
 #### 4) Update Description Copy and Set Truncation
 
@@ -117,9 +116,3 @@ This is where the rubber meets the road to ensure high quality cards for all use
 ## Contribute ##
 
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
-
-## Help
-
-We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
-
-You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
