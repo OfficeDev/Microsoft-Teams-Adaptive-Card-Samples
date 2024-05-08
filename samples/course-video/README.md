@@ -119,9 +119,3 @@ This marks the critical point where we ensure that our cards maintain superior q
 ## Contribute ##
 
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
-
-## Help
-
-We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
-
-You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.

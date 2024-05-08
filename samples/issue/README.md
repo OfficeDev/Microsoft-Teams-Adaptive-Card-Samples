@@ -1,6 +1,7 @@
 # Issue
 
 ## Summary
+
 Streamline your workflow with the <b>Issue Card</b> template, tracking and managing issues becomes seamless. It presents key insights such as <b>current status</b> and <b>assigned owner</b>, all customizable to include the specifics of your project’s needs.
 
 _user-sent_ card example:
@@ -67,16 +68,15 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
  <br>
 
- #### 2) Connect to Relevant Web Addresses
+#### 2) Connect to Relevant Web Addresses
 
 Ensure that the primary path name is correctly hyperlinked to the corresponding project or issue details for easy navigation.
 
 #### 3) Imagery Update and Verification
 
-Please substitute the current 28x28 pixel square image. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size while maintaining a 16x16 pixel fixed width. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or retrieve any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework. 
+Please substitute the current 28x28 pixel square image. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size while maintaining a 16x16 pixel fixed width. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or retrieve any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework.
 
 <b>Note:</b> It’s important to conduct tests on any icons to verify their visibility and clarity in both light and dark interface themes.
-
 
 #### 4) Update Button Copy and Actions
 
@@ -116,9 +116,3 @@ This is where the rubber meets the road to ensure high quality cards for all use
 ## Contribute ##
 
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
-
-## Help
-
-We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
-
-You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.

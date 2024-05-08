@@ -1,6 +1,5 @@
 # Recipe
 
-
 ## Summary
 
 Draw in your audience with the <b>Recipe Card</b> (AKA _Hero Showcase Card_), where a <b>captivating image</b> sets the stage for your featured content. Whether it’s a <b>recipe</b> or a <b>special feature</b>, users can expand the card to uncover the full story at their leisure.
@@ -27,7 +26,7 @@ Version|Date|Comments
 
 ## Disclaimer
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ## Inspiration Gallery
 
@@ -41,7 +40,6 @@ Below you'll find a few alternative expressions of the card.
 
 We designed this card for Teams app partners who need to support your use case. This card type has a unique visual and interaction pattern to ensure a consistent user experience. To make this card suit your needs, simply adjust the text, images, and actions.
 
-
 ### Step by step instructions and tips
 
 #### 1) Open in the Microsoft Teams Designer Editing tool
@@ -51,7 +49,7 @@ Teams provides support for this tool, which is ideal for constructing and modify
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
 
-*To create a "full width" card, add the following code to the JSON.* <br>
+_To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
 "msTeams": {
@@ -62,7 +60,6 @@ Teams provides support for this tool, which is ideal for constructing and modify
 #### 2) Replace the Hero Image
 
 If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
-
 
 #### 4) Update Details/Description and Set Truncation
 
@@ -106,11 +103,3 @@ This marks the critical point where we ensure that our cards maintain superior q
 ## Contribute ##
 
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
-
-## Help
-
-We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
-
-You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
-
-
