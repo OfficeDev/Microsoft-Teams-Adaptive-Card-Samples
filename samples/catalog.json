@@ -1,0 +1,49 @@
+{
+    "samples": [
+        {
+            "name": "Account",
+            "description": "The Account Card is designed to give you a strategic edge by providing a high-level summary of each sales opportunity. It neatly displays the company name, opportunity status, estimated revenue, and account owner, with intuitive buttons that invite further exploration and engagement.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/account/card.json"
+        },
+        {
+            "name": "Author Highlight Video",
+            "description": "Showcase your video content in style with the Author Highlight Video Card. Perfect for a variety of video types including tutorials, interviews, or creative showcases, this card is designed for customization. Add your titles, descriptions, and author info to create a personalized and engaging video experience.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/author-highlight-video/card.json"
+        },
+        {
+            "name": "Communication",
+            "description": "The Communications Card is your gateway to vibrant social connectivity. Ideal for broadcasting company updates, sharing posts, or fostering community ties, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/card.json"
+        },
+        {
+            "name": "Course Video",
+            "description": "The Course Video Card is a versatile and robust card designed to serve as an individual component or hub for video or learning content. Whether you’re offering a series of courses, tutorials, or informative clips, this card can be tailored to your specific needs. Customize titles, descriptions, and author information to create engaging viewing experiences.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/course-video/card.json"
+        },
+        {
+            "name": "Issue",
+            "description": "Streamline your workflow with the Issue Card template, tracking and managing issues becomes seamless. It presents key insights such as current status and assigned owner, all customizable to include the specifics of your project’s needs.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/card.json"
+        },
+        {
+            "name": "List",
+            "description": "The List Card is your digital curator, elegantly organizing a personalized selection of content. From insightful articles to engaging videos and comprehensive courses, this card spotlights the essentials. Simply click to delve into a topic or expand your horizon within the app.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/card.json"
+        },
+        {
+            "name": "Recipe",
+            "description": "Draw in your audience with the Recipe Card (AKA Hero Showcase Card), where a captivating image sets the stage for your featured content. Whether it’s a recipe or a special feature, users can expand the card to uncover the full story at their leisure.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/recipe/card.json"
+        },
+        {
+            "name": "Standard Video",
+            "description": "The Standard Video Card prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/card.json"
+        },
+        {
+            "name": "Work Item Thumbnail",
+            "description": "The Work Item Thumbnail Card is a testament to the power of simplicity. Its streamlined design and small visual accent work together to present information efficiently, ensuring your message is understood at a glance.",
+            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/work_item/card.json"
+        }
+    ]
+}
