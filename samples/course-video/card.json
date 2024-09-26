@@ -170,7 +170,7 @@
         {
           "type": "Action.Execute",
           "title": "Bookmark",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/course-video/assets/bookmark_icon.png"
+          "iconUrl": "icon:Bookmark"
         }
       ]
     },
@@ -186,7 +186,7 @@
         },
         {
           "type": "Action.Execute",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/course-video/assets/bookmark_icon.png"
+          "iconUrl": "icon:Bookmark"
         }
       ]
     }

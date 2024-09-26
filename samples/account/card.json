@@ -480,10 +480,11 @@
           "width": "auto",
           "items": [
             {
-              "type": "Image",
+              "type": "Icon",
               "id": "chevronDown1",
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/account/assets/chevron_down.png",
-              "width": "25px",
+              "name": "ChevronDown",
+              "size": "xxSmall",
+              "color": "Accent",
               "selectAction": {
                 "type": "Action.ToggleVisibility",
                 "targetElements": [
@@ -500,11 +501,12 @@
               }
             },
             {
-              "type": "Image",
+              "type": "Icon",
               "id": "chevronUp1",
               "isVisible": false,
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/account/assets/chevron_up.png",
-              "width": "25px",
+              "name": "ChevronUp",
+              "size": "xxSmall",
+              "color": "Accent",
               "selectAction": {
                 "type": "Action.ToggleVisibility",
                 "targetElements": [
@@ -593,10 +595,11 @@
           "width": "auto",
           "items": [
             {
-              "type": "Image",
+              "type": "Icon",
               "id": "chevronDown2",
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/account/assets/chevron_down.png",
-              "width": "25px",
+              "name": "ChevronDown",
+              "size": "xxSmall",
+              "color": "Accent",
               "selectAction": {
                 "type": "Action.ToggleVisibility",
                 "targetElements": [
@@ -613,11 +616,12 @@
               }
             },
             {
-              "type": "Image",
+              "type": "Icon",
               "id": "chevronUp2",
+              "name": "ChevronUp",
               "isVisible": false,
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/account/assets/chevron_up.png",
-              "width": "25px",
+              "size": "xxSmall",
+              "color": "Accent",
               "selectAction": {
                 "type": "Action.ToggleVisibility",
                 "targetElements": [

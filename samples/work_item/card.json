@@ -39,11 +39,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/work_item/assets/circle.png",
-                      "width": "8px",
-                      "height": "8px",
-                      "altText": "Red circle"
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Attention",
+                      "style": "Filled",
+                      "size": "xxSmall"
                     }
                   ],
                   "horizontalAlignment": "Center",
@@ -103,11 +103,11 @@
           "width": "auto",
           "items": [
             {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/work_item/assets/circle.png",
-              "width": "8px",
-              "height": "8px",
-              "altText": "Red circle"
+              "type": "Icon",
+              "name": "Circle",
+              "color": "Attention",
+              "style": "Filled",
+              "size": "xxSmall"
             }
           ],
           "horizontalAlignment": "Center",
@@ -166,11 +166,11 @@
               "width": "auto",
               "items": [
                 {
-                  "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/work_item/assets/circle.png",
-                  "width": "8px",
-                  "height": "8px",
-                  "altText": "Red circle"
+                  "type": "Icon",
+                  "name": "Circle",
+                  "color": "Attention",
+                  "style": "Filled",
+                  "size": "xxSmall"
                 }
               ],
               "horizontalAlignment": "Center",
@@ -210,7 +210,7 @@
         {
           "type": "Action.Submit",
           "title": "Follow",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/work_item/assets/follow_icon.png"
+          "iconUrl": "icon:Eye"
         }
       ]
     }

@@ -226,18 +226,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
+                      "type": "Icon",
+                      "name": "ChevronLeft",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Right",
-                      "altText": "Left Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content3"
-                        ]
+                        "targetElements": ["content1", "content3"]
                       }
                     }
                   ],
@@ -249,11 +245,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "Filled Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Filled",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -264,18 +260,15 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Regular",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content2"
-                        ]
+                        "targetElements": ["content1", "content2"]
                       }
                     }
                   ],
@@ -286,18 +279,15 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Regular",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content3"
-                        ]
+                        "targetElements": ["content1", "content3"]
                       }
                     }
                   ],
@@ -308,18 +298,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "Right Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content2"
-                        ]
+                        "targetElements": ["content1", "content2"]
                       }
                     }
                   ],
@@ -378,18 +364,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
+                      "type": "Icon",
+                      "name": "ChevronLeft",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Right",
-                      "altText": "Left Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content2"
-                        ]
+                        "targetElements": ["content1", "content2"]
                       }
                     }
                   ],
@@ -401,18 +383,15 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Regular",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content2"
-                        ]
+                        "targetElements": ["content1", "content2"]
                       }
                     }
                   ],
@@ -423,11 +402,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "Filled Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Filled",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -438,18 +417,15 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Regular",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content2",
-                          "content3"
-                        ]
+                        "targetElements": ["content2", "content3"]
                       }
                     }
                   ],
@@ -460,18 +436,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "Right Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content2",
-                          "content3"
-                        ]
+                        "targetElements": ["content2", "content3"]
                       }
                     }
                   ],
@@ -531,18 +503,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
+                      "type": "Icon",
+                      "name": "ChevronLeft",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Right",
-                      "altText": "Left Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content2",
-                          "content3"
-                        ]
+                        "targetElements": ["content2", "content3"]
                       }
                     }
                   ],
@@ -554,18 +522,15 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Regular",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content3"
-                        ]
+                        "targetElements": ["content1", "content3"]
                       }
                     }
                   ],
@@ -576,18 +541,15 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Regular",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content2",
-                          "content3"
-                        ]
+                        "targetElements": ["content2", "content3"]
                       }
                     }
                   ],
@@ -598,11 +560,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "Filled Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "Circle",
+                      "color": "Accent",
+                      "style": "Filled",
+                      "size": "xxSmall",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -613,18 +575,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "Right Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content3"
-                        ]
+                        "targetElements": ["content1", "content3"]
                       }
                     }
                   ],
@@ -662,7 +620,7 @@
         },
         {
           "title": "Remind me later",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/clock_icon.png",
+          "iconUrl": "icon:Clock",
           "type": "Action.Submit"
         }
       ],

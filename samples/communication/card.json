@@ -8,11 +8,11 @@
           "width": "auto",
           "items": [
             {
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_megaphone.png",
-              "height": "16px",
-              "type": "Image",
-              "altText": "Megaphone icon",
-              "width": "16px"
+              "type": "Icon",
+              "name": "Megaphone",
+              "style": "Filled",
+              "size": "xxSmall",
+              "color": "Attention"
             }
           ],
           "type": "Column"
@@ -84,11 +84,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_megaphone.png",
-                      "height": "16px",
-                      "type": "Image",
-                      "altText": "Megaphone icon",
-                      "width": "16px"
+                      "type": "Icon",
+                      "name": "Megaphone",
+                      "style": "Filled",
+                      "size": "xxSmall",
+                      "color": "Attention"
                     }
                   ],
                   "type": "Column"
@@ -171,22 +171,20 @@
                   "items": [
                     {
                       "horizontalAlignment": "Right",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_like_outline.png",
-                      "width": "16px",
-                      "height": "16px",
                       "id": "likeOutline",
-                      "type": "Image",
-                      "altText": "Outlined thumbs up"
+                      "type": "Icon",
+                      "name": "ThumbLike",
+                      "style": "Regular",
+                      "size": "xxSmall"
                     },
                     {
                       "horizontalAlignment": "Right",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_like_filled.png",
-                      "width": "16px",
-                      "height": "16px",
                       "id": "likeFilled",
-                      "isVisible": false,
-                      "type": "Image",
-                      "altText": "Thumbs up"
+                      "type": "Icon",
+                      "name": "ThumbLike",
+                      "style": "Filled",
+                      "size": "xxSmall",
+                      "isVisible": false
                     }
                   ],
                   "verticalContentAlignment": "Bottom",
@@ -285,11 +283,11 @@
               "width": "auto",
               "items": [
                 {
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_megaphone.png",
-                  "height": "16px",
-                  "type": "Image",
-                  "altText": "Megaphone icon",
-                  "width": "16px"
+                  "type": "Icon",
+                  "name": "Megaphone",
+                  "style": "Filled",
+                  "size": "xxSmall",
+                  "color": "Attention"
                 }
               ],
               "type": "Column"
@@ -392,22 +390,20 @@
               "items": [
                 {
                   "horizontalAlignment": "Right",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_like_outline.png",
-                  "width": "16px",
-                  "height": "16px",
                   "id": "likeOutline2",
-                  "type": "Image",
-                  "altText": "Outlined thumbs up"
+                  "type": "Icon",
+                  "name": "ThumbLike",
+                  "style": "Regular",
+                  "size": "xxSmall"
                 },
                 {
                   "horizontalAlignment": "Right",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_like_filled.png",
-                  "width": "16px",
-                  "height": "16px",
                   "id": "likeFilled2",
-                  "isVisible": false,
-                  "type": "Image",
-                  "altText": "Thumbs up"
+                  "type": "Icon",
+                  "name": "ThumbLike",
+                  "style": "Filled",
+                  "size": "xxSmall",
+                  "isVisible": false
                 }
               ],
               "verticalContentAlignment": "Center",

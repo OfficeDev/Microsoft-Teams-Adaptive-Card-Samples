@@ -105,7 +105,7 @@
         {
           "type": "Action.Submit",
           "title": "Add to cart",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/recipe/assets/addToCart_icon.png"
+          "iconUrl": "icon:Cart"
         }
       ],
       "spacing": "Medium"
@@ -121,7 +121,7 @@
         },
         {
           "type": "Action.Submit",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/recipe/assets/addToCart_icon.png"
+          "iconUrl": "icon:Cart"
         }
       ],
       "spacing": "Medium"

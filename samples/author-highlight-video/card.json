@@ -73,7 +73,7 @@
           "type": "Action.OpenUrl",
           "title": "Remind me",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/author-highlight-video/assets/remind_icon.png"
+          "iconUrl": "icon:AlertUrgent"
         }
       ]
     }

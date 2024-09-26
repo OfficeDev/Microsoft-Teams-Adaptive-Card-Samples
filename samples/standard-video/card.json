@@ -42,28 +42,28 @@
           "type": "Action.OpenUrl",
           "title": "Add to calendar",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/add_to_calendar_icon.png"
+          "iconUrl": "icon:Calendar"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Share in Teams",
           "mode": "secondary",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_teams.png"
+          "iconUrl": "icon:PeopleTeam"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Download",
           "url": "https://adaptivecards.io/",
           "mode": "secondary",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_download.png"
+          "iconUrl": "icon:ArrowDown"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Copy link",
           "mode": "secondary",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_link.png"
+          "iconUrl": "icon:Link"
         }
       ]
     },
@@ -78,26 +78,26 @@
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/add_to_calendar_icon.png",
+          "iconUrl": "icon:Calendar",
           "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_teams.png",
+          "iconUrl": "icon:PeopleTeam",
           "title": "Share in Teams",
           "mode": "secondary",
           "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_download.png",
+          "iconUrl": "icon:ArrowDown",
           "title": "Download",
           "url": "https://adaptivecards.io/",
           "mode": "secondary"
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/menu_icon_link.png",
+          "iconUrl": "icon:Link",
           "title": "Copy link",
           "mode": "secondary",
           "url": "https://adaptivecards.io/"
