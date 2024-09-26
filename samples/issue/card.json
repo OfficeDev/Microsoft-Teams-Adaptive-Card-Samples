@@ -22,10 +22,9 @@
           "width": "auto",
           "items": [
             {
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/issue_icon.png",
-              "width": "37px",
-              "height": "auto",
-              "type": "Image"
+              "type": "Icon",
+              "name": "Branch",
+              "color": "Accent"
             }
           ],
           "type": "Column"
@@ -141,10 +140,10 @@
                       "width": "auto",
                       "items": [
                         {
-                          "type": "Image",
-                          "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/critical_icon.png",
-                          "width": "20px",
-                          "height": "20px",
+                          "type": "Icon",
+                          "name": "Flag",
+                          "color": "Attention",
+                          "size": "xSmall",
                           "horizontalAlignment": "Center"
                         }
                       ]
@@ -271,10 +270,10 @@
               "width": "auto",
               "items": [
                 {
-                  "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/critical_icon.png",
-                  "width": "20px",
-                  "height": "20px",
+                  "type": "Icon",
+                  "name": "Flag",
+                  "color": "Attention",
+                  "size": "xSmall",
                   "horizontalAlignment": "Center"
                 }
               ],
@@ -364,7 +363,7 @@
         {
           "type": "Action.OpenUrl",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/edit_icon.png"
+          "iconUrl": "icon:Edit"
         }
       ],
       "type": "ActionSet",
