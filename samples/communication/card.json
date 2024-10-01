@@ -1,5 +1,7 @@
 {
   "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
   "speak": "Hawaii holiday escape deals start tonight",
   "body": [
     {
@@ -12,7 +14,7 @@
               "name": "Megaphone",
               "style": "Filled",
               "size": "xxSmall",
-              "color": "Attention"
+              "color": "Accent"
             }
           ],
           "type": "Column"
@@ -33,7 +35,7 @@
         }
       ],
       "type": "ColumnSet",
-      "targetWidth": "narrow"
+      "targetWidth": "Narrow"
     },
     {
       "columns": [
@@ -71,7 +73,7 @@
         }
       ],
       "type": "ColumnSet",
-      "targetWidth": "narrow"
+      "targetWidth": "Narrow"
     },
     {
       "columns": [
@@ -88,7 +90,7 @@
                       "name": "Megaphone",
                       "style": "Filled",
                       "size": "xxSmall",
-                      "color": "Attention"
+                      "color": "Accent"
                     }
                   ],
                   "type": "Column"
@@ -108,7 +110,7 @@
                   "type": "Column"
                 }
               ],
-              "targetWidth": "atLeast:standard",
+              "targetWidth": "AtLeast:Standard",
               "type": "ColumnSet"
             },
             {
@@ -146,7 +148,7 @@
                   "type": "Column"
                 }
               ],
-              "targetWidth": "atLeast:standard",
+              "targetWidth": "AtLeast:Standard",
               "type": "ColumnSet"
             },
             {
@@ -174,7 +176,6 @@
                       "id": "likeOutline",
                       "type": "Icon",
                       "name": "ThumbLike",
-                      "style": "Regular",
                       "size": "xxSmall"
                     },
                     {
@@ -226,7 +227,7 @@
           "width": "auto",
           "items": [
             {
-              "targetWidth": "atLeast:standard",
+              "targetWidth": "AtLeast:Standard",
               "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/hero_image.png",
               "width": "150px",
               "height": "auto",
@@ -234,7 +235,7 @@
               "altText": "Beach Image"
             },
             {
-              "targetWidth": "narrow",
+              "targetWidth": "Narrow",
               "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/hero_image.png",
               "width": "100px",
               "height": "auto",
@@ -242,7 +243,7 @@
               "altText": "Beach Image"
             },
             {
-              "targetWidth": "atLeast:standard",
+              "targetWidth": "AtLeast:Standard",
               "actions": [
                 {
                   "targetElements": [
@@ -271,11 +272,11 @@
         }
       ],
       "type": "ColumnSet",
-      "targetWidth": "atLeast:narrow"
+      "targetWidth": "AtLeast:Narrow"
     },
     {
       "type": "Container",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "items": [
         {
           "columns": [
@@ -287,7 +288,7 @@
                   "name": "Megaphone",
                   "style": "Filled",
                   "size": "xxSmall",
-                  "color": "Attention"
+                  "color": "Accent"
                 }
               ],
               "type": "Column"
@@ -393,7 +394,6 @@
                   "id": "likeOutline2",
                   "type": "Icon",
                   "name": "ThumbLike",
-                  "style": "Regular",
                   "size": "xxSmall"
                 },
                 {
@@ -462,9 +462,7 @@
       ],
       "spacing": "Medium",
       "type": "ActionSet",
-      "targetWidth": "atMost:narrow"
+      "targetWidth": "AtMost:Narrow"
     }
-  ],
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5"
+  ]
 }

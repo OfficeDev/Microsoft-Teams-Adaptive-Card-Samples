@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "speak": "3 minute energy flow with kayo video",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5",
   "body": [
     {
@@ -51,13 +51,13 @@
     },
     {
       "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and mind! All you need is a little space, and get ready to stretch your arms and legs.",
       "wrap": true
     },
     {
       "type": "TextBlock",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and...",
       "wrap": true
     },

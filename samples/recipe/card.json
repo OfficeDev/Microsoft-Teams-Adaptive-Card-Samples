@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "speak": "Apricot-chile glazed chicken recipe",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5",
   "body": [
     {
@@ -53,7 +53,7 @@
     {
       "type": "RichTextBlock",
       "id": "showMore",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "inlines": [
         {
           "type": "TextRun",
@@ -74,7 +74,7 @@
     {
       "type": "RichTextBlock",
       "id": "showLess",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "inlines": [
         {
           "type": "TextRun",
@@ -95,7 +95,7 @@
     },
     {
       "type": "ActionSet",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "actions": [
         {
           "type": "Action.OpenUrl",
@@ -112,7 +112,7 @@
     },
     {
       "type": "ActionSet",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "actions": [
         {
           "type": "Action.OpenUrl",
