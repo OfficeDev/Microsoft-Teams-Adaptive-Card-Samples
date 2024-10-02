@@ -8,7 +8,8 @@
       "text": "Time off request",
       "wrap": true,
       "size": "Large",
-      "weight": "Bolder"
+      "weight": "Bolder",
+      "spacing": "None"
     },
     {
       "type": "Image",
@@ -67,18 +68,22 @@
                           "type": "TextBlock",
                           "text": "Sick Days",
                           "wrap": true,
-                          "weight": "Bolder"
+                          "weight": "Bolder",
+                          "size": "Default"
                         }
                       ],
                       "spacing": "ExtraSmall"
                     }
-                  ]
+                  ],
+                  "spacing": "ExtraSmall"
                 },
                 {
                   "type": "TextBlock",
                   "text": "Accrued at eight hours per three months.",
                   "wrap": true,
-                  "isSubtle": true
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
                 }
               ]
             },
@@ -122,13 +127,16 @@
                       ],
                       "spacing": "ExtraSmall"
                     }
-                  ]
+                  ],
+                  "spacing": "ExtraSmall"
                 },
                 {
                   "type": "TextBlock",
                   "text": "One time 5 day affordance for the year",
                   "wrap": true,
-                  "isSubtle": true
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
                 }
               ],
               "spacing": "ExtraLarge"
@@ -173,13 +181,16 @@
                       ],
                       "spacing": "ExtraSmall"
                     }
-                  ]
+                  ],
+                  "spacing": "ExtraSmall"
                 },
                 {
                   "type": "TextBlock",
                   "text": "Accrued at eight hours per one month.",
                   "wrap": true,
-                  "isSubtle": true
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
                 }
               ],
               "spacing": "ExtraLarge"
@@ -240,13 +251,16 @@
                       ],
                       "spacing": "ExtraSmall"
                     }
-                  ]
+                  ],
+                  "spacing": "ExtraSmall"
                 },
                 {
                   "type": "TextBlock",
                   "text": "Accrued at eight hours per three months.",
                   "wrap": true,
-                  "isSubtle": true
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
                 }
               ]
             },
@@ -290,13 +304,16 @@
                       ],
                       "spacing": "ExtraSmall"
                     }
-                  ]
+                  ],
+                  "spacing": "ExtraSmall"
                 },
                 {
                   "type": "TextBlock",
                   "text": "One time 5 day affordance for the year",
                   "wrap": true,
-                  "isSubtle": true
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
                 }
               ]
             },
@@ -340,13 +357,16 @@
                       ],
                       "spacing": "ExtraSmall"
                     }
-                  ]
+                  ],
+                  "spacing": "ExtraSmall"
                 },
                 {
                   "type": "TextBlock",
                   "text": "Accrued at eight hours per one month.",
                   "wrap": true,
-                  "isSubtle": true
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
                 }
               ]
             }
@@ -373,7 +393,8 @@
                   "type": "Icon",
                   "name": "HeartPulse",
                   "color": "Accent",
-                  "horizontalAlignment": "Center"
+                  "horizontalAlignment": "Center",
+                  "size": "Small"
                 },
                 {
                   "type": "TextBlock",
@@ -388,12 +409,13 @@
                   "type": "TextBlock",
                   "text": "Sick days",
                   "wrap": true,
-                  "isSubtle": true,
                   "weight": "Bolder",
                   "spacing": "None",
-                  "size": "Small"
+                  "size": "Small",
+                  "color": "Default"
                 }
-              ]
+              ],
+              "horizontalAlignment": "Center"
             },
             {
               "type": "Column",
@@ -403,7 +425,8 @@
                   "type": "Icon",
                   "name": "LeafOne",
                   "color": "Accent",
-                  "horizontalAlignment": "Center"
+                  "horizontalAlignment": "Center",
+                  "size": "Small"
                 },
                 {
                   "type": "TextBlock",
@@ -418,12 +441,13 @@
                   "type": "TextBlock",
                   "text": "Wellness",
                   "wrap": true,
-                  "isSubtle": true,
                   "weight": "Bolder",
                   "spacing": "None",
-                  "size": "Small"
+                  "size": "Small",
+                  "color": "Default"
                 }
-              ]
+              ],
+              "horizontalAlignment": "Center"
             },
             {
               "type": "Column",
@@ -433,7 +457,8 @@
                   "type": "Icon",
                   "horizontalAlignment": "Center",
                   "name": "Beach",
-                  "color": "Accent"
+                  "color": "Accent",
+                  "size": "Small"
                 },
                 {
                   "type": "TextBlock",
@@ -448,12 +473,13 @@
                   "type": "TextBlock",
                   "text": "Paid time off",
                   "wrap": true,
-                  "isSubtle": true,
                   "weight": "Bolder",
                   "spacing": "None",
-                  "size": "Small"
+                  "size": "Small",
+                  "color": "Default"
                 }
-              ]
+              ],
+              "horizontalAlignment": "Center"
             }
           ]
         }
@@ -516,9 +542,6 @@
               }
             }
           ],
-          "backgroundImage": {
-            "verticalAlignment": "Center"
-          },
           "verticalContentAlignment": "Bottom",
           "spacing": "ExtraSmall"
         }
@@ -556,10 +579,11 @@
                   "type": "Icon",
                   "color": "Accent",
                   "name": "HeartPulse",
-                  "size": "Small"
+                  "size": "xSmall"
                 }
               ],
-              "verticalContentAlignment": "Center"
+              "verticalContentAlignment": "Center",
+              "spacing": "Small"
             },
             {
               "type": "Column",
@@ -570,10 +594,12 @@
                   "text": "Sick days",
                   "wrap": true,
                   "weight": "Bolder",
-                  "size": "Small"
+                  "size": "Small",
+                  "color": "Default"
                 }
               ],
-              "verticalContentAlignment": "Center"
+              "verticalContentAlignment": "Center",
+              "spacing": "ExtraSmall"
             }
           ],
           "horizontalAlignment": "Left"
@@ -604,10 +630,11 @@
                   "type": "Icon",
                   "color": "Accent",
                   "name": "LeafOne",
-                  "size": "Small"
+                  "size": "xSmall"
                 }
               ],
-              "verticalContentAlignment": "Center"
+              "verticalContentAlignment": "Center",
+              "spacing": "Small"
             },
             {
               "type": "Column",
@@ -618,10 +645,12 @@
                   "text": "Wellness",
                   "wrap": true,
                   "size": "Small",
-                  "weight": "Bolder"
+                  "weight": "Bolder",
+                  "color": "Default"
                 }
               ],
-              "verticalContentAlignment": "Center"
+              "verticalContentAlignment": "Center",
+              "spacing": "ExtraSmall"
             }
           ],
           "spacing": "ExtraSmall"
@@ -652,10 +681,11 @@
                   "type": "Icon",
                   "color": "Accent",
                   "name": "Beach",
-                  "size": "Small"
+                  "size": "xSmall"
                 }
               ],
-              "verticalContentAlignment": "Center"
+              "verticalContentAlignment": "Center",
+              "spacing": "Small"
             },
             {
               "type": "Column",
@@ -666,10 +696,12 @@
                   "text": "Paid time off",
                   "wrap": true,
                   "size": "Small",
-                  "weight": "Bolder"
+                  "weight": "Bolder",
+                  "color": "Default"
                 }
               ],
-              "verticalContentAlignment": "Center"
+              "verticalContentAlignment": "Center",
+              "spacing": "ExtraSmall"
             }
           ],
           "spacing": "ExtraSmall"
@@ -796,9 +828,6 @@
               }
             }
           ],
-          "backgroundImage": {
-            "verticalAlignment": "Center"
-          },
           "verticalContentAlignment": "Bottom",
           "spacing": "ExtraSmall"
         }
@@ -808,7 +837,8 @@
       "type": "Input.Text",
       "placeholder": "Enter any comments",
       "id": "comments",
-      "isVisible": false
+      "isVisible": false,
+      "isMultiline": true
     },
     {
       "type": "ActionSet",
