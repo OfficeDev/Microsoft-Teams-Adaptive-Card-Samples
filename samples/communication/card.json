@@ -232,7 +232,8 @@
               "width": "150px",
               "height": "auto",
               "type": "Image",
-              "altText": "Beach Image"
+              "altText": "Beach Image",
+              "style": "RoundedCorners"
             },
             {
               "targetWidth": "Narrow",
@@ -240,7 +241,8 @@
               "width": "100px",
               "height": "auto",
               "type": "Image",
-              "altText": "Beach Image"
+              "altText": "Beach Image",
+              "style": "RoundedCorners"
             },
             {
               "targetWidth": "AtLeast:Standard",
@@ -376,7 +378,8 @@
                 {
                   "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/hero_image.png",
                   "width": "60px",
-                  "type": "Image"
+                  "type": "Image",
+                  "style": "RoundedCorners"
                 }
               ],
               "type": "Column"

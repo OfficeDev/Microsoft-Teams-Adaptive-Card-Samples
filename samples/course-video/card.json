@@ -11,7 +11,8 @@
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/",
         "altText": "Intro to Graphic Design: Concepts Video"
-      }
+      },
+      "style": "RoundedCorners"
     },
     {
       "type": "TextBlock",

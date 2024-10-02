@@ -16,7 +16,8 @@
               "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/work_item/assets/thumb_image.png",
               "width": "56px",
               "height": "56px",
-              "altText": "Logo"
+              "altText": "Logo",
+              "style": "RoundedCorners"
             }
           ]
         },

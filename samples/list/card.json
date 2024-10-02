@@ -30,7 +30,8 @@
                   "width": "56px",
                   "height": "56px",
                   "type": "Image",
-                  "altText": "Zenith Health Video"
+                  "altText": "Zenith Health Video",
+                  "style": "RoundedCorners"
                 }
               ],
               "type": "Column"
@@ -72,7 +73,9 @@
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/"
       },
-      "type": "Container"
+      "type": "Container",
+      "roundedCorners": true,
+      "showBorder": true
     },
     {
       "items": [
@@ -86,7 +89,8 @@
                   "width": "56px",
                   "height": "56px",
                   "type": "Image",
-                  "altText": "Emma Jones Article"
+                  "altText": "Emma Jones Article",
+                  "style": "RoundedCorners"
                 }
               ],
               "type": "Column"
@@ -128,7 +132,9 @@
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/"
       },
-      "type": "Container"
+      "type": "Container",
+      "roundedCorners": true,
+      "showBorder": true
     },
     {
       "items": [
@@ -142,7 +148,8 @@
                   "width": "56px",
                   "height": "56px",
                   "type": "Image",
-                  "altText": "Insightia Course"
+                  "altText": "Insightia Course",
+                  "style": "RoundedCorners"
                 }
               ],
               "type": "Column"
@@ -184,7 +191,9 @@
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/"
       },
-      "type": "Container"
+      "type": "Container",
+      "roundedCorners": true,
+      "showBorder": true
     },
     {
       "type": "Container",
