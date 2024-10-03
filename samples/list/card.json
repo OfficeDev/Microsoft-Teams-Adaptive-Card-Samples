@@ -1,19 +1,21 @@
 {
   "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
   "speak": "Robin, explore your weekly picks",
   "body": [
     {
       "type": "TextBlock",
-      "size": "large",
+      "size": "Large",
       "text": "Robin, explore your weekly picks",
-      "weight": "bolder",
+      "weight": "Bolder",
       "wrap": true
     },
     {
       "type": "TextBlock",
       "text": "These resources will teach you how to achieve balance in your life and work with more ease.",
       "wrap": true,
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "spacing": "Small"
     },
     {
@@ -28,7 +30,8 @@
                   "width": "56px",
                   "height": "56px",
                   "type": "Image",
-                  "altText": "Zenith Health Video"
+                  "altText": "Zenith Health Video",
+                  "style": "RoundedCorners"
                 }
               ],
               "type": "Column"
@@ -38,14 +41,14 @@
               "items": [
                 {
                   "isSubtle": true,
-                  "size": "small",
+                  "size": "Small",
                   "text": "Video · 12min",
                   "wrap": true,
                   "type": "TextBlock"
                 },
                 {
                   "text": "Why You Should Take a Break from Screen Time and Enjoy Nature",
-                  "weight": "bolder",
+                  "weight": "Bolder",
                   "wrap": true,
                   "spacing": "None",
                   "type": "TextBlock"
@@ -65,12 +68,14 @@
       ],
       "style": "emphasis",
       "spacing": "Medium",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "selectAction": {
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/"
       },
-      "type": "Container"
+      "type": "Container",
+      "roundedCorners": true,
+      "showBorder": true
     },
     {
       "items": [
@@ -84,7 +89,8 @@
                   "width": "56px",
                   "height": "56px",
                   "type": "Image",
-                  "altText": "Emma Jones Article"
+                  "altText": "Emma Jones Article",
+                  "style": "RoundedCorners"
                 }
               ],
               "type": "Column"
@@ -94,14 +100,14 @@
               "items": [
                 {
                   "isSubtle": true,
-                  "size": "small",
+                  "size": "Small",
                   "text": "Article · 5min",
                   "wrap": true,
                   "type": "TextBlock"
                 },
                 {
                   "text": "Stay Healthy and Productive Working from Home",
-                  "weight": "bolder",
+                  "weight": "Bolder",
                   "wrap": true,
                   "spacing": "None",
                   "type": "TextBlock"
@@ -121,12 +127,14 @@
       ],
       "style": "emphasis",
       "spacing": "Small",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "selectAction": {
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/"
       },
-      "type": "Container"
+      "type": "Container",
+      "roundedCorners": true,
+      "showBorder": true
     },
     {
       "items": [
@@ -140,7 +148,8 @@
                   "width": "56px",
                   "height": "56px",
                   "type": "Image",
-                  "altText": "Insightia Course"
+                  "altText": "Insightia Course",
+                  "style": "RoundedCorners"
                 }
               ],
               "type": "Column"
@@ -150,14 +159,14 @@
               "items": [
                 {
                   "isSubtle": true,
-                  "size": "small",
+                  "size": "Small",
                   "text": "Course · 30min",
                   "wrap": true,
                   "type": "TextBlock"
                 },
                 {
                   "text": "Productivity Mastery: How to Optimize Your Energy, Focus and Motivation",
-                  "weight": "bolder",
+                  "weight": "Bolder",
                   "wrap": true,
                   "spacing": "None",
                   "type": "TextBlock"
@@ -177,16 +186,18 @@
       ],
       "style": "emphasis",
       "spacing": "Small",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "selectAction": {
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/"
       },
-      "type": "Container"
+      "type": "Container",
+      "roundedCorners": true,
+      "showBorder": true
     },
     {
       "type": "Container",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "items": [
         {
           "text": "Learn how to achieve balance in life and work.",
@@ -208,8 +219,7 @@
               "minHeight": "128px",
               "items": [
                 {
-                  "type": "TextBlock",
-                  "text": ""
+                  "type": "TextBlock"
                 }
               ],
               "selectAction": {
@@ -226,18 +236,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
+                      "type": "Icon",
+                      "name": "ChevronLeft",
+                      "color": "Accent",
+                      "size": "xSmall",
                       "horizontalAlignment": "Right",
-                      "altText": "Left Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content3"
-                        ]
+                        "targetElements": ["content1", "content3"]
                       }
                     }
                   ],
@@ -249,11 +255,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "Filled Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "style": "Filled",
+                      "size": "Small",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -264,18 +270,14 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content2"
-                        ]
+                        "targetElements": ["content1", "content2"]
                       }
                     }
                   ],
@@ -286,18 +288,14 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content3"
-                        ]
+                        "targetElements": ["content1", "content3"]
                       }
                     }
                   ],
@@ -308,18 +306,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "Right Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "color": "Accent",
+                      "size": "xSmall",
                       "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content2"
-                        ]
+                        "targetElements": ["content1", "content2"]
                       }
                     }
                   ],
@@ -360,8 +354,7 @@
               "minHeight": "128px",
               "items": [
                 {
-                  "type": "TextBlock",
-                  "text": ""
+                  "type": "TextBlock"
                 }
               ],
               "selectAction": {
@@ -378,18 +371,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
+                      "type": "Icon",
+                      "name": "ChevronLeft",
+                      "color": "Accent",
+                      "size": "xSmall",
                       "horizontalAlignment": "Right",
-                      "altText": "Left Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content2"
-                        ]
+                        "targetElements": ["content1", "content2"]
                       }
                     }
                   ],
@@ -401,18 +390,14 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content2"
-                        ]
+                        "targetElements": ["content1", "content2"]
                       }
                     }
                   ],
@@ -423,11 +408,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "Filled Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "style": "Filled",
+                      "size": "Small",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -438,18 +423,14 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content2",
-                          "content3"
-                        ]
+                        "targetElements": ["content2", "content3"]
                       }
                     }
                   ],
@@ -460,18 +441,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "Right Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "color": "Accent",
+                      "size": "xSmall",
                       "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content2",
-                          "content3"
-                        ]
+                        "targetElements": ["content2", "content3"]
                       }
                     }
                   ],
@@ -513,8 +490,7 @@
               "minHeight": "128px",
               "items": [
                 {
-                  "type": "TextBlock",
-                  "text": ""
+                  "type": "TextBlock"
                 }
               ],
               "selectAction": {
@@ -531,18 +507,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowLeft.png",
+                      "type": "Icon",
+                      "name": "ChevronLeft",
+                      "color": "Accent",
+                      "size": "xSmall",
                       "horizontalAlignment": "Right",
-                      "altText": "Left Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content2",
-                          "content3"
-                        ]
+                        "targetElements": ["content2", "content3"]
                       }
                     }
                   ],
@@ -554,18 +526,14 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content3"
-                        ]
+                        "targetElements": ["content1", "content3"]
                       }
                     }
                   ],
@@ -576,18 +544,14 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/outlineCircle.png",
-                      "altText": "Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "size": "Small",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content2",
-                          "content3"
-                        ]
+                        "targetElements": ["content2", "content3"]
                       }
                     }
                   ],
@@ -598,11 +562,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/filledCircle.png",
-                      "altText": "Filled Circle Icon",
-                      "width": "8px",
-                      "height": "8px",
+                      "type": "Icon",
+                      "name": "CircleSmall",
+                      "color": "Accent",
+                      "style": "Filled",
+                      "size": "Small",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -613,18 +577,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/arrowRight.png",
-                      "altText": "Right Arrow Icon",
-                      "width": "32px",
-                      "height": "32px",
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "color": "Accent",
+                      "size": "xSmall",
                       "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
-                        "targetElements": [
-                          "content1",
-                          "content3"
-                        ]
+                        "targetElements": ["content1", "content3"]
                       }
                     }
                   ],
@@ -662,14 +622,12 @@
         },
         {
           "title": "Remind me later",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/clock_icon.png",
+          "iconUrl": "icon:Clock",
           "type": "Action.Submit"
         }
       ],
       "spacing": "Medium",
       "type": "ActionSet"
     }
-  ],
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5"
+  ]
 }
