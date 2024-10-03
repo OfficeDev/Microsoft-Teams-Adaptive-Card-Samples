@@ -13,7 +13,7 @@
     },
     {
       "type": "Image",
-      "url": "https://github.com/suzto/StarterCards/blob/main/samples/time-off-request/assets/hero-image-default.png?raw=true",
+      "url": "https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/pabloas/set-2/samples/time-off-request/assets/hero-image-default.png?raw=true",
       "style": "RoundedCorners"
     },
     {
@@ -733,14 +733,6 @@
     },
     {
       "type": "Container",
-      "layouts": [
-        {
-          "type": "Layout.Flow",
-          "verticalItemsAlignment": "Bottom",
-          "minItemWidth": "0px",
-          "itemFit": "Fill"
-        }
-      ],
       "items": [
         {
           "type": "Input.Date",
@@ -748,11 +740,6 @@
           "id": "date",
           "isRequired": true,
           "errorMessage": "Date is required"
-        },
-        {
-          "type": "Input.Time",
-          "id": "time",
-          "errorMessage": "Time is required"
         }
       ]
     },

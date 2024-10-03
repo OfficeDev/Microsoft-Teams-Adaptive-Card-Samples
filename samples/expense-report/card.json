@@ -41,12 +41,38 @@
                   "weight": "Bolder"
                 },
                 {
-                  "type": "Badge",
-                  "text": "Approved",
-                  "size": "Large",
-                  "style": "Good",
-                  "appearance": "Tint",
-                  "icon": "CheckmarkCircle",
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "name": "CheckmarkCircle",
+                          "size": "xxSmall",
+                          "color": "Good"
+                        }
+                      ],
+                      "verticalContentAlignment": "Center"
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Approved",
+                          "wrap": true,
+                          "size": "Small",
+                          "weight": "Bolder",
+                          "color": "Good"
+                        }
+                      ],
+                      "spacing": "None",
+                      "verticalContentAlignment": "Center"
+                    }
+                  ],
                   "spacing": "ExtraSmall"
                 }
               ]
@@ -112,14 +138,29 @@
                   "width": "auto",
                   "items": [
                     {
-                      "type": "Badge",
-                      "text": "Approved",
-                      "size": "Large",
-                      "style": "Good",
-                      "appearance": "Tint",
-                      "icon": "CheckmarkCircle"
+                      "type": "Icon",
+                      "name": "CheckmarkCircle",
+                      "size": "xxSmall",
+                      "color": "Good"
                     }
-                  ]
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Approved",
+                      "wrap": true,
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Good"
+                    }
+                  ],
+                  "spacing": "None",
+                  "verticalContentAlignment": "Center"
                 }
               ]
             },
@@ -152,28 +193,56 @@
           "width": "auto",
           "items": [
             {
-              "type": "Badge",
-              "text": "2",
-              "size": "Large",
-              "style": "Subtle",
-              "icon": "Receipt",
-              "appearance": "Tint"
+              "type": "Icon",
+              "name": "Receipt",
+              "size": "xxSmall"
             }
-          ]
+          ],
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
           "width": "auto",
           "items": [
             {
-              "type": "Badge",
-              "text": "4",
-              "size": "Large",
-              "style": "Subtle",
-              "icon": "Comment",
-              "appearance": "Tint"
+              "type": "TextBlock",
+              "text": "2",
+              "wrap": true,
+              "size": "Small",
+              "weight": "Bolder",
+              "color": "Default"
             }
-          ]
+          ],
+          "spacing": "ExtraSmall",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Icon",
+              "name": "Comment",
+              "size": "xxSmall"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "4",
+              "wrap": true,
+              "size": "Small",
+              "weight": "Bolder",
+              "color": "Default"
+            }
+          ],
+          "spacing": "ExtraSmall",
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
@@ -186,7 +255,8 @@
               "weight": "Bolder"
             }
           ],
-          "spacing": "Medium"
+          "spacing": "Medium",
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
