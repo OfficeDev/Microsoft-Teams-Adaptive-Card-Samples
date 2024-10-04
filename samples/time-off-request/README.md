@@ -2,11 +2,11 @@
 
 ## Summary
 
-The <b>Time Off Request Card</b> lorem ipsum
+The <b>Time Off Request Card</b> is designed to simplify the process of requesting vacation, sick leave, and other time off. With easy-to-use dropdowns for selecting your starting day and estimated time off, plus a dedicated space for additional notes, this card ensures a smooth and efficient workflow. Enhance your time management and communication with this essential tool.
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/time-off-request-card.png)
+![picture of the extension in action](assets/timeOffRequestCard.png)
 
 ## Compatibility
 
@@ -16,13 +16,13 @@ _user-sent_ card example:
 
 Solution|Author(s)
 --------|---------
-Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+Time Off Card | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0| April 11, 2024 | Initial release
+1.0| October 4, 2024 | Initial release
 
 ### Disclaimer
 
