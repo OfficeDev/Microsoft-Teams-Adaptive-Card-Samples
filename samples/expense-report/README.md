@@ -73,7 +73,7 @@ Hook up card to pull the proper expense details.
 #### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+If you'd like to use icons in your button you can choose from thousands of options in our Fluent icon library. See [Resources section](#resources--tools) on this page.
 
 <br>
 
