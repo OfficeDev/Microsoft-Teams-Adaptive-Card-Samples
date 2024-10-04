@@ -77,7 +77,7 @@ If you'd like to use icons in your button you can choose from thousands of optio
 
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/videoCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/expese-report-spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
