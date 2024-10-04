@@ -62,19 +62,18 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating images, create one that works well for Standard, Narrow, and VeryNarrow. Create a separate image for wide that is shorter in height. Save the images as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating images, create one that works well for standard, narrow, and veryNarrow layouts. Create a separate image for the wide layout that is shorter in height. Save the images as a transparent PNG at 2x size to ensure good resolution across endpoints.
 
 * Update the image URL to link to your desired image.
 * <b>Note:</b> Use the radius feature in Designer to add a nice rounded edge to the images.
 
 #### 3) Update Video Information
 
-Modify the details or statistics as desired.
+Modify the dropdowns and information as desired.
 
 #### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
 <br>
 
