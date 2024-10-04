@@ -59,8 +59,8 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Update Images
 
-If you’re creating an image for the thumbnail, use a square aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
-<b>Note:</b> You can add a radius to the image in the Designer which will create slightly rounded edges.
+For thumbnail images, use a square aspect ratio. Save the image as a transparent PNG at 2x size to ensure high resolution across endpoints.
+<b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
   
 * Update the image URL to link to your desired image.
 * Update the image URL to link to the approving expense administrator.
@@ -68,13 +68,12 @@ If you’re creating an image for the thumbnail, use a square aspect ratio. Save
 
 #### 3) Connect to Proper Data
 
-Hook up card to pull the proper expense details.
+Ensure the card pulls the correct expense details.
 
 #### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
-If you'd like to use icons in your button you can choose from thousands of options in our Fluent icon library. See [Resources section](#resources--tools) on this page.
-
+If you wish to use icons in your button, you can choose from thousands of options in our Fluent icon library. Refer to the [Resources section](#resources--tools) on this page. 
 <br>
 
 ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/expense-report-spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
