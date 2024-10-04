@@ -62,10 +62,9 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating images, create one that works well for standard, narrow, and veryNarrow layouts. Create a separate image for the wide layout that is shorter in height. Save the images as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating images, create one that works well for standard, narrow, and veryNarrow layouts. Create a separate image for the wide layout that is shorter in height. Save the images as a transparent PNG at 2x size to ensure good resolution across endpoints. <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
 * Update the image URL to link to your desired image.
-* <b>Note:</b> Use the radius feature in Designer to add a nice rounded edge to the images.
 
 #### 3) Update Video Information
 
