@@ -4,9 +4,9 @@
 
 The <b>Expense Report Card</b> Lorem ipsum
 
-_user-sent_ card example:
+_bot-sent_ card example:
 
-![picture of the extension in action](assets/videoCard.png)
+![picture of the extension in action](assets/expense-report-card.png)
 
 ## Compatibility
 
@@ -16,13 +16,13 @@ _user-sent_ card example:
 
 Solution|Author(s)
 --------|---------
-Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+Expense Report | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0| April 11, 2024 | Initial release
+1.0| October 4, 2024 | Initial release
 
 ### Disclaimer
 
@@ -32,7 +32,7 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![Layouts](assets/card-layouts.png)
+![Layouts](assets/card_layouts.png)
 
 
 <br/><br/>
@@ -44,9 +44,6 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 #### 1) Copy the card JSON into the Designer Tool
 
 Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
-
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
 
 _To create a "full width" card, add the following code to the JSON._ <br>
 
@@ -60,26 +57,27 @@ _To create a "full width" card, add the following code to the JSON._ <br>
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
-#### 2) Replace the Hero Image
+#### 2) Update Images
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating an image for the thumbnail, use a square aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+<b>Note:</b> You can add a radius to the image in the Designer which will create slightly rounded edges.
+  
+* Update the image URL to link to your desired image.
+* Update the image URL to link to the approving expense administrator.
 
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update Video Information
+#### 3) Connect to Proper Data
 
-Modify the details or statistics as desired.
+Hook up card to pull the proper expense details.
 
 #### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+If you'd like to use icons in your button you can choose from thousands of options in our Fluent icon library. See [Resources section](#resources--tools) on this page.
 
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/videoCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/expense-report-spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
