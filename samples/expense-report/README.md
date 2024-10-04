@@ -60,7 +60,7 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 #### 2) Update Images
 
 If you’re creating an image for the thumbnail, use a square aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
-* <b>Note:</b> You can add a radius to the image in the Designer which will create slightly rounded edges.
+<b>Note:</b> You can add a radius to the image in the Designer which will create slightly rounded edges.
   
 * Update the image URL to link to your desired image.
 * Update the image URL to link to the approving expense administrator.
