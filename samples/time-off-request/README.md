@@ -6,7 +6,7 @@ The <b>Time Off Request Card</b> lorem ipsum
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/videoCard.png)
+![picture of the extension in action](assets/time-off-request-card.png)
 
 ## Compatibility
 
