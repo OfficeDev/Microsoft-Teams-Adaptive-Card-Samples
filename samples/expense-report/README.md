@@ -57,16 +57,18 @@ _To create a "full width" card, add the following code to the JSON._ <br>
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
-#### 2) Replace the Hero Image
+#### 2) Update Images
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating an image for the thumbnail, use a square aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+* <b>Note:</b> You can add a radius to the image in the Designer which will create slightly rounded edges.
+  
+* Update the image URL to link to your desired image.
+* Update the image URL to link to the approving expense administrator.
 
-* Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update Video Information
+#### 3) Update Information
 
-Modify the details or statistics as desired.
+Hook up card to pull the proper expense details.
 
 #### 4) Update Button Copy and Actions
 
