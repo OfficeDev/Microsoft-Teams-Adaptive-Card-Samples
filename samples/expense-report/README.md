@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Expense Report Card</b> Lorem ipsum
+Introducing the <b>Expense Report Card</b>, a practical tool for handling expense requests. This card provides a clear view of each expense, with easy expand and collapse options for navigation. See who approved the expense, and stay informed with comments and attached files. Streamline your approval process and keep everything organized with this essential tool.
 
 _bot-sent_ card example:
 
