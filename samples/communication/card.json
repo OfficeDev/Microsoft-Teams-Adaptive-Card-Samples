@@ -1,5 +1,7 @@
 {
   "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
   "speak": "Hawaii holiday escape deals start tonight",
   "body": [
     {
@@ -8,11 +10,11 @@
           "width": "auto",
           "items": [
             {
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_megaphone.png",
-              "height": "16px",
-              "type": "Image",
-              "altText": "Megaphone icon",
-              "width": "16px"
+              "type": "Icon",
+              "name": "Megaphone",
+              "style": "Filled",
+              "size": "xxSmall",
+              "color": "Accent"
             }
           ],
           "type": "Column"
@@ -33,7 +35,7 @@
         }
       ],
       "type": "ColumnSet",
-      "targetWidth": "narrow"
+      "targetWidth": "Narrow"
     },
     {
       "columns": [
@@ -71,7 +73,7 @@
         }
       ],
       "type": "ColumnSet",
-      "targetWidth": "narrow"
+      "targetWidth": "Narrow"
     },
     {
       "columns": [
@@ -84,11 +86,11 @@
                   "width": "auto",
                   "items": [
                     {
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_megaphone.png",
-                      "height": "16px",
-                      "type": "Image",
-                      "altText": "Megaphone icon",
-                      "width": "16px"
+                      "type": "Icon",
+                      "name": "Megaphone",
+                      "style": "Filled",
+                      "size": "xxSmall",
+                      "color": "Accent"
                     }
                   ],
                   "type": "Column"
@@ -108,7 +110,7 @@
                   "type": "Column"
                 }
               ],
-              "targetWidth": "atLeast:standard",
+              "targetWidth": "AtLeast:Standard",
               "type": "ColumnSet"
             },
             {
@@ -146,7 +148,7 @@
                   "type": "Column"
                 }
               ],
-              "targetWidth": "atLeast:standard",
+              "targetWidth": "AtLeast:Standard",
               "type": "ColumnSet"
             },
             {
@@ -171,22 +173,19 @@
                   "items": [
                     {
                       "horizontalAlignment": "Right",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_like_outline.png",
-                      "width": "16px",
-                      "height": "16px",
                       "id": "likeOutline",
-                      "type": "Image",
-                      "altText": "Outlined thumbs up"
+                      "type": "Icon",
+                      "name": "ThumbLike",
+                      "size": "xxSmall"
                     },
                     {
                       "horizontalAlignment": "Right",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_like_filled.png",
-                      "width": "16px",
-                      "height": "16px",
                       "id": "likeFilled",
-                      "isVisible": false,
-                      "type": "Image",
-                      "altText": "Thumbs up"
+                      "type": "Icon",
+                      "name": "ThumbLike",
+                      "style": "Filled",
+                      "size": "xxSmall",
+                      "isVisible": false
                     }
                   ],
                   "verticalContentAlignment": "Bottom",
@@ -228,23 +227,25 @@
           "width": "auto",
           "items": [
             {
-              "targetWidth": "atLeast:standard",
+              "targetWidth": "AtLeast:Standard",
               "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/hero_image.png",
               "width": "150px",
               "height": "auto",
               "type": "Image",
-              "altText": "Beach Image"
+              "altText": "Beach Image",
+              "style": "RoundedCorners"
             },
             {
-              "targetWidth": "narrow",
+              "targetWidth": "Narrow",
               "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/hero_image.png",
               "width": "100px",
               "height": "auto",
               "type": "Image",
-              "altText": "Beach Image"
+              "altText": "Beach Image",
+              "style": "RoundedCorners"
             },
             {
-              "targetWidth": "atLeast:standard",
+              "targetWidth": "AtLeast:Standard",
               "actions": [
                 {
                   "targetElements": [
@@ -273,11 +274,11 @@
         }
       ],
       "type": "ColumnSet",
-      "targetWidth": "atLeast:narrow"
+      "targetWidth": "AtLeast:Narrow"
     },
     {
       "type": "Container",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "items": [
         {
           "columns": [
@@ -285,11 +286,11 @@
               "width": "auto",
               "items": [
                 {
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_megaphone.png",
-                  "height": "16px",
-                  "type": "Image",
-                  "altText": "Megaphone icon",
-                  "width": "16px"
+                  "type": "Icon",
+                  "name": "Megaphone",
+                  "style": "Filled",
+                  "size": "xxSmall",
+                  "color": "Accent"
                 }
               ],
               "type": "Column"
@@ -377,7 +378,8 @@
                 {
                   "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/hero_image.png",
                   "width": "60px",
-                  "type": "Image"
+                  "type": "Image",
+                  "style": "RoundedCorners"
                 }
               ],
               "type": "Column"
@@ -392,22 +394,19 @@
               "items": [
                 {
                   "horizontalAlignment": "Right",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_like_outline.png",
-                  "width": "16px",
-                  "height": "16px",
                   "id": "likeOutline2",
-                  "type": "Image",
-                  "altText": "Outlined thumbs up"
+                  "type": "Icon",
+                  "name": "ThumbLike",
+                  "size": "xxSmall"
                 },
                 {
                   "horizontalAlignment": "Right",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/communication/assets/icon_like_filled.png",
-                  "width": "16px",
-                  "height": "16px",
                   "id": "likeFilled2",
-                  "isVisible": false,
-                  "type": "Image",
-                  "altText": "Thumbs up"
+                  "type": "Icon",
+                  "name": "ThumbLike",
+                  "style": "Filled",
+                  "size": "xxSmall",
+                  "isVisible": false
                 }
               ],
               "verticalContentAlignment": "Center",
@@ -466,9 +465,7 @@
       ],
       "spacing": "Medium",
       "type": "ActionSet",
-      "targetWidth": "atMost:narrow"
+      "targetWidth": "AtMost:Narrow"
     }
-  ],
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5"
+  ]
 }

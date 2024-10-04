@@ -1,14 +1,15 @@
 {
   "type": "AdaptiveCard",
   "speak": "Apricot-chile glazed chicken recipe",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5",
   "body": [
     {
       "type": "Image",
       "altText": "Image of Apricot-Chile Glazed Chicken",
       "size": "Stretch",
-      "url": "https://onedrive.live.com/embed?resid=EBE108865B49234E%21142072&authkey=%21AIH0yXnxgH5RoCY&width=840&height=360"
+      "url": "https://onedrive.live.com/embed?resid=EBE108865B49234E%21142072&authkey=%21AIH0yXnxgH5RoCY&width=840&height=360",
+      "style": "RoundedCorners"
     },
     {
       "type": "TextBlock",
@@ -53,7 +54,7 @@
     {
       "type": "RichTextBlock",
       "id": "showMore",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "inlines": [
         {
           "type": "TextRun",
@@ -74,7 +75,7 @@
     {
       "type": "RichTextBlock",
       "id": "showLess",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "inlines": [
         {
           "type": "TextRun",
@@ -95,7 +96,7 @@
     },
     {
       "type": "ActionSet",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "actions": [
         {
           "type": "Action.OpenUrl",
@@ -105,14 +106,14 @@
         {
           "type": "Action.Submit",
           "title": "Add to cart",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/recipe/assets/addToCart_icon.png"
+          "iconUrl": "icon:Cart"
         }
       ],
       "spacing": "Medium"
     },
     {
       "type": "ActionSet",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "actions": [
         {
           "type": "Action.OpenUrl",
@@ -121,7 +122,7 @@
         },
         {
           "type": "Action.Submit",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/recipe/assets/addToCart_icon.png"
+          "iconUrl": "icon:Cart"
         }
       ],
       "spacing": "Medium"
