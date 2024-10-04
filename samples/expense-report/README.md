@@ -66,7 +66,7 @@ If you’re creating an image for the thumbnail, use a square aspect ratio. Save
 * Update the image URL to link to the approving expense administrator.
 
 
-#### 3) Update Information
+#### 3) Connect to Proper Data
 
 Hook up card to pull the proper expense details.
 
