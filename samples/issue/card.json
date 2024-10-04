@@ -22,10 +22,9 @@
           "width": "auto",
           "items": [
             {
-              "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/issue_icon.png",
-              "width": "37px",
-              "height": "auto",
-              "type": "Image"
+              "type": "Icon",
+              "name": "Branch",
+              "color": "Accent"
             }
           ],
           "type": "Column"
@@ -51,7 +50,7 @@
     },
     {
       "type": "Table",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "columns": [
         {
           "width": 1
@@ -141,10 +140,10 @@
                       "width": "auto",
                       "items": [
                         {
-                          "type": "Image",
-                          "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/critical_icon.png",
-                          "width": "20px",
-                          "height": "20px",
+                          "type": "Icon",
+                          "name": "Flag",
+                          "color": "Attention",
+                          "size": "xSmall",
                           "horizontalAlignment": "Center"
                         }
                       ]
@@ -229,7 +228,7 @@
     },
     {
       "type": "Container",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "items": [
         {
           "text": "Status",
@@ -271,10 +270,10 @@
               "width": "auto",
               "items": [
                 {
-                  "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/critical_icon.png",
-                  "width": "20px",
-                  "height": "20px",
+                  "type": "Icon",
+                  "name": "Flag",
+                  "color": "Attention",
+                  "size": "xSmall",
                   "horizontalAlignment": "Center"
                 }
               ],
@@ -351,7 +350,7 @@
         }
       ],
       "type": "ActionSet",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "spacing": "ExtraLarge"
     },
     {
@@ -364,14 +363,14 @@
         {
           "type": "Action.OpenUrl",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/issue/assets/edit_icon.png"
+          "iconUrl": "icon:Edit"
         }
       ],
       "type": "ActionSet",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "spacing": "ExtraLarge"
     }
   ],
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5"
 }

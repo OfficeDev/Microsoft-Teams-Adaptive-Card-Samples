@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "speak": "Intro to graphic design, concepts video",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5",
   "body": [
     {
@@ -11,7 +11,8 @@
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/",
         "altText": "Intro to Graphic Design: Concepts Video"
-      }
+      },
+      "style": "RoundedCorners"
     },
     {
       "type": "TextBlock",
@@ -69,11 +70,12 @@
               "weight": "Bolder"
             }
           ],
-          "spacing": "Small"
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
-          "targetWidth": "atLeast:narrow",
+          "targetWidth": "AtLeast:Standard",
           "width": "auto",
           "items": [
             {
@@ -81,11 +83,12 @@
               "text": "·"
             }
           ],
-          "spacing": "Small"
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
-          "targetWidth": "atLeast:narrow",
+          "targetWidth": "AtLeast:Standard",
           "width": "auto",
           "items": [
             {
@@ -94,21 +97,22 @@
               "wrap": true
             }
           ],
-          "spacing": "Small"
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
         }
       ],
       "spacing": "None"
     },
     {
       "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn...",
       "wrap": true,
       "id": "truncatedText"
     },
     {
       "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn about design principles through hands-on projects that will help build your portfolio. Enroll now and start your journey to mastering the art of graphic design.",
       "wrap": true,
       "isVisible": false,
@@ -117,7 +121,7 @@
     {
       "type": "RichTextBlock",
       "id": "showMore",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "spacing": "None",
       "inlines": [
         {
@@ -138,7 +142,7 @@
     {
       "type": "RichTextBlock",
       "id": "showLess",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "spacing": "None",
       "inlines": [
         {
@@ -160,7 +164,7 @@
     {
       "type": "ActionSet",
       "spacing": "Large",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "AtLeast:Narrow",
       "actions": [
         {
           "type": "Action.OpenUrl",
@@ -170,14 +174,14 @@
         {
           "type": "Action.Execute",
           "title": "Bookmark",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/course-video/assets/bookmark_icon.png"
+          "iconUrl": "icon:Bookmark"
         }
       ]
     },
     {
       "type": "ActionSet",
       "spacing": "Large",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "VeryNarrow",
       "actions": [
         {
           "type": "Action.OpenUrl",
@@ -186,7 +190,7 @@
         },
         {
           "type": "Action.Execute",
-          "iconUrl": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/course-video/assets/bookmark_icon.png"
+          "iconUrl": "icon:Bookmark"
         }
       ]
     }
