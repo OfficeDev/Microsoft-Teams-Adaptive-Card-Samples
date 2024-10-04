@@ -32,7 +32,7 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![Layouts](assets/card_layouts.png)
+![Layouts](assets/card-layouts.png)
 
 
 <br/><br/>
@@ -62,20 +62,18 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating images, create one that works well for standard, narrow, and veryNarrow layouts. Create a separate image for the wide layout that is shorter in height. Save the images as a transparent PNG at 2x size to ensure good resolution across endpoints.
 
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+* Update the image URL to link to your desired image.
+* <b>Note:</b> Use the radius feature in Designer to add a nice rounded edge to the images.
 
 #### 3) Update Video Information
 
-Modify the details or statistics as desired.
+Modify the dropdowns and information as desired.
 
 #### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
 <br>
 
