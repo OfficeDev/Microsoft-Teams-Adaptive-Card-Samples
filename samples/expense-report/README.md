@@ -2,7 +2,7 @@
 
 ## Summary
 
-Introducing the <b>Expense Report Card</b>, a practical tool for handling expense requests. This card provides a clear view of each expense, with easy expand and collapse options for navigation. See who approved the expense, and stay informed with comments and attached files. Streamline your approval process and keep everything organized with this essential tool.
+Introducing the <b>Expense Report Card</b>, a practical tool for handling expense requests. This card provides a <b>clear view</b> of each expense, with <b>easy expand and collapse</b> options for navigation. See who approved the expense, and stay informed with comments and attached files. Streamline your approval process and keep everything organized with this essential tool.
 
 _bot-sent_ card example:
 
@@ -107,7 +107,8 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * **Design**: Our tools can help you learn Teams patterns and design apps and cards.
 
   * Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
-  * Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support).
+ 
+  * Fluent icons are pre-built into the Designer and support both light and dark modes. You can choose from thousands of ready-to-use icons and select from a set of predefined colors. For more Fluent icon resources, check out [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography). <B>NOTE:</B> If you'd like to create custom icons, they should be saved as .pngs (export at 2x) and colored to ensure they look good in both light and dark modes.
 
 * **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
 
