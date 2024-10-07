@@ -734,6 +734,18 @@
                 {
                     "title": "Vacation",
                     "value": "Vacation"
+                },
+                {
+                    "title": "Sick Day",
+                    "value": "Sick Day"
+                },
+                {
+                    "title": "Sick Leave",
+                    "value": "Sick Leave"
+                },
+                {
+                    "title": "Other",
+                    "value": "Other"
                 }
             ],
             "value": "Vacation",
