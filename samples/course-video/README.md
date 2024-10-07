@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Course Video Card</b> is a versatile and robust card designed to serve as an individual component or hub for video or learning content. Whether you’re offering a series of courses, tutorials, or informative clips, this card can be tailored to your specific needs. Customize titles, descriptions, and author information to create engaging viewing experiences.
+The <b>Course Video Card</b> is a versatile and robust card designed to serve as an individual component or hub for video or learning content. Whether you’re offering a series of <b>courses</b>, <b>tutorials</b>, or <b>informative clips</b>, this card can be tailored to your specific needs. Customize titles, descriptions, and author information to create engaging viewing experiences.
 
 _bot-sent_ card example:
 
@@ -63,11 +63,10 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.<b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
 * For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
 * Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
 #### 3) Replace the Author/Company Logo
 
