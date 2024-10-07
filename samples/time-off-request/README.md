@@ -63,7 +63,7 @@ If you’re creating images, create one that works well for standard, narrow, an
 
 * Update the image URL to link to your desired image.
 
-#### 3) Update Video Information
+#### 3) Update Input Information
 
 Modify the dropdowns and information as desired.
 
