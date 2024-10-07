@@ -63,7 +63,7 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 
 * For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
 * Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+* <b>Note:</b> For a softer and more modern look you can add a radius to any image.
 
 #### 3) Connect to the Author Image
 
