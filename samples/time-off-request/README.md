@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Time Off Request Card</b> is designed to simplify the process of requesting vacation, sick leave, and other time off. With easy-to-use dropdowns for selecting your starting day and estimated time off, plus a dedicated space for additional notes, this card ensures a smooth and efficient workflow. Enhance your time management and communication with this essential tool.
+The <b>Time Off Request Card</b> is designed to simplify the process of <b>requesting vacation</b>, <b>sick leave</b>, and <b>other time off</b>. With <b>easy-to-use dropdowns</b> for selecting your starting day and estimated time off, plus a dedicated space for additional notes, this card ensures a smooth and efficient workflow. Enhance your time management and communication with this essential tool.
 
 _user-sent_ card example:
 
