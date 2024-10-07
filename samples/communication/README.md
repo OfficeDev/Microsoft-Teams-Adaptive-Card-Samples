@@ -60,9 +60,7 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy.
-
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy. <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
 #### 3) Link to the Avatar Image
 
