@@ -63,11 +63,15 @@ If you’re creating images, create one that works well for standard, narrow, an
 
 * Update the image URL to link to your desired image.
 
-#### 3) Update Input Information
+#### 3) Update Summary Data
 
-Modify the dropdowns and information as desired.
+Connect to the current time off data you want to display and update the icons as needed (Fluent icon information is provided below).
 
-#### 4) Update Button Copy and Actions
+#### 4) Update Input Options
+
+Adjust the dropdowns and other input fields as needed.
+
+#### 5) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
 If you wish to use icons in your button, you can choose from thousands of options in our Fluent icon library. Refer to the [Resources section](#resources--tools) on this page. 
