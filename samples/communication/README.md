@@ -76,7 +76,7 @@ Set the maximum line truncation as desired to work for the card content and layo
 
 Customize button text and add or remove actions to suit your needs. <br>
 If you wish to use icons in your button, you can choose from thousands of options in our Fluent icon library. Refer to the [Resources section](#resources--tools) on this page. 
-
+<b>Note:</b> If you'd like to diplay custom icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. 
 <br>
 
 ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/communicationCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
