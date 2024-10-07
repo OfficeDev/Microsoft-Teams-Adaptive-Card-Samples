@@ -53,9 +53,6 @@ Below you'll find a few alternative expressions of the card.
 
 Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
-
 _To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
