@@ -2,7 +2,7 @@
 
 ## Summary
 
-Showcase your video content in style with the <b>Author Highlight Video Card</b>. Perfect for a variety of video types including tutorials, interviews, or creative showcases, this card is designed for customization. Add your titles, descriptions, and author info to create a personalized and engaging video experience.
+Showcase your video content in style with the <b>Author Highlight Video Card</b>. Perfect for a variety of video types including <b>tutorials</b>, <b>interviews</b>, or <b>creative showcases</b>, this card is designed for customization. Add your titles, descriptions, and author info to create a personalized and engaging video experience.
 
 _bot-sent_ card example:
 
