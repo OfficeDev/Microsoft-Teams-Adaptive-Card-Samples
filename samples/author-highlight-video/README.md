@@ -59,11 +59,10 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
 * For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
 * Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
 #### 3) Connect to the Author Image
 
