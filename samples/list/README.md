@@ -60,9 +60,7 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Images
 
-If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image small and square to leave ample room for the copy. Add a "Play" button graphic on top of video representations (included in assets folder).
-
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 4px radius to the corners.
+If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image small and square to leave ample room for the copy. Add a "Play" button graphic on top of video representations (included in assets folder). <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
 #### 3) Link to Associated Content
 
@@ -73,10 +71,11 @@ Point to the appropriate URL from the content blocks.
 Keep the descriptions small if possible, and set the maximum line truncation if needed to work for the card content and layout.  
 
 #### 5) Update Button Copy and Actions
+Customize button text and add or remove actions to suit your needs. <br>
+If you wish to use icons in your button, you can choose from thousands of options in our Fluent icon library. Refer to the [Resources section](#resources--tools) on this page. 
+<br>
 
-Customize button text and actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
-
+<b>Note:</b> For other icons, use the color #818181 to ensure readability in both light and dark modes, or choose a color that you have verified looks good. Icons should fit edge-to-edge within a 16x16 square. Save them as transparent PNGs at 2x size for optimal resolution across different endpoints.
 <br>
 
 ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/listCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
