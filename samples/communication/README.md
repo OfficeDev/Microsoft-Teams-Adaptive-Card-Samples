@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Communications Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting company updates, sharing posts, or fostering community ties, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
+The <b>Communications Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting <b>company updates</b>, <b>sharing posts</b>, or <b>fostering community ties</b>, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
 
 _bot-sent_ card example:
 
