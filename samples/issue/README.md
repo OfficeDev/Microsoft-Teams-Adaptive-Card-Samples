@@ -71,14 +71,18 @@ Ensure that the primary path name is correctly hyperlinked to the corresponding 
 
 #### 3) Imagery Update and Verification
 
-Please substitute the current 28x28 pixel square image with an image you create or one of our built-in Fluent icons. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or retrieve any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework.
+Please substitute the current 28x28 pixel square image with an image you create or one of our built-in Fluent icons. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or create any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework.
 
 <b>Note:</b> It’s important to conduct tests on any icons to verify their visibility and clarity in both light and dark interface themes.
 
 #### 4) Update Button Copy and Actions
 
-Customize button text and actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+Customize button text and add or remove actions to suit your needs. <br>
+If you wish to use icons in your button, you can choose from thousands of options in our Fluent icon library. Refer to the [Resources section](#resources--tools) on this page. 
+<br>
+
+<b>Note:</b> For other icons, use the color #818181 to ensure readability in both light and dark modes, or choose a color that you have verified looks good. Icons should fit edge-to-edge within a 16x16 square. Save them as transparent PNGs at 2x size for optimal resolution across different endpoints.
+<br>
 
  ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/issueCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
