@@ -2,11 +2,11 @@
 
 ## Summary
 
-The <b>Time Off Request Card</b> lorem ipsum
+The <b>Time Off Request Card</b> is designed to simplify the process of <b>requesting vacation</b>, <b>sick leave</b>, and <b>other time off</b>. With <b>easy-to-use dropdowns</b> for selecting your starting day and estimated time off, plus a dedicated space for additional notes, this card ensures a smooth and efficient workflow. Enhance your time management and communication with this essential tool.
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/videoCard.png)
+![picture of the extension in action](assets/timeOffRequestCard.png)
 
 ## Compatibility
 
@@ -16,13 +16,13 @@ _user-sent_ card example:
 
 Solution|Author(s)
 --------|---------
-Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+Time Off Card | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0| April 11, 2024 | Initial release
+1.0| October 4, 2024 | Initial release
 
 ### Disclaimer
 
@@ -45,9 +45,6 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
-
 _To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
@@ -62,21 +59,25 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating images, create one that works well for standard, narrow, and veryNarrow layouts. Create a separate image for the wide layout that is shorter in height. Save the images as a transparent PNG at 2x size to ensure good resolution across endpoints. <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+* Update the image URL to link to your desired image.
 
-#### 3) Update Video Information
+#### 3) Update Summary Data
 
-Modify the details or statistics as desired.
+Connect to the current time off data you want to display and update the icons as needed (Fluent icon information is provided below).
 
-#### 4) Update Button Copy and Actions
+#### 4) Update Input Options
+
+Adjust the dropdowns and other input fields as needed.
+
+#### 5) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+If you wish to use icons in your button, you can choose from thousands of options in our Fluent icon library. Refer to the [Resources section](#resources--tools) on this page. 
+<br>
 
+<b>Note:</b> For other icons, use the color #818181 to ensure readability in both light and dark modes, or choose a color that you have verified looks good. Icons should fit edge-to-edge within a 16x16 square. Save them as transparent PNGs at 2x size for optimal resolution across different endpoints.
 <br>
 
 ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/videoCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
@@ -110,9 +111,11 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * **Design**: Our tools can help you learn Teams patterns and design apps and cards.
 
   * Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
-  * Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support).
+ 
+  * Fluent icons are pre-built into the Designer and support both light and dark modes. You can choose from thousands of ready-to-use icons and select from a set of predefined colors. For more Fluent icon resources, check out [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography). <B>NOTE:</B> If you'd like to create custom icons, they should be saved as .pngs (export at 2x) and colored to ensure they look good in both light and dark modes.
 
 * **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
+
 
 </p>
 
@@ -120,8 +123,4 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 
-## Help
 
-We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
-
-You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
