@@ -6,7 +6,7 @@ The <b>Book a Room</b> Lorem ipsum
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/videoCard.png)
+![picture of the extension in action](assets/book-a-room-card.png)
 
 ## Compatibility
 
