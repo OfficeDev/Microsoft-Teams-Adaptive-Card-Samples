@@ -1,7 +1,7 @@
 # Book a Room
 
 ## Summary
-Streamline your room reservations with the <b>Book a Room</b> card. Capture essential details like date, duration, and extras like catering options. Highlight the need for a server and use the notes section to cover every important detail.
+Streamline your room reservations with the <b>Book a Room Card</b>. Capture essential details like date, duration, and extras like catering options. Highlight the need for a server and use the notes section to cover every important detail.
 
 
 _user-sent_ card example:
