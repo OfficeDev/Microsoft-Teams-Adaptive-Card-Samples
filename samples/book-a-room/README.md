@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Book a Room</b> Lorem ipsum
+Users can now easily book rooms with the <b>Book a Room</b> card, which includes vital details like date, duration, and additional extras such as catering options. Prioritize the importance of having a server, and utilize the space provided for additional notes to ensure every detail is covered. 
 
 _user-sent_ card example:
 
