@@ -201,7 +201,7 @@
       "layouts": [
         {
           "type": "Layout.Flow",
-          "rowSpacing": "ExtraSmall",
+          "rowSpacing": "Small",
           "minItemWidth": "0px",
           "itemFit": "Fill",
           "columnSpacing": "Small"
@@ -347,20 +347,42 @@
       "isVisible": false
     },
     {
-      "type": "Input.Toggle",
-      "title": "By continuing, you acknowledge that you've read and accepted our [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
-      "separator": true,
-      "spacing": "Medium",
-      "id": "policy",
-      "targetWidth": "AtLeast:Narrow"
-    },
-    {
-      "type": "Input.Toggle",
-      "title": "I've read and accept the [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
-      "separator": true,
-      "spacing": "Medium",
-      "id": "policy",
-      "targetWidth": "VeryNarrow"
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Input.Toggle",
+              "id": "policy",
+              "title": ""
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "By continuing, you acknowledge that you've read and accepted our [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
+              "wrap": true,
+              "targetWidth": "AtLeast:Narrow"
+            },
+            {
+              "type": "TextBlock",
+              "text": "I've read and accept the [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
+              "wrap": true,
+              "targetWidth": "VeryNarrow"
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "spacing": "None"
+        }
+      ],
+      "separator": true
     },
     {
       "type": "ActionSet",
