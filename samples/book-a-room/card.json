@@ -95,7 +95,7 @@
       "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/book-a-room/assets/room_hero.png",
       "targetWidth": "VeryNarrow",
       "style": "RoundedCorners",
-      "altText": "Room image"
+      "altText": ""
     },
     {
       "type": "ColumnSet",

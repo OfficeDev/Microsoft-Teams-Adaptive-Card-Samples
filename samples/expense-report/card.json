@@ -27,7 +27,7 @@
                   "height": "44px",
                   "url": "https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/pabloas/set-2/samples/expense-report/assets/seattle.png?raw=true",
                   "style": "RoundedCorners",
-                  "altText": "Seattle image"
+                  "altText": ""
                 }
               ]
             },
@@ -115,7 +115,7 @@
               "height": "44px",
               "url": "https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/pabloas/set-2/samples/expense-report/assets/seattle.png?raw=true",
               "style": "RoundedCorners",
-              "altText": "Seattle image"
+              "altText": ""
             }
           ]
         },
@@ -599,7 +599,7 @@
               "url": "https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/pabloas/set-2/samples/expense-report/assets/Avatar.png?raw=true",
               "width": "24px",
               "height": "24px",
-              "altText": "Avatar image"
+              "altText": ""
             }
           ]
         },
