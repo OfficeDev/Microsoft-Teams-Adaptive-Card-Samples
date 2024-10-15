@@ -114,7 +114,8 @@
               "width": "44px",
               "height": "44px",
               "url": "https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/pabloas/set-2/samples/expense-report/assets/seattle.png?raw=true",
-              "style": "RoundedCorners"
+              "style": "RoundedCorners",
+              "altText": "Seattle image"
             }
           ]
         },
