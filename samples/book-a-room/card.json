@@ -1,236 +1,231 @@
 {
-  "type": "AdaptiveCard",
   "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
   "body": [
     {
-      "type": "Container",
-      "style": "emphasis",
-      "roundedCorners": true,
       "backgroundImage": {
         "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/book-a-room/assets/room_hero.png",
         "verticalAlignment": "Bottom"
       },
       "items": [
         {
-          "type": "ColumnSet",
           "columns": [
             {
               "type": "Column",
               "width": "stretch"
             },
             {
-              "type": "Column",
-              "width": "190px",
               "items": [
                 {
-                  "type": "Container",
-                  "style": "default",
-                  "roundedCorners": true,
                   "items": [
                     {
-                      "type": "TextBlock",
-                      "text": "Book a private meeting room",
+                      "maxLines": 0,
                       "size": "ExtraLarge",
+                      "text": "Book a private meeting room",
+                      "type": "TextBlock",
                       "weight": "Bolder",
-                      "maxLines": 0,
                       "wrap": true
                     }
-                  ]
+                  ],
+                  "roundedCorners": true,
+                  "style": "default",
+                  "type": "Container"
                 }
-              ]
+              ],
+              "type": "Column",
+              "width": "190px"
             }
           ],
-          "targetWidth": "AtLeast:Standard"
+          "targetWidth": "AtLeast:Standard",
+          "type": "ColumnSet"
         }
       ],
-      "verticalContentAlignment": "Bottom",
+      "minHeight": "200px",
+      "roundedCorners": true,
+      "style": "emphasis",
       "targetWidth": "AtLeast:Standard",
-      "minHeight": "200px"
+      "type": "Container",
+      "verticalContentAlignment": "Bottom"
     },
     {
-      "type": "Container",
-      "style": "emphasis",
-      "roundedCorners": true,
       "backgroundImage": {
         "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/book-a-room/assets/room_hero.png",
         "verticalAlignment": "Bottom"
       },
       "items": [
         {
-          "type": "ColumnSet",
           "columns": [
             {
               "type": "Column",
               "width": "stretch"
             },
             {
-              "type": "Column",
-              "width": "150px",
               "items": [
                 {
-                  "type": "Container",
-                  "style": "default",
-                  "roundedCorners": true,
                   "items": [
                     {
-                      "type": "TextBlock",
-                      "text": "Book a private meeting room",
-                      "size": "Large",
-                      "weight": "Bolder",
                       "maxLines": 0,
+                      "size": "Large",
+                      "text": "Book a private meeting room",
+                      "type": "TextBlock",
+                      "weight": "Bolder",
                       "wrap": true
                     }
-                  ]
+                  ],
+                  "roundedCorners": true,
+                  "style": "default",
+                  "type": "Container"
                 }
-              ]
+              ],
+              "type": "Column",
+              "width": "150px"
             }
-          ]
+          ],
+          "type": "ColumnSet"
         }
       ],
-      "verticalContentAlignment": "Bottom",
-      "targetWidth": "Narrow",
-      "minHeight": "160px"
-    },
-    {
-      "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/book-a-room/assets/room_hero.png",
-      "targetWidth": "VeryNarrow",
-      "style": "RoundedCorners",
-      "altText": ""
-    },
-    {
-      "type": "ColumnSet",
-      "spacing": "Medium",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "The Rooftop Terrace ",
-              "wrap": true,
-              "color": "Accent",
-              "weight": "Bolder"
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "·"
-            }
-          ],
-          "targetWidth": "AtLeast:Narrow",
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Icon",
-              "name": "Crown",
-              "size": "xSmall",
-              "color": "Accent"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "targetWidth": "AtLeast:Narrow",
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Executive suite",
-              "wrap": true,
-              "isSubtle": true,
-              "size": "Small"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small",
-          "targetWidth": "AtLeast:Narrow"
-        }
-      ]
-    },
-    {
-      "type": "ColumnSet",
-      "spacing": "None",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Icon",
-              "name": "Crown",
-              "size": "xSmall",
-              "color": "Accent"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Executive suite",
-              "wrap": true,
-              "isSubtle": true,
-              "size": "Small"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small"
-        }
-      ],
-      "targetWidth": "VeryNarrow"
-    },
-    {
-      "type": "Container",
+      "minHeight": "160px",
+      "roundedCorners": true,
       "style": "emphasis",
+      "targetWidth": "Narrow",
+      "type": "Container",
+      "verticalContentAlignment": "Bottom"
+    },
+    {
+      "style": "RoundedCorners",
+      "targetWidth": "VeryNarrow",
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/book-a-room/assets/room_hero.png"
+    },
+    {
+      "columns": [
+        {
+          "items": [
+            {
+              "color": "Accent",
+              "text": "The Rooftop Terrace ",
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "wrap": true
+            }
+          ],
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "text": "·",
+              "type": "TextBlock"
+            }
+          ],
+          "spacing": "Small",
+          "targetWidth": "AtLeast:Narrow",
+          "type": "Column",
+          "width": "auto",
+          "verticalContentAlignment": "center"
+        },
+        {
+          "items": [
+            {
+              "color": "Accent",
+              "name": "Crown",
+              "size": "xSmall",
+              "type": "Icon"
+            }
+          ],
+          "spacing": "Small",
+          "targetWidth": "AtLeast:Narrow",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "isSubtle": true,
+              "size": "Small",
+              "text": "Executive suite",
+              "type": "TextBlock",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "targetWidth": "AtLeast:Narrow",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "stretch"
+        }
+      ],
+      "spacing": "Medium",
+      "type": "ColumnSet"
+    },
+    {
+      "columns": [
+        {
+          "items": [
+            {
+              "color": "Accent",
+              "name": "Crown",
+              "size": "xSmall",
+              "type": "Icon"
+            }
+          ],
+          "spacing": "Small",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "isSubtle": true,
+              "size": "Small",
+              "text": "Executive suite",
+              "type": "TextBlock",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "stretch"
+        }
+      ],
+      "spacing": "None",
+      "targetWidth": "VeryNarrow",
+      "type": "ColumnSet"
+    },
+    {
+      "items": [
+        {
+          "errorMessage": "Start date is required",
+          "id": "date",
+          "isRequired": true,
+          "label": "Start Date",
+          "type": "Input.Date"
+        },
+        {
+          "errorMessage": "Start time is required",
+          "id": "time",
+          "isRequired": true,
+          "label": "Start Time",
+          "type": "Input.Time"
+        }
+      ],
       "layouts": [
         {
-          "type": "Layout.Flow",
-          "rowSpacing": "Small",
-          "minItemWidth": "0px",
+          "columnSpacing": "Small",
           "itemFit": "Fill",
-          "columnSpacing": "Small"
+          "minItemWidth": "0px",
+          "rowSpacing": "Small",
+          "type": "Layout.Flow"
         }
       ],
-      "items": [
-        {
-          "type": "Input.Date",
-          "label": "Start Date",
-          "isRequired": true,
-          "id": "date",
-          "errorMessage": "Start date is required"
-        },
-        {
-          "type": "Input.Time",
-          "label": "Start Time",
-          "isRequired": true,
-          "id": "time",
-          "errorMessage": "Start time is required"
-        }
-      ],
-      "spacing": "Medium"
+      "spacing": "Medium",
+      "type": "Container"
     },
     {
-      "type": "Input.ChoiceSet",
-      "label": "Duration",
       "choices": [
         {
           "title": "1 Hour",
@@ -245,22 +240,22 @@
           "value": "3"
         }
       ],
-      "value": "1",
-      "isRequired": true,
-      "spacing": "Medium",
+      "errorMessage": "Duration is required",
       "id": "duration",
-      "errorMessage": "Duration is required"
+      "isRequired": true,
+      "label": "Duration",
+      "spacing": "Medium",
+      "type": "Input.ChoiceSet",
+      "value": "1"
     },
     {
-      "type": "Input.Text",
+      "id": "title",
       "label": "Meeting or event title",
       "placeholder": "Enter optional title",
       "spacing": "Medium",
-      "id": "title"
+      "type": "Input.Text"
     },
     {
-      "type": "Input.ChoiceSet",
-      "label": "Select a catering option",
       "choices": [
         {
           "title": "Lunch buffet",
@@ -271,133 +266,148 @@
           "value": "value2"
         }
       ],
-      "style": "expanded",
+      "id": "catering",
+      "label": "Select a catering option",
       "spacing": "Medium",
-      "id": "catering"
+      "style": "expanded",
+      "type": "Input.ChoiceSet"
     },
     {
-      "type": "Input.Rating",
+      "color": "Marigold",
+      "id": "rating",
       "label": "Rate importance of having catering services",
       "spacing": "Small",
-      "color": "Marigold",
-      "id": "rating"
+      "type": "Input.Rating"
     },
     {
-      "type": "ColumnSet",
-      "spacing": "Medium",
       "columns": [
         {
-          "type": "Column",
-          "width": "auto",
           "items": [
             {
-              "type": "RichTextBlock",
               "inlines": [
                 {
-                  "type": "TextRun",
-                  "text": "Add notes or requests",
                   "selectAction": {
-                    "type": "Action.ToggleVisibility",
-                    "targetElements": ["notes"]
-                  }
+                    "targetElements": ["notes", "chevronUp", "chevronDown"],
+                    "type": "Action.ToggleVisibility"
+                  },
+                  "text": "Add notes or requests",
+                  "type": "TextRun"
                 }
               ],
-              "targetWidth": "AtLeast:Narrow"
+              "targetWidth": "AtLeast:Narrow",
+              "type": "RichTextBlock"
             },
             {
-              "type": "RichTextBlock",
               "inlines": [
                 {
-                  "type": "TextRun",
-                  "text": "Additional options",
                   "selectAction": {
-                    "type": "Action.ToggleVisibility",
-                    "targetElements": ["notes"]
-                  }
+                    "targetElements": ["notes", "chevronUp", "chevronDown"],
+                    "type": "Action.ToggleVisibility"
+                  },
+                  "text": "Additional options",
+                  "type": "TextRun"
                 }
               ],
-              "targetWidth": "VeryNarrow"
+              "spacing": "None",
+              "targetWidth": "VeryNarrow",
+              "type": "RichTextBlock"
             }
           ],
-          "verticalContentAlignment": "Center"
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
         },
         {
-          "type": "Column",
-          "width": "stretch",
           "items": [
             {
-              "type": "Icon",
+              "color": "Accent",
+              "id": "chevronDown",
               "name": "ChevronDown",
               "size": "xxSmall",
-              "color": "Accent"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "ExtraSmall",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": ["notes"]
-          }
-        }
-      ]
-    },
-    {
-      "type": "Input.Text",
-      "placeholder": "Enter any additional notes or requests",
-      "id": "notes",
-      "isMultiline": true,
-      "spacing": "Small",
-      "isVisible": false
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Input.Toggle",
-              "id": "policy",
-              "title": ""
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "By continuing, you acknowledge that you've read and accepted our [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
-              "wrap": true,
-              "targetWidth": "AtLeast:Narrow"
+              "type": "Icon"
             },
             {
-              "type": "TextBlock",
-              "text": "I've read and accept the [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
-              "wrap": true,
-              "targetWidth": "VeryNarrow"
+              "color": "Accent",
+              "id": "chevronUp",
+              "isVisible": false,
+              "name": "ChevronUp",
+              "size": "xxSmall",
+              "spacing": "None",
+              "type": "Icon"
             }
           ],
+          "selectAction": {
+            "targetElements": ["notes", "chevronUp", "chevronDown"],
+            "type": "Action.ToggleVisibility"
+          },
+          "spacing": "Small",
+          "type": "Column",
           "verticalContentAlignment": "Center",
-          "spacing": "None"
+          "width": "stretch"
         }
       ],
-      "separator": true
+      "spacing": "Medium",
+      "type": "ColumnSet"
     },
     {
-      "type": "ActionSet",
-      "actions": [
+      "id": "notes",
+      "isMultiline": true,
+      "isVisible": false,
+      "placeholder": "Enter any additional notes or requests",
+      "spacing": "Small",
+      "type": "Input.Text"
+    },
+    {
+      "columns": [
         {
-          "type": "Action.Submit",
-          "title": "Submit",
-          "style": "positive"
+          "items": [
+            {
+              "id": "policy",
+              "title": "",
+              "type": "Input.Toggle"
+            }
+          ],
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "targetWidth": "AtLeast:Narrow",
+              "text": "By continuing, you acknowledge that you've read and accepted our [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
+              "type": "TextBlock",
+              "wrap": true
+            },
+            {
+              "targetWidth": "VeryNarrow",
+              "text": "I've read and accept the [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
+              "type": "TextBlock",
+              "wrap": true
+            }
+          ],
+          "spacing": "None",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "stretch"
         }
       ],
       "separator": true,
-      "spacing": "Medium"
+      "type": "ColumnSet"
+    },
+    {
+      "actions": [
+        {
+          "style": "positive",
+          "title": "Submit",
+          "type": "Action.Submit"
+        }
+      ],
+      "separator": true,
+      "spacing": "Medium",
+      "type": "ActionSet"
     }
-  ]
+  ],
+  "type": "AdaptiveCard",
+  "version": "1.5"
 }

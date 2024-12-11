@@ -96,9 +96,11 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 ## Implementation Details
 
-* There's only two versions of the card, `veryNarrow` and at least `narrow`, the main difference is in the `actionSet` so that element has the corresponding `targetWidth`.
+* We use responsive layout to render different elements depending on the layout width, for example the shorter text in the agreement toggle for narrow layouts or the `Book a Room` tagged container at the top of the card.
 
-* To have the ellipsis menu in the `actionSet`, we use the `secondary` mode.
+* The title of the card is kept in a container that is wrapped in another that has a background image. To maintain clarity, we change the size of the inner container depending on the layot width.
+
+*  We use the `ToggleVisibility` action to show/hide optional form fields; notice also that we're toggling the caret icon as a way to dynamically represent the opened/closed state of the field.
 
 ## Resources & Tools ##
 

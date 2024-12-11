@@ -99,9 +99,9 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 ## Implementation Details
 
-* There's only two versions of the card, `veryNarrow` and at least `narrow`, the main difference is in the `actionSet` so that element has the corresponding `targetWidth`.
+* We use responsive layout to move the text locations vertically so it's not squished in the `veryNarrow` width.
 
-* To have the ellipsis menu in the `actionSet`, we use the `secondary` mode.
+*  We use the `ToggleVisibility` action to show/hide additional information; notice also that we're toggling the caret icon as a way to dynamically represent the opened/closed state.
 
 ## Resources & Tools ##
 
