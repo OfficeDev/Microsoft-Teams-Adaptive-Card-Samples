@@ -16,7 +16,7 @@
                         {
                             "type": "Column",
                             "width": "auto",
-                            "style": "emphasis",
+                            "style": "accent",
                             "roundedCorners": true,
                             "items": [
                                 {
@@ -27,7 +27,10 @@
                                     "color": "Dark",
                                     "weight": "Bolder"
                                 }
-                            ]
+                            ],
+                            "backgroundImage": {
+                                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/simple-time-off-request/assets/colorSpacer.png"
+                            }
                         }
                     ],
                     "horizontalAlignment": "Right"
