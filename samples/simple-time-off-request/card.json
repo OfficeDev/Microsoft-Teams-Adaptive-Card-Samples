@@ -1,109 +1,82 @@
 {
-  "type": "AdaptiveCard",
-  "speak": "Web development bootcamp video",
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "Image",
-      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/standard-video/assets/video_image.png",
-      "altText": "Web Development Bootcamp Video",
-      "style": "RoundedCorners"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Web Development Bootcamp",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder"
-    },
-    {
-      "type": "TextBlock",
-      "text": "HackLab Films",
-      "wrap": true,
-      "spacing": "Small",
-      "weight": "Bolder"
-    },
-    {
-      "type": "TextBlock",
-      "text": "24m · 17.1M views · 2 months ago",
-      "wrap": true,
-      "spacing": "None"
-    },
-    {
-      "type": "ActionSet",
-      "targetWidth": "AtLeast:Narrow",
-      "actions": [
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
         {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
+            "type": "Container",
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/simple-time-off-request/assets/hero.png"
+            },
+            "minHeight": "200px",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "style": "emphasis",
+                            "roundedCorners": true,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Take a break",
+                                    "wrap": true,
+                                    "size": "ExtraLarge",
+                                    "color": "Dark",
+                                    "weight": "Bolder"
+                                }
+                            ]
+                        }
+                    ],
+                    "horizontalAlignment": "Right"
+                },
+                {
+                    "type": "ColumnSet",
+                    "height": "stretch",
+                    "horizontalAlignment": "Right"
+                }
+            ],
+            "roundedCorners": true
         },
         {
-          "type": "Action.OpenUrl",
-          "title": "Add to calendar",
-          "url": "https://adaptivecards.io/",
-          "iconUrl": "icon:Calendar"
+            "type": "Input.ChoiceSet",
+            "choices": [
+                {
+                    "title": "Vacation",
+                    "value": "value1"
+                },
+                {
+                    "title": "Family leave",
+                    "value": "value2"
+                },
+                {
+                    "title": "Medical leave"
+                },
+                {
+                    "title": "Short term disability"
+                }
+            ],
+            "placeholder": "Enter a reason",
+            "label": "Reason for leave",
+            "isRequired": true,
+            "value": "Vacation"
         },
         {
-          "type": "Action.OpenUrl",
-          "title": "Share in Teams",
-          "mode": "secondary",
-          "url": "https://adaptivecards.io/",
-          "iconUrl": "icon:PeopleTeam"
+            "type": "Input.Date",
+            "label": "Date",
+            "isRequired": true
         },
         {
-          "type": "Action.OpenUrl",
-          "title": "Download",
-          "url": "https://adaptivecards.io/",
-          "mode": "secondary",
-          "iconUrl": "icon:ArrowDown"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "title": "Copy link",
-          "mode": "secondary",
-          "url": "https://adaptivecards.io/",
-          "iconUrl": "icon:Link"
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Submit",
+                    "style": "positive"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "type": "ActionSet",
-      "targetWidth": "VeryNarrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "iconUrl": "icon:Calendar",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "iconUrl": "icon:PeopleTeam",
-          "title": "Share in Teams",
-          "mode": "secondary",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "iconUrl": "icon:ArrowDown",
-          "title": "Download",
-          "url": "https://adaptivecards.io/",
-          "mode": "secondary"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "iconUrl": "icon:Link",
-          "title": "Copy link",
-          "mode": "secondary",
-          "url": "https://adaptivecards.io/"
-        }
-      ]
-    }
-  ]
+    ]
 }
