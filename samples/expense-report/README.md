@@ -22,7 +22,7 @@ Expense Report | <a href="https://github.com/SuzanneTocco"><img align="center" w
 
 Version|Date|Comments
 -------|----|--------
-1.0| October 4, 2024 | Initial release
+1.0| January 15, 2025 | Initial release
 
 ### Disclaimer
 
