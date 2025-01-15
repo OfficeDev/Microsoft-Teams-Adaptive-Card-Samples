@@ -1,12 +1,12 @@
-# Cafe Menu
+# Simple Event Registration
 
 ## Summary
 
-The <b>Cafe Menu Card</b> prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.
+The <b>Simple Event Registration Card</b> lorem ipsum.
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/menu_card.png)
+![picture of the extension in action](assets/simple-event-card.png)
 
 ## Compatibility
 
