@@ -6,7 +6,7 @@ The <b>Simple Event Registration Card</b> lorem ipsum.
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/simple-event-card.png)
+![picture of the extension in action](assets/simple-event-registration-card.png)
 
 ## Compatibility
 
