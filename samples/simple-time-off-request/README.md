@@ -2,11 +2,11 @@
 
 ## Summary
 
-The <b>Simple Time Off Request Card</b> prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.
+The <b>Simple Time Off Request Card</b> lorem ipsum
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/simple-time-off-request-card.png)
+![picture of the extension in action](assets/simple-time-off-Card.png)
 
 ## Compatibility
 
