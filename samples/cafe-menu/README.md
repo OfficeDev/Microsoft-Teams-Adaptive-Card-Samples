@@ -1,12 +1,12 @@
-# Standard Video
+# Cafe Menu
 
 ## Summary
 
-The <b>Standard Video Card</b> prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.
+The <b>Cafe Menu Card</b> prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/videoCard.png)
+![picture of the extension in action](assets/menu_card.png)
 
 ## Compatibility
 
@@ -22,7 +22,7 @@ Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" wid
 
 Version|Date|Comments
 -------|----|--------
-1.0| April 11, 2024 | Initial release
+1.0| January 15, 2025 | Initial release
 
 ### Disclaimer
 
