@@ -16,13 +16,13 @@ _user-sent_ card example:
 
 Solution|Author(s)
 --------|---------
-Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+Book a room | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0| Oct 11, 2024 | Initial release
+1.0| Jan 15, 2025 | Initial release
 
 ### Disclaimer
 
@@ -60,19 +60,15 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 #### 2) Replace the Hero Image
 
 If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
-
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update Video Information
+#### 3) Update Inputs
 
-Modify the details or statistics as desired.
+Update any inputs as needed.
 
 #### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
 <br>
 
@@ -98,7 +94,7 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 * We use responsive layout to render different elements depending on the layout width, for example the shorter text in the agreement toggle for narrow layouts or the `Book a Room` tagged container at the top of the card.
 
-* The title of the card is kept in a container that is wrapped in another that has a background image. To maintain clarity, we change the size of the inner container depending on the layot width.
+* The title of the card is kept in a container that is wrapped in another that has a background image. To maintain clarity, we change the size of the inner container depending on the layout width.
 
 *  We use the `ToggleVisibility` action to show/hide optional form fields; notice also that we're toggling the caret icon as a way to dynamically represent the opened/closed state of the field.
 
