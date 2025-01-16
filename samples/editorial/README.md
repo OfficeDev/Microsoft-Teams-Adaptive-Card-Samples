@@ -6,7 +6,7 @@ The <b>Editorial Card</b> lore ipsum
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/menu_card.png)
+![picture of the extension in action](assets/editorialCard.png)
 
 ## Compatibility
 
