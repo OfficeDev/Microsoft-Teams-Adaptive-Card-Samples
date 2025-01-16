@@ -11,7 +11,7 @@
             "type": "Container",
             "backgroundImage": {
                 "horizontalAlignment": "Center",
-                "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/blob/Suz-StarterCardsSetThree/samples/editorial/heroImage.png?raw=true"
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/heroImage.png"
             },
             "bleed": true,
             "minHeight": "300px",
