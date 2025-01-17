@@ -358,44 +358,6 @@
       "type": "Input.Text"
     },
     {
-      "columns": [
-        {
-          "width": "1",
-          "items": [
-            {
-              "title": "",
-              "id": "policy",
-              "type": "Input.Toggle"
-            }
-          ],
-          "verticalContentAlignment": "center",
-          "type": "Column"
-        },
-        {
-          "width": "5",
-          "items": [
-            {
-              "text": "By continuing, you acknowledge that you've read and accepted our [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
-              "wrap": true,
-              "targetWidth": "AtLeast:Narrow",
-              "type": "TextBlock"
-            },
-            {
-              "text": "I've read and accept the [booking policy](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples).",
-              "wrap": true,
-              "targetWidth": "VeryNarrow",
-              "type": "TextBlock"
-            }
-          ],
-          "verticalContentAlignment": "center",
-          "spacing": "Small",
-          "type": "Column"
-        }
-      ],
-      "separator": true,
-      "type": "ColumnSet"
-    },
-    {
       "actions": [
         {
           "style": "positive",
