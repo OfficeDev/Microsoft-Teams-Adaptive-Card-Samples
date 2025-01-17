@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Simple Event Registration Card</b> lorem ipsum.
+The <b>Simple Event Registration Card</b> seamlessly combines visual appeal with functionality. Featuring a large hero image and basic event details, this card offers a straightforward way for users to reserve a seat. A prominent button opens a form for users to input their information and submit, making event registration quick and easy.
 
 _user-sent_ card example:
 
