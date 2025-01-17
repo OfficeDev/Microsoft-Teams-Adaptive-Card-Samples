@@ -60,18 +60,17 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
 
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
 * Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update Video Information
 
-Modify the details or statistics as desired.
+#### 3) Update Editorial Information
 
-#### 4) Update Button Copy and Actions
+Modify the copy as desired.
 
-Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+#### 4) Update Icon and Themed Title Text
+
+If desired, change the color for the title text and action icon. <br>
+
 
 <br>
 
