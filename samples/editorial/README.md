@@ -44,9 +44,6 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
-
 _To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
@@ -78,7 +75,7 @@ For icons, use the color #818181 to ensure readability in light/dark modes. Icon
 
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/videoCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec, and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
