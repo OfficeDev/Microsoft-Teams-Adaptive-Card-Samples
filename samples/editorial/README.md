@@ -4,7 +4,7 @@
 
 The <b>Editorial Card</b> showcases a full-bleed hero image, minimal text, and a bold call to action for strong visual impact and simplicity.
 
-_user-sent_ card example:
+_bot-sent_ card example:
 
 ![picture of the extension in action](assets/editorialCard.png)
 
