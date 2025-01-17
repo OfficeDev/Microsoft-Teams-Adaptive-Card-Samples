@@ -11,10 +11,10 @@
             "type": "Container",
             "backgroundImage": {
                 "horizontalAlignment": "Center",
-                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/heroImage.png"
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
             },
             "bleed": true,
-            "minHeight": "300px",
+            "minHeight": "180px",
             "items": [
                 {
                     "type": "ColumnSet",
@@ -48,12 +48,12 @@
             "horizontalAlignment": "Center",
             "size": "Small",
             "weight": "Bolder",
-            "color": "Accent",
+            "color": "Good",
             "spacing": "Medium"
         },
         {
             "type": "TextBlock",
-            "text": "Behind the design: Meet Copilot",
+            "text": "Behind the design: Meet Pointe",
             "wrap": true,
             "horizontalAlignment": "Center",
             "size": "ExtraLarge",
@@ -61,7 +61,7 @@
         },
         {
             "type": "TextBlock",
-            "text": "When the system is the product: on crafting the next generation of user experiences.",
+            "text": "When the system is the product: on crafting the next generation of home based experiences.",
             "wrap": true,
             "horizontalAlignment": "Center",
             "size": "Large",
@@ -73,7 +73,7 @@
             "horizontalAlignment": "Center",
             "name": "ArrowCircleRight",
             "size": "Medium",
-            "color": "Accent",
+            "color": "Good",
             "style": "Filled"
         }
     ]
