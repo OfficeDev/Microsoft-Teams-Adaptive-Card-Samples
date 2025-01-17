@@ -4,7 +4,7 @@
 
 The <b>Editorial Card</b> showcases a full-bleed hero image, minimal text, and a bold call to action for strong visual impact and simplicity.
 
-_user-sent_ card example:
+_bot-sent_ card example:
 
 ![picture of the extension in action](assets/editorialCard.png)
 
@@ -32,7 +32,7 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![Layouts](assets/card-layouts.png)
+![Layouts](assets/layouts.png)
 
 <br/><br/>
 
@@ -43,9 +43,6 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 #### 1) Copy the card JSON into the Designer Tool
 
 Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
-
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
 
 _To create a "full width" card, add the following code to the JSON._ <br>
 
@@ -63,22 +60,21 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
 
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
 * Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update Video Information
 
-Modify the details or statistics as desired.
+#### 3) Update Editorial Information
 
-#### 4) Update Button Copy and Actions
+Modify the copy as desired.
 
-Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+#### 4) Update Icon and Themed Title Text
+
+If desired, change the color for the title text and action icon. <br>
+
 
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/videoCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec, and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
