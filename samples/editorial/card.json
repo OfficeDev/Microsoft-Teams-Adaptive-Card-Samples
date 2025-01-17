@@ -14,32 +14,55 @@
                 "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
             },
             "bleed": true,
+            "minHeight": "290px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "DESIGN TALK SERIES",
+                    "wrap": true,
+                    "weight": "Bolder"
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "AtLeast:Standard"
+        },
+        {
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
+            },
+            "bleed": true,
+            "minHeight": "225px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "DESIGN TALK SERIES",
+                    "wrap": true,
+                    "weight": "Bolder"
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "Narrow"
+        },
+        {
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
+            },
+            "bleed": true,
             "minHeight": "180px",
             "items": [
                 {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "wrap": true,
-                                    "size": "Small",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "DESIGN TALK SERIES"
-                                }
-                            ],
-                            "verticalContentAlignment": "Bottom",
-                            "height": "stretch"
-                        }
-                    ],
-                    "height": "stretch",
-                    "horizontalAlignment": "Left"
+                    "type": "TextBlock",
+                    "text": "DESIGN TALK SERIES",
+                    "wrap": true,
+                    "weight": "Bolder"
                 }
-            ]
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "VeryNarrow"
         },
         {
             "type": "TextBlock",
