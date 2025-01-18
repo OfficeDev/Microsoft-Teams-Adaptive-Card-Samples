@@ -20,7 +20,8 @@
                     "type": "TextBlock",
                     "text": "DESIGN TALK SERIES",
                     "wrap": true,
-                    "weight": "Bolder"
+                    "weight": "Bolder",
+                    "color": "Dark"
                 }
             ],
             "verticalContentAlignment": "Bottom",
@@ -39,7 +40,8 @@
                     "type": "TextBlock",
                     "text": "DESIGN TALK SERIES",
                     "wrap": true,
-                    "weight": "Bolder"
+                    "weight": "Bolder",
+                    "color": "Dark"
                 }
             ],
             "verticalContentAlignment": "Bottom",
@@ -58,7 +60,8 @@
                     "type": "TextBlock",
                     "text": "DESIGN TALK SERIES",
                     "wrap": true,
-                    "weight": "Bolder"
+                    "weight": "Bolder",
+                    "color": "Dark"
                 }
             ],
             "verticalContentAlignment": "Bottom",
