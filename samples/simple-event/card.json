@@ -1,8 +1,65 @@
 {
     "type": "AdaptiveCard",
-    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
     "version": "1.5",
     "body": [
+        {
+            "type": "Container",
+            "bleed": true,
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/simple-event/assets/eventHero.png",
+                "verticalAlignment": "Center"
+            },
+            "minHeight": "200px",
+            "verticalContentAlignment": "Bottom",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "MAY",
+                    "wrap": true,
+                    "color": "Light",
+                    "size": "Large"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "31",
+                    "wrap": true,
+                    "color": "Light",
+                    "size": "ExtraLarge",
+                    "spacing": "None",
+                    "weight": "Bolder"
+                }
+            ],
+            "targetWidth": "Standard"
+        },
+        {
+            "type": "Container",
+            "bleed": true,
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/simple-event/assets/eventHero.png",
+                "verticalAlignment": "Center"
+            },
+            "minHeight": "200px",
+            "verticalContentAlignment": "Bottom",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "MAY",
+                    "wrap": true,
+                    "color": "Light",
+                    "size": "Large"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "31",
+                    "wrap": true,
+                    "color": "Light",
+                    "size": "ExtraLarge",
+                    "spacing": "None",
+                    "weight": "Bolder"
+                }
+            ],
+            "targetWidth": "Wide"
+        },
         {
             "type": "Container",
             "bleed": true,
@@ -10,37 +67,54 @@
                 "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/simple-event/assets/eventHero.png"
             },
             "minHeight": "200px",
+            "verticalContentAlignment": "Bottom",
             "items": [
                 {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "verticalContentAlignment": "Bottom",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "MAY",
-                                    "wrap": true,
-                                    "color": "Light",
-                                    "size": "Large"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "31",
-                                    "wrap": true,
-                                    "color": "Light",
-                                    "size": "ExtraLarge",
-                                    "spacing": "None",
-                                    "weight": "Bolder"
-                                }
-                            ]
-                        }
-                    ],
-                    "height": "stretch"
+                    "type": "TextBlock",
+                    "text": "MAY",
+                    "wrap": true,
+                    "color": "Light",
+                    "size": "Large"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "31",
+                    "wrap": true,
+                    "color": "Light",
+                    "size": "ExtraLarge",
+                    "spacing": "None",
+                    "weight": "Bolder"
                 }
-            ]
+            ],
+            "targetWidth": "Narrow"
+        },
+        {
+            "type": "Container",
+            "bleed": true,
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/simple-event/assets/eventHero.png"
+            },
+            "minHeight": "200px",
+            "verticalContentAlignment": "Bottom",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "MAY",
+                    "wrap": true,
+                    "color": "Light",
+                    "size": "Large"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "31",
+                    "wrap": true,
+                    "color": "Light",
+                    "size": "ExtraLarge",
+                    "spacing": "None",
+                    "weight": "Bolder"
+                }
+            ],
+            "targetWidth": "VeryNarrow"
         },
         {
             "type": "TextBlock",
@@ -76,11 +150,40 @@
             "type": "ActionSet",
             "actions": [
                 {
-                    "type": "Action.Submit",
-                    "title": "Register",
+                    "type": "Action.ShowCard",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "body": [
+                            {
+                                "type": "Input.Text",
+                                "placeholder": "Enter your full name",
+                                "label": "Name"
+                            },
+                            {
+                                "type": "Input.Text",
+                                "placeholder": "Enter your email address",
+                                "label": "Email address",
+                                "isRequired": true
+                            },
+                            {
+                                "type": "ActionSet",
+                                "actions": [
+                                    {
+                                        "type": "Action.Submit",
+                                        "title": "Submit",
+                                        "style": "positive"
+                                    }
+                                ]
+                            }
+                        ],
+                        "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                        "version": "1.5"
+                    },
+                    "title": "Reserve a seat",
                     "style": "positive"
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
 }

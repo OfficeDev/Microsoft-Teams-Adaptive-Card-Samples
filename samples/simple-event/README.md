@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Simple Event Registration Card</b> lorem ipsum.
+The <b>Simple Event Registration Card</b> seamlessly combines visual appeal with functionality. Featuring a large hero image and basic event details, this card offers a straightforward way for users to reserve a seat. A prominent button opens a form for users to input their information and submit, making event registration quick and easy.
 
 _user-sent_ card example:
 
@@ -60,22 +60,20 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
 
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+* Update the image URL to link to your desired image and specify the URL for the selection action. Adjust the image as needed for each responsive layout to display optimally.
+
 
 #### 3) Update Video Information
 
-Modify the details or statistics as desired.
+Modify the copy as desired.
 
-#### 4) Update Button Copy and Actions
+#### 4) Update Button Copy and inputs
 
-Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+Customize button text and add or remove inputs to suit your needs. <br>
 
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/videoCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec, and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
@@ -100,7 +98,8 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * **Design**: Our tools can help you learn Teams patterns and design apps and cards.
 
   * Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
-  * Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support).
+ 
+  * Fluent icons are pre-built into the Designer and support both light and dark modes. You can choose from thousands of ready-to-use icons and select from a set of predefined colors. For more Fluent icon resources, check out [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography). <B>NOTE:</B> If you'd like to create custom icons, they should be saved as .pngs (export at 2x) and colored to ensure they look good in both light and dark modes.
 
 * **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
 
