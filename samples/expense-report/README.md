@@ -1,12 +1,12 @@
-# Communications
+# Expense Report
 
 ## Summary
 
-The <b>Communications Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting <b>company updates</b>, <b>sharing posts</b>, or <b>fostering community ties</b>, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
+Introducing the <b>Expense Report Card</b>, a practical tool for handling expense requests. This card provides a <b>clear view</b> of each expense, with <b>easy expand and collapse</b> options for navigation. See who approved the expense, and stay informed with comments and attached files. Streamline your approval process and keep everything organized with this essential tool.
 
 _bot-sent_ card example:
 
-![picture alt](assets/CommunicationsCard.png)
+![picture of the extension in action](assets/expense-report-card.png)
 
 ## Compatibility
 
@@ -16,13 +16,13 @@ _bot-sent_ card example:
 
 Solution|Author(s)
 --------|---------
-Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+Expense Report | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0| April 11, 2024 | Initial release
+1.0| January 15, 2025 | Initial release
 
 ### Disclaimer
 
@@ -32,9 +32,10 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![picture of the extension in action](assets/communicationsLayouts.png)
+![Layouts](assets/card_layouts.png)
 
-<br> <br>
+
+<br/><br/>
 
 ## 1) 👩‍🎨 Personalize This Card
 
@@ -56,23 +57,20 @@ _To create a "full width" card, add the following code to the JSON._ <br>
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
- <br>
+#### 2) Update Images
 
-#### 2) Replace the Hero Image
+For thumbnail images, use a square aspect ratio. Save the image as a transparent PNG at 2x size to ensure high resolution across endpoints.
+<b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
+  
+* Update the image URL to link to your desired image.
+* Update the image URL to link to the approving expense administrator.
 
-If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy. <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
-#### 3) Link to the Avatar Image
+#### 3) Connect to Proper Data
 
-Ensure the image URL fetches and shows the image associated with the message sender.
+Ensure the card pulls the correct expense details.
 
-Verify the correct linkage of the avatar image.
-
-#### 4) Update Description Copy and Set Truncation
-
-Set the maximum line truncation as desired to work for the card content and layout. You can also choose to add a “Show more” / “Show less” feature.
-
-#### 5) Update Button Copy and Actions
+#### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
 If you wish to use icons in your button, you can choose from thousands of options in our Fluent icon library. Refer to the [Resources section](#resources--tools) on this page. 
@@ -81,7 +79,7 @@ If you wish to use icons in your button, you can choose from thousands of option
 <b>Note:</b> For other icons, use the color #818181 to ensure readability in both light and dark modes, or choose a color that you have verified looks good. Icons should fit edge-to-edge within a 16x16 square. Save them as transparent PNGs at 2x size for optimal resolution across different endpoints.
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/communicationCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/expense-report-spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
@@ -98,6 +96,12 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
 <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
+
+## Implementation Details
+
+* We use responsive layout to move the text locations vertically so it's not squished in the `veryNarrow` width.
+
+*  We use the `ToggleVisibility` action to show/hide additional information; notice also that we're toggling the caret icon as a way to dynamically represent the opened/closed state.
 
 ## Resources & Tools ##
 
@@ -116,3 +120,5 @@ This is where the rubber meets the road to ensure high quality cards for all use
 ## Contribute ##
 
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
+
+

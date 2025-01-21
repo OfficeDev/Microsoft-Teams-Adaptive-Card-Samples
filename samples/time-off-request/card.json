@@ -1,0 +1,872 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Time off request",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder",
+      "spacing": "None"
+    },
+    {
+      "type": "Image",
+      "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/blob/pabloas/set-2/samples/time-off-request/assets/hero-image-default.png?raw=true",
+      "style": "RoundedCorners",
+      "targetWidth": "AtMost:Standard",
+      "altText": ""
+    },
+    {
+      "type": "Image",
+      "targetWidth": "Wide",
+      "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/blob/pabloas/set-2/samples/time-off-request/assets/hero-wide.png?raw=true",
+      "style": "RoundedCorners",
+      "altText": ""
+    },
+    {
+      "type": "TextBlock",
+      "text": "Current balance",
+      "wrap": true,
+      "weight": "Bolder",
+      "color": "Accent",
+      "targetWidth": "AtLeast:Narrow"
+    },
+    {
+      "type": "Container",
+      "style": "accent",
+      "showBorder": true,
+      "roundedCorners": true,
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "24h",
+                  "wrap": true,
+                  "color": "Accent",
+                  "size": "ExtraLarge",
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "name": "HeartPulse",
+                          "color": "Accent",
+                          "size": "xSmall"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Sick Days",
+                          "wrap": true,
+                          "weight": "Bolder",
+                          "size": "Default"
+                        }
+                      ],
+                      "spacing": "ExtraSmall"
+                    }
+                  ],
+                  "spacing": "ExtraSmall"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Accrued at eight hours per three months.",
+                  "wrap": true,
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "12h",
+                  "wrap": true,
+                  "color": "Accent",
+                  "size": "ExtraLarge",
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "name": "LeafOne",
+                          "color": "Accent",
+                          "size": "xSmall"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Wellness",
+                          "wrap": true,
+                          "weight": "Bolder"
+                        }
+                      ],
+                      "spacing": "ExtraSmall"
+                    }
+                  ],
+                  "spacing": "ExtraSmall"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "One time 5 day affordance for the year",
+                  "wrap": true,
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
+                }
+              ],
+              "spacing": "ExtraLarge"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "32h",
+                  "wrap": true,
+                  "color": "Accent",
+                  "size": "ExtraLarge",
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "name": "Beach",
+                          "color": "Accent",
+                          "size": "xSmall"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Paid time off",
+                          "wrap": true,
+                          "weight": "Bolder"
+                        }
+                      ],
+                      "spacing": "ExtraSmall"
+                    }
+                  ],
+                  "spacing": "ExtraSmall"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Accrued at eight hours per one month.",
+                  "wrap": true,
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
+                }
+              ],
+              "spacing": "ExtraLarge"
+            }
+          ]
+        }
+      ],
+      "spacing": "ExtraSmall",
+      "targetWidth": "Wide",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "Container",
+      "style": "accent",
+      "showBorder": true,
+      "roundedCorners": true,
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "24h",
+                  "wrap": true,
+                  "color": "Accent",
+                  "size": "ExtraLarge",
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "name": "HeartPulse",
+                          "color": "Accent",
+                          "size": "xSmall"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Sick Days",
+                          "wrap": true,
+                          "weight": "Bolder"
+                        }
+                      ],
+                      "spacing": "ExtraSmall"
+                    }
+                  ],
+                  "spacing": "ExtraSmall"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Accrued at eight hours per three months.",
+                  "wrap": true,
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "12h",
+                  "wrap": true,
+                  "color": "Accent",
+                  "size": "ExtraLarge",
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "name": "LeafOne",
+                          "color": "Accent",
+                          "size": "xSmall"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Wellness",
+                          "wrap": true,
+                          "weight": "Bolder"
+                        }
+                      ],
+                      "spacing": "ExtraSmall"
+                    }
+                  ],
+                  "spacing": "ExtraSmall"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "One time 5 day affordance for the year",
+                  "wrap": true,
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "32h",
+                  "wrap": true,
+                  "color": "Accent",
+                  "size": "ExtraLarge",
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "name": "Beach",
+                          "color": "Accent",
+                          "size": "xSmall"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Paid time off",
+                          "wrap": true,
+                          "weight": "Bolder"
+                        }
+                      ],
+                      "spacing": "ExtraSmall"
+                    }
+                  ],
+                  "spacing": "ExtraSmall"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Accrued at eight hours per one month.",
+                  "wrap": true,
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "ExtraSmall"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "spacing": "ExtraSmall",
+      "targetWidth": "Standard"
+    },
+    {
+      "type": "Container",
+      "style": "accent",
+      "showBorder": true,
+      "roundedCorners": true,
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Icon",
+                  "name": "HeartPulse",
+                  "color": "Accent",
+                  "horizontalAlignment": "Center",
+                  "size": "Small"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "24h",
+                  "wrap": true,
+                  "size": "Large",
+                  "color": "Accent",
+                  "weight": "Bolder",
+                  "spacing": "None"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Sick days",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "spacing": "None",
+                  "size": "Small",
+                  "color": "Default"
+                }
+              ],
+              "horizontalAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Icon",
+                  "name": "LeafOne",
+                  "color": "Accent",
+                  "horizontalAlignment": "Center",
+                  "size": "Small"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "12h",
+                  "wrap": true,
+                  "size": "Large",
+                  "color": "Accent",
+                  "weight": "Bolder",
+                  "spacing": "None"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Wellness",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "spacing": "None",
+                  "size": "Small",
+                  "color": "Default"
+                }
+              ],
+              "horizontalAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Icon",
+                  "horizontalAlignment": "Center",
+                  "name": "Beach",
+                  "color": "Accent",
+                  "size": "Small"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "32h",
+                  "wrap": true,
+                  "color": "Accent",
+                  "size": "Large",
+                  "weight": "Bolder",
+                  "spacing": "None"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Paid time off",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "spacing": "None",
+                  "size": "Small",
+                  "color": "Default"
+                }
+              ],
+              "horizontalAlignment": "Center"
+            }
+          ]
+        }
+      ],
+      "spacing": "ExtraSmall",
+      "targetWidth": "Narrow",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "RichTextBlock",
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "View current balance",
+                  "selectAction": {
+                    "type": "Action.ToggleVisibility",
+                    "targetElements": [
+                      "vNarrowBalance",
+                      "balanceDown",
+                      "balanceUp"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Icon",
+              "name": "ChevronDown",
+              "size": "xxSmall",
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": ["vNarrowBalance", "balanceDown", "balanceUp"]
+              },
+              "color": "Accent",
+              "id": "balanceDown"
+            },
+            {
+              "type": "Icon",
+              "isVisible": false,
+              "id": "balanceUp",
+              "name": "chevronUp",
+              "size": "xxSmall",
+              "color": "Accent",
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": ["vNarrowBalance", "balanceDown", "balanceUp"]
+              }
+            }
+          ],
+          "verticalContentAlignment": "Bottom",
+          "spacing": "ExtraSmall"
+        }
+      ],
+      "targetWidth": "VeryNarrow"
+    },
+    {
+      "type": "Container",
+      "style": "accent",
+      "bleed": true,
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "40px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "24h",
+                  "wrap": true,
+                  "size": "Large",
+                  "weight": "Bolder",
+                  "color": "Accent"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Icon",
+                  "color": "Accent",
+                  "name": "HeartPulse",
+                  "size": "xSmall"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "spacing": "Small"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Sick days",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "size": "Small",
+                  "color": "Default"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "spacing": "ExtraSmall"
+            }
+          ],
+          "horizontalAlignment": "Left"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "40px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "12h",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "color": "Accent",
+                  "size": "Large"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Icon",
+                  "color": "Accent",
+                  "name": "LeafOne",
+                  "size": "xSmall"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "spacing": "Small"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Wellness",
+                  "wrap": true,
+                  "size": "Small",
+                  "weight": "Bolder",
+                  "color": "Default"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "spacing": "ExtraSmall"
+            }
+          ],
+          "spacing": "ExtraSmall"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "40px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "32h",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "color": "Accent",
+                  "size": "Large"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Icon",
+                  "color": "Accent",
+                  "name": "Beach",
+                  "size": "xSmall"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "spacing": "Small"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Paid time off",
+                  "wrap": true,
+                  "size": "Small",
+                  "weight": "Bolder",
+                  "color": "Default"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "spacing": "ExtraSmall"
+            }
+          ],
+          "spacing": "ExtraSmall"
+        }
+      ],
+      "spacing": "Small",
+      "isVisible": false,
+      "id": "vNarrowBalance",
+      "targetWidth": "VeryNarrow"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "label": "Reason for leave",
+      "choices": [
+        {
+          "title": "Vacation",
+          "value": "Vacation"
+        },
+        {
+          "title": "Sick Day",
+          "value": "Sick Day"
+        },
+        {
+          "title": "Sick Leave",
+          "value": "Sick Leave"
+        },
+        {
+          "title": "Other",
+          "value": "Other"
+        }
+      ],
+      "value": "Vacation",
+      "id": "leave_reason",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Input.Toggle",
+      "title": "All day (8hrs)",
+      "id": "all_day",
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "layouts": [
+        {
+          "type": "Layout.Flow",
+          "verticalItemsAlignment": "Bottom",
+          "minItemWidth": "0px",
+          "itemFit": "Fill"
+        }
+      ],
+      "items": [
+        {
+          "type": "Input.Date",
+          "label": "Date",
+          "id": "date",
+          "isRequired": true,
+          "errorMessage": "Date is required"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "spacing": "Small",
+          "verticalContentAlignment": "Bottom"
+        }
+      ]
+    },
+    {
+      "type": "Input.Number",
+      "label": "Estimated days off",
+      "placeholder": "Select how many days",
+      "id": "days_off",
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "RichTextBlock",
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "Add comments",
+                  "selectAction": {
+                    "type": "Action.ToggleVisibility",
+                    "targetElements": ["comments", "chevronDown", "chevronUp"]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Icon",
+              "name": "ChevronDown",
+              "size": "xxSmall",
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": ["comments", "chevronDown", "chevronUp"]
+              },
+              "color": "Accent",
+              "id": "chevronDown"
+            },
+            {
+              "type": "Icon",
+              "isVisible": false,
+              "id": "chevronUp",
+              "name": "chevronUp",
+              "size": "xxSmall",
+              "color": "Accent",
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": ["comments", "chevronDown", "chevronUp"]
+              }
+            }
+          ],
+          "verticalContentAlignment": "Bottom",
+          "spacing": "ExtraSmall"
+        }
+      ]
+    },
+    {
+      "type": "Input.Text",
+      "placeholder": "Enter any comments",
+      "id": "comments",
+      "isVisible": false,
+      "isMultiline": true
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Submit",
+          "style": "positive"
+        }
+      ],
+      "separator": true,
+      "spacing": "ExtraLarge"
+    }
+  ]
+}

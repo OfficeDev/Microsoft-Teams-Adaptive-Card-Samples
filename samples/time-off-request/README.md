@@ -1,12 +1,12 @@
-# Communications
+# Time Off Request
 
 ## Summary
 
-The <b>Communications Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting <b>company updates</b>, <b>sharing posts</b>, or <b>fostering community ties</b>, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
+The <b>Time Off Request Card</b> is designed to simplify the process of <b>requesting vacation</b>, <b>sick leave</b>, and <b>other time off</b>. With <b>easy-to-use dropdowns</b> for selecting your starting day and estimated time off, plus a dedicated space for additional notes, this card ensures a smooth and efficient workflow. Enhance your time management and communication with this essential tool.
 
-_bot-sent_ card example:
+_user-sent_ card example:
 
-![picture alt](assets/CommunicationsCard.png)
+![picture of the extension in action](assets/timeOffRequestCard.png)
 
 ## Compatibility
 
@@ -16,13 +16,13 @@ _bot-sent_ card example:
 
 Solution|Author(s)
 --------|---------
-Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+Time Off Card | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0| April 11, 2024 | Initial release
+1.0| January 15, 2025 | Initial release
 
 ### Disclaimer
 
@@ -32,9 +32,10 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![picture of the extension in action](assets/communicationsLayouts.png)
+![Layouts](assets/card-layouts.png)
 
-<br> <br>
+
+<br/><br/>
 
 ## 1) 👩‍🎨 Personalize This Card
 
@@ -56,21 +57,19 @@ _To create a "full width" card, add the following code to the JSON._ <br>
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
- <br>
-
 #### 2) Replace the Hero Image
 
-If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy. <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
+If you’re creating images, create one that works well for standard, narrow, and veryNarrow layouts. Create a separate image for the wide layout that is shorter in height. Save the images as a transparent PNG at 2x size to ensure good resolution across endpoints. <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
 
-#### 3) Link to the Avatar Image
+* Update the image URL to link to your desired image.
 
-Ensure the image URL fetches and shows the image associated with the message sender.
+#### 3) Update Summary Data
 
-Verify the correct linkage of the avatar image.
+Connect to the current time off data you want to display and update the icons as needed (Fluent icon information is provided below).
 
-#### 4) Update Description Copy and Set Truncation
+#### 4) Update Input Options
 
-Set the maximum line truncation as desired to work for the card content and layout. You can also choose to add a “Show more” / “Show less” feature.
+Adjust the dropdowns and other input fields as needed.
 
 #### 5) Update Button Copy and Actions
 
@@ -81,7 +80,7 @@ If you wish to use icons in your button, you can choose from thousands of option
 <b>Note:</b> For other icons, use the color #818181 to ensure readability in both light and dark modes, or choose a color that you have verified looks good. Icons should fit edge-to-edge within a 16x16 square. Save them as transparent PNGs at 2x size for optimal resolution across different endpoints.
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/communicationCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/time-off-request-spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
@@ -99,6 +98,12 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
 
+## Implementation Details
+
+*  We use responsive layout to change the presented information matched to the width that suits it best.
+
+*  We use the `ToggleVisibility` action to show/hide optional form fields; notice also that we're toggling the caret icon as a way to dynamically represent the opened/closed state of the field.
+
 ## Resources & Tools ##
 
 * **Learn**: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
@@ -111,8 +116,11 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 * **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
 
+
 </p>
 
 ## Contribute ##
 
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
+
+

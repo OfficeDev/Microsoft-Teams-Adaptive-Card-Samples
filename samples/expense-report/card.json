@@ -1,0 +1,645 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Your 'Travel to Seattle' expenses have been approved!",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "Container",
+      "targetWidth": "VeryNarrow",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "width": "44px",
+                  "height": "44px",
+                  "url": "https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/pabloas/set-2/samples/expense-report/assets/seattle.png?raw=true",
+                  "style": "RoundedCorners",
+                  "altText": ""
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Travel to Seattle",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "name": "CheckmarkCircle",
+                          "size": "xxSmall",
+                          "color": "Good"
+                        }
+                      ],
+                      "verticalContentAlignment": "Center"
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Approved",
+                          "wrap": true,
+                          "size": "Small",
+                          "weight": "Bolder",
+                          "color": "Good"
+                        }
+                      ],
+                      "spacing": "None",
+                      "verticalContentAlignment": "Center"
+                    }
+                  ],
+                  "spacing": "ExtraSmall"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "Fri, 7 Aug 2024 - Tue, 21 Aug 2024",
+          "wrap": true,
+          "size": "Small",
+          "isSubtle": false,
+          "color": "Default",
+          "weight": "Bolder",
+          "spacing": "ExtraSmall"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Business trip to meet client to sign final contracts.",
+          "wrap": true,
+          "spacing": "ExtraSmall",
+          "size": "Small",
+          "isSubtle": true
+        }
+      ],
+      "separator": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "width": "44px",
+              "height": "44px",
+              "url": "https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/pabloas/set-2/samples/expense-report/assets/seattle.png?raw=true",
+              "style": "RoundedCorners",
+              "altText": ""
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Travel to Seattle",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    }
+                  ],
+                  "verticalContentAlignment": "Bottom"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Icon",
+                      "name": "CheckmarkCircle",
+                      "size": "xxSmall",
+                      "color": "Good"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Approved",
+                      "wrap": true,
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Good"
+                    }
+                  ],
+                  "spacing": "None",
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fri, 7 Aug 2024 - Tue, 21 Aug 2024",
+              "wrap": true,
+              "size": "Small",
+              "isSubtle": false,
+              "weight": "Bolder",
+              "color": "Default",
+              "spacing": "ExtraSmall"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Business trip to meet client to sign final contracts.",
+              "wrap": true,
+              "spacing": "ExtraSmall",
+              "isSubtle": true,
+              "size": "Small"
+            }
+          ]
+        }
+      ],
+      "targetWidth": "AtLeast:Narrow",
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Icon",
+              "name": "Receipt",
+              "size": "xxSmall"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "2",
+              "wrap": true,
+              "size": "Small",
+              "weight": "Bolder",
+              "color": "Default"
+            }
+          ],
+          "spacing": "ExtraSmall",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Icon",
+              "name": "Comment",
+              "size": "xxSmall"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "4",
+              "wrap": true,
+              "size": "Small",
+              "weight": "Bolder",
+              "color": "Default"
+            }
+          ],
+          "spacing": "ExtraSmall",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "$790.00",
+              "wrap": true,
+              "weight": "Bolder",
+              "size": "Small"
+            }
+          ],
+          "spacing": "Medium",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Icon",
+              "name": "ChevronDown",
+              "size": "xSmall",
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": ["reimbursement", "chevronUp", "chevronDown"]
+              },
+              "id": "chevronDown"
+            },
+            {
+              "type": "Icon",
+              "name": "ChevronUp",
+              "size": "xSmall",
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": ["reimbursement", "chevronUp", "chevronDown"]
+              },
+              "id": "chevronUp",
+              "isVisible": false
+            }
+          ],
+          "spacing": "ExtraSmall"
+        }
+      ],
+      "horizontalAlignment": "Right",
+      "spacing": "ExtraLarge",
+      "separator": true
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "roundedCorners": true,
+      "showBorder": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Reimbursement #238-29",
+          "wrap": true,
+          "size": "Small"
+        },
+        {
+          "type": "Container",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Receipts and itineraries",
+                      "wrap": true,
+                      "size": "Small"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "$890.00",
+                      "wrap": true,
+                      "targetWidth": "VeryNarrow",
+                      "weight": "Bolder",
+                      "spacing": "ExtraSmall",
+                      "size": "Small"
+                    }
+                  ],
+                  "spacing": "Small"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "horizontalAlignment": "Right",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "$890.00",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "size": "Small"
+                    }
+                  ],
+                  "targetWidth": "AtLeast:Narrow"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "spacing": "Small"
+                }
+              ]
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Non-reimbursable amount",
+                      "wrap": true,
+                      "size": "Small"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "$100.00",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "spacing": "ExtraSmall",
+                      "targetWidth": "VeryNarrow",
+                      "size": "Small"
+                    }
+                  ],
+                  "spacing": "Small"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "horizontalAlignment": "Right",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "$100.00",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "size": "Small"
+                    }
+                  ],
+                  "targetWidth": "AtLeast:Narrow"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "spacing": "Small"
+                }
+              ],
+              "separator": true
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Cash advance",
+                      "wrap": true,
+                      "size": "Small"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "$50.00",
+                      "wrap": true,
+                      "spacing": "ExtraSmall",
+                      "weight": "Bolder",
+                      "targetWidth": "VeryNarrow",
+                      "size": "Small"
+                    }
+                  ],
+                  "spacing": "Small"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "horizontalAlignment": "Right",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "$50.00",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "size": "Small"
+                    }
+                  ],
+                  "targetWidth": "AtLeast:Narrow"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "spacing": "Small"
+                }
+              ],
+              "separator": true
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "CheckmarkCircle",
+                              "size": "xxSmall",
+                              "color": "Good",
+                              "spacing": "None"
+                            }
+                          ],
+                          "targetWidth": "AtLeast:Narrow",
+                          "spacing": "None"
+                        },
+                        {
+                          "type": "Column",
+                          "width": "stretch",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Total reimbursement",
+                              "wrap": true,
+                              "weight": "Bolder",
+                              "size": "Small",
+                              "spacing": "None"
+                            }
+                          ],
+                          "spacing": "ExtraSmall"
+                        }
+                      ],
+                      "spacing": "None"
+                    },
+                    {
+                      "type": "ColumnSet",
+                      "spacing": "ExtraSmall",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "CheckmarkCircle",
+                              "size": "xxSmall",
+                              "color": "Good"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "stretch",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "$790.00",
+                              "wrap": true,
+                              "weight": "Bolder",
+                              "size": "Small"
+                            }
+                          ],
+                          "spacing": "ExtraSmall"
+                        }
+                      ],
+                      "targetWidth": "VeryNarrow"
+                    }
+                  ],
+                  "spacing": "Small"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "horizontalAlignment": "Right",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "$790.00",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "size": "Small"
+                    }
+                  ],
+                  "targetWidth": "AtLeast:Narrow"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "spacing": "Small"
+                }
+              ],
+              "separator": true
+            }
+          ],
+          "style": "default",
+          "roundedCorners": true
+        }
+      ],
+      "id": "reimbursement",
+      "spacing": "Small",
+      "isVisible": false
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "style": "Person",
+              "url": "https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/pabloas/set-2/samples/expense-report/assets/Avatar.png?raw=true",
+              "width": "24px",
+              "height": "24px",
+              "altText": ""
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "RichTextBlock",
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "Approved by ",
+                  "size": "Small"
+                },
+                {
+                  "type": "TextRun",
+                  "text": "Mona Kane",
+                  "size": "Small",
+                  "weight": "Bolder"
+                }
+              ]
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        }
+      ],
+      "spacing": "ExtraLarge",
+      "separator": true
+    },
+    {
+      "type": "ActionSet",
+      "spacing": "Large",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "View statement",
+          "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples"
+        }
+      ]
+    }
+  ]
+}

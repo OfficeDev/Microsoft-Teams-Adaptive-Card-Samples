@@ -51,9 +51,6 @@ Below you'll find a few alternative expressions of the card.
 
 Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
-
 _To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
@@ -74,14 +71,18 @@ Ensure that the primary path name is correctly hyperlinked to the corresponding 
 
 #### 3) Imagery Update and Verification
 
-Please substitute the current 28x28 pixel square image. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size while maintaining a 16x16 pixel fixed width. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or retrieve any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework.
+Please substitute the current 28x28 pixel square image with an image you create or one of our built-in Fluent icons. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or create any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework.
 
 <b>Note:</b> It’s important to conduct tests on any icons to verify their visibility and clarity in both light and dark interface themes.
 
 #### 4) Update Button Copy and Actions
 
-Customize button text and actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+Customize button text and add or remove actions to suit your needs. <br>
+If you wish to use icons in your button, you can choose from thousands of options in our Fluent icon library. Refer to the [Resources section](#resources--tools) on this page. 
+<br>
+
+<b>Note:</b> For other icons, use the color #818181 to ensure readability in both light and dark modes, or choose a color that you have verified looks good. Icons should fit edge-to-edge within a 16x16 square. Save them as transparent PNGs at 2x size for optimal resolution across different endpoints.
+<br>
 
  ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/issueCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
@@ -107,7 +108,8 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * **Design**: Our tools can help you learn Teams patterns and design apps and cards.
 
   * Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
-  * Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support).
+ 
+  * Fluent icons are pre-built into the Designer and support both light and dark modes. You can choose from thousands of ready-to-use icons and select from a set of predefined colors. For more Fluent icon resources, check out [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography). <B>NOTE:</B> If you'd like to create custom icons, they should be saved as .pngs (export at 2x) and colored to ensure they look good in both light and dark modes.
 
 * **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
 
