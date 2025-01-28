@@ -22,7 +22,7 @@ Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" wid
 
 Version|Date|Comments
 -------|----|--------
-1.0| April 11, 2024 | Initial release
+1.0| January 28, 2024 | Initial release
 
 ### Disclaimer
 
