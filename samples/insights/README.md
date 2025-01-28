@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Insights Card</b> is your digital curator, elegantly organizing a personalized selection of content. From insightful <b>articles</b> to engaging <b>videos</b> and comprehensive <b>courses</b>, this card spotlights the essentials. Simply <b>click</b> to delve into a topic or expand your horizon within the app.
+The <b>Insights Card</b> enhances user engagement by allowing them to <b>access additional information on demand</b>. Initially displaying key details, it features a button that reveals more in-depth data when clicked. This card is perfect for providing a <b>streamlined and informative user experience</b> without overwhelming the user at first glance.
 
 _user-sent_ card example:
 
