@@ -1,633 +1,300 @@
 {
-  "type": "AdaptiveCard",
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "speak": "Robin, explore your weekly picks",
-  "body": [
-    {
-      "type": "TextBlock",
-      "size": "Large",
-      "text": "Robin, explore your weekly picks",
-      "weight": "Bolder",
-      "wrap": true
-    },
-    {
-      "type": "TextBlock",
-      "text": "These resources will teach you how to achieve balance in your life and work with more ease.",
-      "wrap": true,
-      "targetWidth": "AtLeast:Narrow",
-      "spacing": "Small"
-    },
-    {
-      "items": [
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
         {
-          "columns": [
-            {
-              "width": "auto",
-              "items": [
-                {
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/ResourceImage_1.png",
-                  "width": "56px",
-                  "height": "56px",
-                  "type": "Image",
-                  "altText": "Zenith Health Video",
-                  "style": "RoundedCorners"
-                }
-              ],
-              "type": "Column"
-            },
-            {
-              "width": "stretch",
-              "items": [
-                {
-                  "isSubtle": true,
-                  "size": "Small",
-                  "text": "Video · 12min",
-                  "wrap": true,
-                  "type": "TextBlock"
-                },
-                {
-                  "text": "Why You Should Take a Break from Screen Time and Enjoy Nature",
-                  "weight": "Bolder",
-                  "wrap": true,
-                  "spacing": "None",
-                  "type": "TextBlock"
-                },
-                {
-                  "text": "Zenith Health",
-                  "wrap": true,
-                  "spacing": "None",
-                  "type": "TextBlock"
-                }
-              ],
-              "type": "Column"
-            }
-          ],
-          "type": "ColumnSet"
-        }
-      ],
-      "style": "emphasis",
-      "spacing": "Medium",
-      "targetWidth": "AtLeast:Narrow",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "url": "https://adaptivecards.io/"
-      },
-      "type": "Container",
-      "roundedCorners": true,
-      "showBorder": true
-    },
-    {
-      "items": [
-        {
-          "columns": [
-            {
-              "width": "auto",
-              "items": [
-                {
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/ResourceImage_2.png",
-                  "width": "56px",
-                  "height": "56px",
-                  "type": "Image",
-                  "altText": "Emma Jones Article",
-                  "style": "RoundedCorners"
-                }
-              ],
-              "type": "Column"
-            },
-            {
-              "width": "stretch",
-              "items": [
-                {
-                  "isSubtle": true,
-                  "size": "Small",
-                  "text": "Article · 5min",
-                  "wrap": true,
-                  "type": "TextBlock"
-                },
-                {
-                  "text": "Stay Healthy and Productive Working from Home",
-                  "weight": "Bolder",
-                  "wrap": true,
-                  "spacing": "None",
-                  "type": "TextBlock"
-                },
-                {
-                  "text": "Emma Jones",
-                  "wrap": true,
-                  "spacing": "None",
-                  "type": "TextBlock"
-                }
-              ],
-              "type": "Column"
-            }
-          ],
-          "type": "ColumnSet"
-        }
-      ],
-      "style": "emphasis",
-      "spacing": "Small",
-      "targetWidth": "AtLeast:Narrow",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "url": "https://adaptivecards.io/"
-      },
-      "type": "Container",
-      "roundedCorners": true,
-      "showBorder": true
-    },
-    {
-      "items": [
-        {
-          "columns": [
-            {
-              "width": "auto",
-              "items": [
-                {
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/ResourceImage_3.png",
-                  "width": "56px",
-                  "height": "56px",
-                  "type": "Image",
-                  "altText": "Insightia Course",
-                  "style": "RoundedCorners"
-                }
-              ],
-              "type": "Column"
-            },
-            {
-              "width": "stretch",
-              "items": [
-                {
-                  "isSubtle": true,
-                  "size": "Small",
-                  "text": "Course · 30min",
-                  "wrap": true,
-                  "type": "TextBlock"
-                },
-                {
-                  "text": "Productivity Mastery: How to Optimize Your Energy, Focus and Motivation",
-                  "weight": "Bolder",
-                  "wrap": true,
-                  "spacing": "None",
-                  "type": "TextBlock"
-                },
-                {
-                  "text": "Insightia",
-                  "wrap": true,
-                  "spacing": "None",
-                  "type": "TextBlock"
-                }
-              ],
-              "type": "Column"
-            }
-          ],
-          "type": "ColumnSet"
-        }
-      ],
-      "style": "emphasis",
-      "spacing": "Small",
-      "targetWidth": "AtLeast:Narrow",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "url": "https://adaptivecards.io/"
-      },
-      "type": "Container",
-      "roundedCorners": true,
-      "showBorder": true
-    },
-    {
-      "type": "Container",
-      "targetWidth": "VeryNarrow",
-      "items": [
-        {
-          "text": "Learn how to achieve balance in life and work.",
-          "wrap": true,
-          "type": "TextBlock"
+            "type": "TextBlock",
+            "text": "Credit limit details",
+            "wrap": true,
+            "size": "Large",
+            "weight": "Bolder"
         },
         {
-          "type": "Container",
-          "id": "content1",
-          "items": [
-            {
-              "type": "Container",
-              "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/ResourceImage_1_Horizontal.png",
-                "verticalAlignment": "Center",
-                "horizontalAlignment": "Center"
-              },
-              "bleed": true,
-              "minHeight": "128px",
-              "items": [
+            "type": "ColumnSet",
+            "columns": [
                 {
-                  "type": "TextBlock"
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "StellarEdge Outdoor Equipment",
+                            "wrap": true,
+                            "size": "Default",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "Approved",
+                            "size": "ExtraLarge",
+                            "style": "Good",
+                            "appearance": "Tint",
+                            "icon": "CheckmarkCircle",
+                            "horizontalAlignment": "Right"
+                        }
+                    ]
                 }
-              ],
-              "selectAction": {
-                "type": "Action.OpenUrl",
-                "url": "https://adaptivecards.io/"
-              }
-            },
-            {
-              "type": "ColumnSet",
-              "horizontalAlignment": "Center",
-              "columns": [
-                {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "ChevronLeft",
-                      "color": "Accent",
-                      "size": "xSmall",
-                      "horizontalAlignment": "Right",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content1", "content3"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center",
-                  "horizontalAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "style": "Filled",
-                      "size": "Small",
-                      "horizontalAlignment": "Center"
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "size": "Small",
-                      "horizontalAlignment": "Center",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content1", "content2"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "size": "Small",
-                      "horizontalAlignment": "Center",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content1", "content3"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "ChevronRight",
-                      "color": "Accent",
-                      "size": "xSmall",
-                      "horizontalAlignment": "Left",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content1", "content2"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                }
-              ]
-            },
-            {
-              "text": "Why You Should Take a Break from Screen Time and Enjoy Nature",
-              "weight": "Bolder",
-              "wrap": true,
-              "type": "TextBlock",
-              "horizontalAlignment": "Center"
-            },
-            {
-              "isSubtle": true,
-              "size": "Small",
-              "text": "Video · 12min",
-              "wrap": true,
-              "type": "TextBlock",
-              "spacing": "None",
-              "horizontalAlignment": "Center"
-            }
-          ]
+            ]
         },
         {
-          "type": "Container",
-          "id": "content2",
-          "items": [
-            {
-              "type": "Container",
-              "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/ResourceImage_2_Horizontal.png",
-                "verticalAlignment": "Center",
-                "horizontalAlignment": "Center"
-              },
-              "bleed": true,
-              "minHeight": "128px",
-              "items": [
+            "type": "ColumnSet",
+            "spacing": "ExtraLarge",
+            "columns": [
                 {
-                  "type": "TextBlock"
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Current Risk Class",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "CheckmarkCircle",
+                                            "style": "Filled",
+                                            "color": "Good",
+                                            "size": "xSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "E (Low Risk)",
+                                            "wrap": true,
+                                            "spacing": "None",
+                                            "size": "Small"
+                                        }
+                                    ],
+                                    "spacing": "ExtraSmall"
+                                }
+                            ],
+                            "spacing": "ExtraSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Requested by",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "spacing": "ExtraSmall",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-requestor.png",
+                                            "style": "Person",
+                                            "size": "Small",
+                                            "width": "20px"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Mark Fullbright",
+                                            "wrap": true,
+                                            "size": "Small"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ]
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "ExtraLarge"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Approvers",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver1.png",
+                                            "width": "20px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver2.png",
+                                            "width": "20px",
+                                            "style": "Person"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver3.png",
+                                            "width": "20px",
+                                            "style": "Person"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "spacing": "ExtraSmall"
+                        }
+                    ],
+                    "spacing": "ExtraLarge"
                 }
-              ],
-              "selectAction": {
-                "type": "Action.OpenUrl",
-                "url": "https://adaptivecards.io/"
-              }
-            },
-            {
-              "type": "ColumnSet",
-              "horizontalAlignment": "Center",
-              "columns": [
-                {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "ChevronLeft",
-                      "color": "Accent",
-                      "size": "xSmall",
-                      "horizontalAlignment": "Right",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content1", "content2"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center",
-                  "horizontalAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "size": "Small",
-                      "horizontalAlignment": "Center",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content1", "content2"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "style": "Filled",
-                      "size": "Small",
-                      "horizontalAlignment": "Center"
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "size": "Small",
-                      "horizontalAlignment": "Center",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content2", "content3"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "ChevronRight",
-                      "color": "Accent",
-                      "size": "xSmall",
-                      "horizontalAlignment": "Left",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content2", "content3"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                }
-              ]
-            },
-            {
-              "text": "Stay Healthy and Productive Working from Home",
-              "weight": "Bolder",
-              "wrap": true,
-              "type": "TextBlock",
-              "horizontalAlignment": "Center"
-            },
-            {
-              "isSubtle": true,
-              "size": "Small",
-              "text": "Article · 5min",
-              "wrap": true,
-              "type": "TextBlock",
-              "spacing": "None",
-              "horizontalAlignment": "Center"
-            }
-          ],
-          "isVisible": false
+            ]
         },
         {
-          "type": "Container",
-          "id": "content3",
-          "items": [
-            {
-              "type": "Container",
-              "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/list/assets/ResourceImage_3_Horizontal.png",
-                "verticalAlignment": "Center",
-                "horizontalAlignment": "Center"
-              },
-              "bleed": true,
-              "minHeight": "128px",
-              "items": [
+            "type": "TextBlock",
+            "text": "Current Credit Management Data",
+            "wrap": true,
+            "spacing": "ExtraLarge",
+            "size": "Small",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
                 {
-                  "type": "TextBlock"
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Current Credit Limit",
+                            "wrap": true,
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "50.000.000,00 USD",
+                            "wrap": true,
+                            "spacing": "ExtraSmall",
+                            "size": "Small",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Credit Exposure",
+                            "wrap": true,
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "34.184.180,40 USD",
+                            "wrap": true,
+                            "spacing": "ExtraSmall",
+                            "size": "Small",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Limit Utilization",
+                            "wrap": true,
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "68,4",
+                            "wrap": true,
+                            "spacing": "ExtraSmall",
+                            "size": "Small",
+                            "weight": "Bolder"
+                        }
+                    ]
                 }
-              ],
-              "selectAction": {
-                "type": "Action.OpenUrl",
-                "url": "https://adaptivecards.io/"
-              }
-            },
-            {
-              "type": "ColumnSet",
-              "horizontalAlignment": "Center",
-              "columns": [
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "spacing": "ExtraLarge",
+            "actions": [
                 {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "ChevronLeft",
-                      "color": "Accent",
-                      "size": "xSmall",
-                      "horizontalAlignment": "Right",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content2", "content3"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center",
-                  "horizontalAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "size": "Small",
-                      "horizontalAlignment": "Center",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content1", "content3"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "size": "Small",
-                      "horizontalAlignment": "Center",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content2", "content3"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CircleSmall",
-                      "color": "Accent",
-                      "style": "Filled",
-                      "size": "Small",
-                      "horizontalAlignment": "Center"
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "ChevronRight",
-                      "color": "Accent",
-                      "size": "xSmall",
-                      "horizontalAlignment": "Left",
-                      "selectAction": {
-                        "type": "Action.ToggleVisibility",
-                        "targetElements": ["content1", "content3"]
-                      }
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
+                    "type": "Action.ShowCard",
+                    "title": "Show graphical data",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                        "version": "1.5"
+                    },
+                    "style": "positive"
                 }
-              ]
-            },
-            {
-              "text": "Productivity Mastery: How to Optimize Your Energy, Focus, and Motivation",
-              "weight": "Bolder",
-              "wrap": true,
-              "type": "TextBlock",
-              "horizontalAlignment": "Center"
-            },
-            {
-              "isSubtle": true,
-              "size": "Small",
-              "text": "Course · 30min",
-              "wrap": true,
-              "type": "TextBlock",
-              "spacing": "None",
-              "horizontalAlignment": "Center"
-            }
-          ],
-          "isVisible": false
+            ]
         }
-      ]
-    },
-    {
-      "actions": [
-        {
-          "url": "https://adaptivecards.io/",
-          "title": "Open Zenergy",
-          "type": "Action.OpenUrl"
-        },
-        {
-          "title": "Remind me later",
-          "iconUrl": "icon:Clock",
-          "type": "Action.Submit"
-        }
-      ],
-      "spacing": "Medium",
-      "type": "ActionSet"
-    }
-  ]
+    ]
 }
