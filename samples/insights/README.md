@@ -1,12 +1,12 @@
-# List
+# Insights
 
 ## Summary
 
-The <b>List Card</b> is your digital curator, elegantly organizing a personalized selection of content. From insightful <b>articles</b> to engaging <b>videos</b> and comprehensive <b>courses</b>, this card spotlights the essentials. Simply <b>click</b> to delve into a topic or expand your horizon within the app.
+The <b>Insights Card</b> enhances user engagement by allowing them to <b>access additional information on demand</b>. Initially displaying key details, it features a button that reveals more in-depth data when clicked. This card is perfect for providing a <b>streamlined and informative user experience</b> without overwhelming the user at first glance.
 
-_bot-sent_ card example:
+_user-sent_ card example:
 
-![picture alt](assets/ListCard.png)
+![picture alt](assets/insightsCard.png)
 
 ## Compatibility
 
@@ -16,13 +16,13 @@ _bot-sent_ card example:
 
 Solution|Author(s)
 --------|---------
-Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+Insights | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0| April 11, 2024 | Initial release
+1.0| January 28, 2024 | Initial release
 
 ### Disclaimer
 
@@ -78,7 +78,7 @@ If you wish to use icons in your button, you can choose from thousands of option
 <b>Note:</b> For other icons, use the color #818181 to ensure readability in both light and dark modes, or choose a color that you have verified looks good. Icons should fit edge-to-edge within a 16x16 square. Save them as transparent PNGs at 2x size for optimal resolution across different endpoints.
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/listCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec, and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
