@@ -1,12 +1,12 @@
-# List
+# Insights
 
 ## Summary
 
-The <b>List Card</b> is your digital curator, elegantly organizing a personalized selection of content. From insightful <b>articles</b> to engaging <b>videos</b> and comprehensive <b>courses</b>, this card spotlights the essentials. Simply <b>click</b> to delve into a topic or expand your horizon within the app.
+The <b>Insights Card</b> is your digital curator, elegantly organizing a personalized selection of content. From insightful <b>articles</b> to engaging <b>videos</b> and comprehensive <b>courses</b>, this card spotlights the essentials. Simply <b>click</b> to delve into a topic or expand your horizon within the app.
 
 _bot-sent_ card example:
 
-![picture alt](assets/ListCard.png)
+![picture alt](assets/insightsCard.png)
 
 ## Compatibility
 
