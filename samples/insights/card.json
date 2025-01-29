@@ -297,71 +297,22 @@
                                 "columns": [
                                     {
                                         "type": "Column",
-                                        "width": 2,
+                                        "width": 1,
                                         "items": [
                                             {
-                                                "type": "Chart.Line",
-                                                "title": "Sample",
-                                                "xAxisTitle": "Days",
-                                                "yAxisTitle": "Sales",
+                                                "type": "Chart.Donut",
                                                 "data": [
                                                     {
-                                                        "legend": "Outlook",
-                                                        "values": [
-                                                            {
-                                                                "x": "2023-05-01",
-                                                                "y": 31
-                                                            },
-                                                            {
-                                                                "x": "2023-05-02",
-                                                                "y": 72
-                                                            },
-                                                            {
-                                                                "x": "2023-05-03",
-                                                                "y": 23
-                                                            },
-                                                            {
-                                                                "x": "2023-05-04",
-                                                                "y": 21
-                                                            },
-                                                            {
-                                                                "x": "2023-05-05",
-                                                                "y": 39
-                                                            },
-                                                            {
-                                                                "x": "2023-05-06",
-                                                                "y": 69
-                                                            }
-                                                        ]
+                                                        "legend": "Limit",
+                                                        "value": 100
                                                     },
                                                     {
-                                                        "legend": "Teams",
-                                                        "values": [
-                                                            {
-                                                                "x": "2023-05-01",
-                                                                "y": 9
-                                                            },
-                                                            {
-                                                                "x": "2023-05-02",
-                                                                "y": 15
-                                                            },
-                                                            {
-                                                                "x": "2023-05-03",
-                                                                "y": 84
-                                                            },
-                                                            {
-                                                                "x": "2023-05-04",
-                                                                "y": 31
-                                                            },
-                                                            {
-                                                                "x": "2023-05-05",
-                                                                "y": 55
-                                                            },
-                                                            {
-                                                                "x": "2023-05-06",
-                                                                "y": 5
-                                                            }
-                                                        ]
+                                                        "legend": "Exposure",
+                                                        "value": 700
+                                                    },
+                                                    {
+                                                        "legend": "Utilization",
+                                                        "value": 1600
                                                     }
                                                 ]
                                             },
@@ -370,30 +321,8 @@
                                                 "actions": [
                                                     {
                                                         "type": "Action.OpenUrl",
-                                                        "title": "Open analyzer"
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "Column",
-                                        "width": 1,
-                                        "items": [
-                                            {
-                                                "type": "Chart.Donut",
-                                                "data": [
-                                                    {
-                                                        "legend": "Outlook",
-                                                        "value": 100
-                                                    },
-                                                    {
-                                                        "legend": "Teams",
-                                                        "value": 700
-                                                    },
-                                                    {
-                                                        "legend": "Office",
-                                                        "value": 1600
+                                                        "title": "Open analyzer",
+                                                        "url": "https://www.microsoft.com/en-us/"
                                                     }
                                                 ]
                                             }
