@@ -231,6 +231,144 @@
             "targetWidth": "AtLeast:Narrow"
         },
         {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Current Risk Class",
+                    "wrap": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "color": "Default"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "CheckmarkCircle",
+                                    "size": "xSmall",
+                                    "style": "Filled",
+                                    "color": "Good"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "spacing": "ExtraSmall",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "E (Low Risk)",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "color": "Default"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Requested by",
+                    "wrap": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "color": "Default"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-requestor.png",
+                                    "width": "20px",
+                                    "style": "Person"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Mark Fullbright",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "color": "Default"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Approvers",
+                    "wrap": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "color": "Default"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver1.png",
+                                    "width": "20px",
+                                    "style": "Person"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "spacing": "ExtraSmall",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "width": "20px",
+                                    "style": "Person",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver2.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "spacing": "ExtraSmall",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver3.png",
+                                    "width": "20px"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                }
+            ],
+            "targetWidth": "VeryNarrow"
+        },
+        {
             "type": "TextBlock",
             "text": "Current Credit Management Data",
             "wrap": true,
