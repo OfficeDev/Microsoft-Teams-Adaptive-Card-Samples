@@ -226,7 +226,7 @@
                         },
                         {
                             "type": "TextBlock",
-                            "text": "50.000.000,00 USD",
+                            "text": "50.000.000 USD",
                             "wrap": true,
                             "spacing": "ExtraSmall",
                             "size": "Small",
@@ -248,7 +248,7 @@
                         },
                         {
                             "type": "TextBlock",
-                            "text": "34.184.180,40 USD",
+                            "text": "34.184 USD",
                             "wrap": true,
                             "spacing": "ExtraSmall",
                             "size": "Small",
