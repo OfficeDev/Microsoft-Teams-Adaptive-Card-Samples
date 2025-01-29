@@ -6,7 +6,7 @@ The <b>Insights Card</b> enhances user engagement by allowing them to <b>access 
 
 _user-sent_ card example:
 
-![picture alt](assets/insightsCard.png)
+![picture alt](assets/InsightsRevealCard.png)
 
 ## Compatibility
 
