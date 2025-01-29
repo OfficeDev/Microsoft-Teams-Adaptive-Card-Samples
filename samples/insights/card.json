@@ -21,6 +21,33 @@
                             "type": "TextBlock",
                             "text": "StellarEdge Outdoor Equipment",
                             "wrap": true,
+                            "weight": "Bolder",
+                            "size": "Default"
+                        },
+                        {
+                            "type": "Badge",
+                            "text": "Approved",
+                            "size": "ExtraLarge",
+                            "style": "Good",
+                            "appearance": "Tint",
+                            "icon": "CheckmarkCircle"
+                        }
+                    ]
+                }
+            ],
+            "targetWidth": "VeryNarrow"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "StellarEdge Outdoor Equipment",
+                            "wrap": true,
                             "size": "Default",
                             "weight": "Bolder"
                         }
@@ -41,7 +68,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "targetWidth": "AtLeast:Narrow"
         },
         {
             "type": "ColumnSet",
