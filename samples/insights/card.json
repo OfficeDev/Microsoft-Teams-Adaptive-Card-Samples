@@ -227,7 +227,8 @@
                     ],
                     "spacing": "ExtraLarge"
                 }
-            ]
+            ],
+            "targetWidth": "AtLeast:Narrow"
         },
         {
             "type": "TextBlock",
@@ -236,6 +237,85 @@
             "spacing": "ExtraLarge",
             "size": "Small",
             "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "targetWidth": "AtLeast:VeryNarrow",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Current Credit Limit",
+                                                    "wrap": true,
+                                                    "size": "Small",
+                                                    "color": "Default",
+                                                    "isSubtle": true
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "50.000.000 USD",
+                                                    "wrap": true,
+                                                    "spacing": "ExtraSmall",
+                                                    "size": "Small",
+                                                    "weight": "Bolder",
+                                                    "color": "Default"
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Credit Exposure",
+                                                    "wrap": true,
+                                                    "size": "Small",
+                                                    "color": "Default",
+                                                    "isSubtle": true
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "34.184 USD",
+                                                    "wrap": true,
+                                                    "spacing": "ExtraSmall",
+                                                    "weight": "Bolder",
+                                                    "size": "Small"
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Limit Utilization",
+                                                    "wrap": true,
+                                                    "size": "Small",
+                                                    "color": "Default",
+                                                    "isSubtle": true
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "68,4",
+                                                    "wrap": true,
+                                                    "spacing": "ExtraSmall",
+                                                    "size": "Small",
+                                                    "weight": "Bolder",
+                                                    "color": "Default"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "targetWidth": "VeryNarrow"
         },
         {
             "type": "ColumnSet",
@@ -306,7 +386,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "targetWidth": "AtLeast:Narrow"
         },
         {
             "type": "ActionSet",
