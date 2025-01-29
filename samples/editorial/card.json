@@ -100,7 +100,11 @@
       "name": "ArrowCircleRight",
       "size": "Medium",
       "color": "Good",
-      "style": "Filled"
+      "style": "Filled",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples"
+      }
     }
   ]
 }
