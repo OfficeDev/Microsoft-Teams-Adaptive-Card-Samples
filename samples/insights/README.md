@@ -60,15 +60,15 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Update General Content 
 
-Update the title, company name and badge style to suit your needs, as well as other data fields.
+Customize the title, company name, badge style, and other data fields to match your requirements.
 
 #### 3) Link to Associated Images
 
-Update icons and/or link to appropriate images as needed.
+Update icons and link to relevant images as needed.
 
 #### 4) Set up Graph Data
 
-Add in code for the charts and graphs section, or replace with other content.
+Insert code for the charts and graphs section, or replace it with other content.
 
 #### 5) Update Button Copy and Actions
 Customize button text and add or remove actions to suit your needs. <br>
