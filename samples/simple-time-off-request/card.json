@@ -55,6 +55,47 @@
             },
             "minHeight": "120px",
             "targetWidth": "VeryNarrow"
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "choices": [
+                {
+                    "title": "Vacation",
+                    "value": "value1"
+                },
+                {
+                    "title": "Sick leave",
+                    "value": "value2"
+                },
+                {
+                    "title": "Sick day"
+                },
+                {
+                    "title": "Family medical leave"
+                }
+            ],
+            "placeholder": "Enter your reason",
+            "label": "Reason for leave",
+            "value": "Vacation",
+            "isRequired": true,
+            "errorMessage": "Please enter a reason"
+        },
+        {
+            "type": "Input.Date",
+            "label": "Date",
+            "isRequired": true,
+            "errorMessage": "Please enter your date"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Submit",
+                    "style": "positive",
+                    "tooltip": "Submit form"
+                }
+            ]
         }
     ]
 }
