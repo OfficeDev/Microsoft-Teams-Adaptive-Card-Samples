@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Simple Time Off Request Card</b> is designed for <b>ease and efficiency</b>, allowing users to quickly submit their time off requests. Its <b>minimalistic design</a> ensures a clean and user-friendly experience while offering opportunities for visual customization.
+The <b>Simple Time Off Request Card</b> is designed for <b>ease and efficiency</b>, allowing users to quickly submit their time off requests. Its <b>minimalistic design</b> ensures a clean and user-friendly experience while offering opportunities for visual customization.
 
 Card example:
 
