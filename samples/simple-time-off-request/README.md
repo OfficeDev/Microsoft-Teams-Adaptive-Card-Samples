@@ -34,7 +34,7 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 ![Layouts](assets/layouts.png)
 
-<br/><br/>
+<br/>
 
 ## 1) 👩‍🎨 Personalize This Card
 
@@ -61,14 +61,14 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 Add the image URL and adjust the background image position for different responsive layouts. Update the overlaid text as needed, ensuring the font color remains ```Dark``` for readability in both light and dark themes.
 
-#### 3) Update Video Information
+#### 3) Update Input Fields
 
-Modify the details or statistics as desired.
+Modify the input fields and values to capture the required data.
 
 #### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+
 
 <br>
 
