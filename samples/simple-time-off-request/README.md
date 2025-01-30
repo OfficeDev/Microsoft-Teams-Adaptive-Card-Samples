@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Simple Time Off Request Card</b> lorem ipsum
+The <b>Simple Time Off Request Card</b> is designed for <b>ease and efficiency</b>, allowing users to quickly submit their time off requests. Featuring a visually appealing hero image with overlaid text, this card includes two straightforward input fields for entering the reason for time off and the desired date. Its <b>minimalistic design</a> ensures a clean and user-friendly experience while offering opportunities for branding and visual customization.
 
 Card example:
 
