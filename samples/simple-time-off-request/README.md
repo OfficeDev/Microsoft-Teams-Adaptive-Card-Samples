@@ -32,7 +32,7 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![Layouts](assets/card-layouts.png)
+![Layouts](assets/layouts.png)
 
 <br/><br/>
 
@@ -44,8 +44,6 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
 
 _To create a "full width" card, add the following code to the JSON._ <br>
 
@@ -59,13 +57,9 @@ _To create a "full width" card, add the following code to the JSON._ <br>
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
-#### 2) Replace the Hero Image
+#### 2) Replace the Hero Image and Text Overlay
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
-
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+Add the image URL and adjust the background image position for different responsive layouts. Update the overlaid text as needed, ensuring the font color remains ```Dark``` for readability in both light and dark themes.
 
 #### 3) Update Video Information
 
