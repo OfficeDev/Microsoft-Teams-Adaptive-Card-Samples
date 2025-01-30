@@ -75,7 +75,6 @@ If you wish to use icons in your button, you can choose from thousands of option
 <br> <br>
 
 
-<br>
 
 ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec, and verify the layouts before coding.<br />
 
@@ -83,7 +82,7 @@ If you wish to use icons in your button, you can choose from thousands of option
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
 </a>
 
-<br>
+<br><br>
 
 ## 2) 🚗 Test Your Card
 
