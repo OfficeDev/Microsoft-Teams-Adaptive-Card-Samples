@@ -58,17 +58,17 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
  <br>
 
-#### 2) Replace the Hero Images
+#### 2) Update General Content 
 
-If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image small and square to leave ample room for the copy. Add a "Play" button graphic on top of video representations (included in assets folder). <b>Note:</b> You can add a radius to the image in the Designer to create slightly rounded edges.
+Update the title, company name and badge style to suit your needs, as well as other data fields.
 
-#### 3) Link to Associated Content
+#### 3) Link to Associated Images
 
-Point to the appropriate URL from the content blocks.
+Update icons and/or link to appropriate images as needed.
 
-#### 4) Update Description Copy and Set Truncation
+#### 4) Set up Graph Data
 
-Keep the descriptions small if possible, and set the maximum line truncation if needed to work for the card content and layout.  
+Add in code for the charts and graphs section, or replace with other content.
 
 #### 5) Update Button Copy and Actions
 Customize button text and add or remove actions to suit your needs. <br>
