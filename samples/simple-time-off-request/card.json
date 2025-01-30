@@ -61,30 +61,34 @@
             "choices": [
                 {
                     "title": "Vacation",
-                    "value": "value1"
+                    "value": "Vacation"
                 },
                 {
                     "title": "Sick leave",
-                    "value": "value2"
+                    "value": "Sick Leave"
                 },
                 {
-                    "title": "Sick day"
+                    "title": "Sick day",
+                    "value": "Sick day"
                 },
                 {
-                    "title": "Family medical leave"
+                    "title": "Family medical leave",
+                    "value": "Family medical leave"
                 }
             ],
             "placeholder": "Enter your reason",
             "label": "Reason for leave",
             "value": "Vacation",
             "isRequired": true,
-            "errorMessage": "Please enter a reason"
+            "errorMessage": "Please enter a reason",
+            "id": "Reason"
         },
         {
             "type": "Input.Date",
             "label": "Date",
             "isRequired": true,
-            "errorMessage": "Please enter your date"
+            "errorMessage": "Please enter your date",
+            "id": "Date"
         },
         {
             "type": "ActionSet",
