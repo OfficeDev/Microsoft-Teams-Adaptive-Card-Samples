@@ -95,7 +95,8 @@
                     "style": "positive",
                     "tooltip": "Submit form"
                 }
-            ]
+            ],
+            "spacing": "ExtraLarge"
         }
     ]
 }
