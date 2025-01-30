@@ -4,7 +4,7 @@
 
 The <b>Simple Time Off Request Card</b> lorem ipsum
 
-_user-sent_ card example:
+Card example:
 
 ![picture of the extension in action](assets/simple-time-off-Card.png)
 
