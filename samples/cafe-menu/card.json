@@ -44,7 +44,6 @@
                     },
                     {
                       "type": "Container",
-                      "width": "stretch",
                       "backgroundImage": {
                         "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-SimpleTimeOffRequest/samples/simple-time-off-request/assets/colorSpacer.png",
                         "fillMode": "RepeatHorizontally",
@@ -517,7 +516,6 @@
                 },
                 {
                   "type": "Container",
-                  "width": "stretch",
                   "backgroundImage": {
                     "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-SimpleTimeOffRequest/samples/simple-time-off-request/assets/colorSpacer.png",
                     "fillMode": "RepeatHorizontally",
