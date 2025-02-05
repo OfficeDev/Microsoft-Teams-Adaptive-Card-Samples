@@ -535,6 +535,54 @@
                         }
                     ],
                     "spacing": "Large"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Food Stations",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "size": "Large"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "Clock",
+                                    "size": "xxSmall",
+                                    "spacing": "ExtraSmall"
+                                }
+                            ],
+                            "spacing": "ExtraSmall"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "spacing": "ExtraSmall",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Open Mon-Fri 8:00AM to 5:00PM",
+                                    "wrap": true,
+                                    "spacing": "ExtraSmall",
+                                    "size": "Small",
+                                    "color": "Default",
+                                    "isSubtle": true,
+                                    "weight": "Bolder"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "- Pranzetto: Curated sandwiches on house-made focaccia, organic produce, and more\n\n- Eat Local: Rotating local brands such as Kalia, Maya’s Mexican and Facing East\n\n- Diner: All-day breakfast and lunch \n\n- Grilled: Made-to-order grilled proteins and sides\n\n- Mediterranean: An array of grilled meats, falafel wraps, mezze bowls, and fresh salads\n\n- Street Food: Ready-to-eat bites including sandwiches, tacos, and more\n\n- World Flavors: Gourmet cuisines from around the globe \n\n- Sprout: Self-service salad bar featuring a variety of toppings and gourmet soups\n\n- Oma Bap: Homestyle Korean fried chicken and bibimbap\n\n- Flora: Rotating vegan and vegetarian dishes",
+                    "wrap": true
                 }
             ],
             "spacing": "Large",
