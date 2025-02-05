@@ -54,7 +54,8 @@
         "horizontalAlignment": "Center"
       },
       "minHeight": "120px",
-      "targetWidth": "VeryNarrow"
+      "targetWidth": "VeryNarrow",
+      "roundedCorners": true
     },
     {
       "type": "Input.ChoiceSet",
