@@ -580,11 +580,145 @@
                     "spacing": "ExtraSmall"
                 },
                 {
-                    "type": "TextBlock",
-                    "text": "￭ Pranzetto: Curated sandwiches on house-made focaccia, organic produce, and more\n\n￭ Eat Local: Rotating local brands such as Kalia, Maya’s Mexican and Facing East\n\n￭ Diner: All-day breakfast and lunch \n\n￭ Grilled: Made-to-order grilled proteins and sides\n\n￭ Mediterranean: An array of grilled meats, falafel wraps, mezze bowls, and fresh salads\n\n￭ Street Food: Ready-to-eat bites including sandwiches, tacos, and more\n\n￭ World Flavors: Gourmet cuisines from around the globe \n\n￭ Sprout: Self-service salad bar featuring a variety of toppings and gourmet soups\n\n￭ Oma Bap: Homestyle Korean fried chicken and bibimbap\n\n￭ Flora: Rotating vegan and vegetarian dishes",
-                    "wrap": true,
-                    "spacing": "Large"
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Pranzetto",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": Curated sandwiches on house-made focaccia, organic produce, and more"
                 }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Eat Local",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": Rotating local brands such as Kalia, Maya’s Mexican and Facing East"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Diner",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": All-day breakfast and lunch"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Grilled",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": Made-to-order grilled proteins and sides"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Mediterranean",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": An array of grilled meats, falafel wraps, mezze bowls, and fresh salads"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Street Food",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": Ready-to-eat bites including sandwiches, tacos, and more"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ World Flavors",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": Gourmet cuisines from around the globe"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Sprout",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": Self-service salad bar featuring a variety of toppings and gourmet soups"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Oma Bap",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": Homestyle Korean fried chicken and bibimbap"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "￭ Flora",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": ": Rotating vegan and vegetarian dishes"
+                }
+            ]
+        }
             ],
             "spacing": "Large",
             "isVisible": false
