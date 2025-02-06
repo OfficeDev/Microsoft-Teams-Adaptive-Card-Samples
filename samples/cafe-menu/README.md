@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Cafe Menu Card</b> prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.
+Enhance your cafeteria experience with the <b>Cafe Menu Card</b>. Featuring two intuitive tabs, the Menu tab showcases daily specials with images, descriptions, and prices, making it easy to decide what to order. The Info tab provides the cafeteria's hours and a comprehensive list of all food stations. Perfect for those who appreciate <b>rich food imagery</b> and need <b>quick access to information and ordering options</b>.
 
 
 ![picture of the extension in action](assets/cafeMenu_card.png)
