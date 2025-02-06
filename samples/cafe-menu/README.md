@@ -57,17 +57,21 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
-Adjust the sizing and radius as desired for each responsive option.
+Save the image as a transparent PNG at 2x size for good resolution across endpoints.
+Adjust the sizing and radius for each responsive option.
 
-#### 3) Update overlay text
+#### 3) Update Overlay Text
 
-Modify the text overlay that sits on top of the hero image.
+Modify the text overlay on top of the hero image.
 
-#### 4) Update Button Copy and Actions
+#### 4) Update Menu Specials
 
-Customize button text and add or remove actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+Add URLs for images and update dish details and pricing.
+Configure the action icon (chevron) to link to the desired location.
+
+#### 5) Update Info Details
+
+Update the cafe hours and options.
 
 <br>
 
