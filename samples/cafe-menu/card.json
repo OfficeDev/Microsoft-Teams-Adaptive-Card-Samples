@@ -20,11 +20,33 @@
                     "color": "Light"
                 }
             ],
-            "verticalContentAlignment": "Bottom"
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "AtLeast:Narrow"
         },
         {
             "type": "Container",
             "items": [
+                {
+                    "type": "Container",
+                    "backgroundImage": {
+                        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/hero.png",
+                        "verticalAlignment": "Center"
+                    },
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Cafeteria 24",
+                            "wrap": true,
+                            "size": "ExtraLarge",
+                            "color": "Light",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Bottom",
+                    "minHeight": "120px",
+                    "roundedCorners": true,
+                    "targetWidth": "VeryNarrow"
+                },
                 {
                     "type": "Container",
                     "items": [
@@ -580,145 +602,145 @@
                     "spacing": "ExtraSmall"
                 },
                 {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Pranzetto",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Pranzetto",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": Curated sandwiches on house-made focaccia, organic produce, and more"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": Curated sandwiches on house-made focaccia, organic produce, and more"
-                }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Eat Local",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Eat Local",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": Rotating local brands such as Kalia, Maya’s Mexican and Facing East"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": Rotating local brands such as Kalia, Maya’s Mexican and Facing East"
-                }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Diner",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Diner",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": All-day breakfast and lunch"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": All-day breakfast and lunch"
-                }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Grilled",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Grilled",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": Made-to-order grilled proteins and sides"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": Made-to-order grilled proteins and sides"
-                }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Mediterranean",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Mediterranean",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": An array of grilled meats, falafel wraps, mezze bowls, and fresh salads"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": An array of grilled meats, falafel wraps, mezze bowls, and fresh salads"
-                }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Street Food",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Street Food",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": Ready-to-eat bites including sandwiches, tacos, and more"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": Ready-to-eat bites including sandwiches, tacos, and more"
-                }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ World Flavors",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ World Flavors",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": Gourmet cuisines from around the globe"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": Gourmet cuisines from around the globe"
-                }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Sprout",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Sprout",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": Self-service salad bar featuring a variety of toppings and gourmet soups"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": Self-service salad bar featuring a variety of toppings and gourmet soups"
-                }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Oma Bap",
-                    "weight": "Bolder"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Oma Bap",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": Homestyle Korean fried chicken and bibimbap"
+                        }
+                    ]
                 },
                 {
-                    "type": "TextRun",
-                    "text": ": Homestyle Korean fried chicken and bibimbap"
+                    "type": "RichTextBlock",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "￭ Flora",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": ": Rotating vegan and vegetarian dishes"
+                        }
+                    ]
                 }
-            ]
-        },
-        {
-            "type": "RichTextBlock",
-            "inlines": [
-                {
-                    "type": "TextRun",
-                    "text": "￭ Flora",
-                    "weight": "Bolder"
-                },
-                {
-                    "type": "TextRun",
-                    "text": ": Rotating vegan and vegetarian dishes"
-                }
-            ]
-        }
             ],
             "spacing": "Large",
             "isVisible": false
