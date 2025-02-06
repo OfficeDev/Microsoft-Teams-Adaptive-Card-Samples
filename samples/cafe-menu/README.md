@@ -57,15 +57,12 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you’re creating an image save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+Adjust the sizing and radius as desired for each responsive option.
 
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+#### 3) Update overlay text
 
-#### 3) Update Video Information
-
-Modify the details or statistics as desired.
+Modify the text overlay that sits on top of the hero image.
 
 #### 4) Update Button Copy and Actions
 
