@@ -37,11 +37,36 @@
             "minHeight": "225px",
             "items": [
                 {
-                    "type": "TextBlock",
-                    "text": "DESIGN TALK SERIES",
-                    "wrap": true,
-                    "weight": "Bolder",
-                    "color": "Dark"
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "8px"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "DESIGN TALK SERIES",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+                                    "color": "Dark"
+                                }
+                            ],
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch"
+                        }
+                    ]
                 }
             ],
             "verticalContentAlignment": "Bottom",
@@ -57,11 +82,37 @@
             "minHeight": "180px",
             "items": [
                 {
-                    "type": "TextBlock",
-                    "text": "DESIGN TALK SERIES",
-                    "wrap": true,
-                    "weight": "Bolder",
-                    "color": "Dark"
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "8px"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "DESIGN TALK SERIES",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+                                    "color": "Dark",
+                                    "spacing": "None"
+                                }
+                            ],
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch"
+                        }
+                    ]
                 }
             ],
             "verticalContentAlignment": "Bottom",
