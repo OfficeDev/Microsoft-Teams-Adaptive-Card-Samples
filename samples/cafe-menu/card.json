@@ -1,0 +1,744 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "roundedCorners": true,
+      "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/hero.png"
+      },
+      "minHeight": "160px",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Cafeteria 24",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "color": "Light"
+        }
+      ],
+      "verticalContentAlignment": "Bottom",
+      "targetWidth": "AtLeast:Narrow"
+    },
+    {
+      "type": "Container",
+      "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/hero.png",
+        "verticalAlignment": "Center"
+      },
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Cafeteria 24",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "color": "Light",
+          "weight": "Bolder"
+        }
+      ],
+      "verticalContentAlignment": "Bottom",
+      "minHeight": "120px",
+      "roundedCorners": true,
+      "targetWidth": "VeryNarrow"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Container",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Menu",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "horizontalAlignment": "Center"
+                    },
+                    {
+                      "type": "Container",
+                      "backgroundImage": {
+                        "fillMode": "RepeatHorizontally",
+                        "verticalAlignment": "Center",
+                        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/tabline.png"
+                      },
+                      "minHeight": "3px",
+                      "style": "default",
+                      "spacing": "None"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Info",
+                      "wrap": true,
+                      "horizontalAlignment": "Center"
+                    }
+                  ],
+                  "selectAction": {
+                    "type": "Action.ToggleVisibility",
+                    "targetElements": ["menu", "info"]
+                  }
+                }
+              ],
+              "spacing": "Large"
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "Today's Specials",
+          "wrap": true,
+          "size": "Small",
+          "weight": "Bolder",
+          "isSubtle": true,
+          "spacing": "Medium"
+        },
+        {
+          "type": "Container",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "80px",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_1.png",
+                      "style": "RoundedCorners",
+                      "width": "80px",
+                      "height": "80px"
+                    }
+                  ],
+                  "minHeight": "80px"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Korean Fried Chicken",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Boneless Korean gochujhang or sweet garlic fried chicken over your choice of rice.",
+                      "wrap": true,
+                      "spacing": "None"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "• Organic",
+                      "wrap": true,
+                      "spacing": "None"
+                    },
+                    {
+                      "type": "RichTextBlock",
+                      "inlines": [
+                        {
+                          "type": "TextRun",
+                          "text": "• Farm to table - "
+                        },
+                        {
+                          "type": "TextRun",
+                          "text": "Harvest Moon Farm",
+                          "italic": true,
+                          "color": "Accent"
+                        }
+                      ],
+                      "spacing": "None"
+                    },
+                    {
+                      "type": "RichTextBlock",
+                      "inlines": [
+                        {
+                          "type": "TextRun",
+                          "text": "$12.00",
+                          "color": "Attention",
+                          "strikethrough": true
+                        },
+                        {
+                          "type": "TextRun",
+                          "text": "  $10.99",
+                          "isSubtle": true
+                        }
+                      ],
+                      "spacing": "None"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "size": "Small"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center",
+                  "spacing": "ExtraSmall"
+                }
+              ],
+              "targetWidth": "AtLeast:Narrow"
+            },
+            {
+              "type": "Container",
+              "spacing": "None",
+              "targetWidth": "VeryNarrow",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_1.png",
+                  "width": "64px",
+                  "height": "64px",
+                  "style": "RoundedCorners"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Korean Fried Chicken",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "spacing": "Small"
+                },
+                {
+                  "type": "RichTextBlock",
+                  "inlines": [
+                    {
+                      "type": "TextRun",
+                      "text": "$12.00",
+                      "color": "Attention",
+                      "strikethrough": true
+                    },
+                    {
+                      "type": "TextRun",
+                      "text": "  $10.99",
+                      "isSubtle": true
+                    }
+                  ],
+                  "spacing": "None"
+                }
+              ],
+              "horizontalAlignment": "Center"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Container",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "80px",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_2.png",
+                      "style": "RoundedCorners",
+                      "width": "80px",
+                      "height": "80px"
+                    }
+                  ],
+                  "minHeight": "80px"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Bibimbap",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Korean rice bowl with your choice of protein, vegetable toppings, egg and your choice of sauce.",
+                      "wrap": true,
+                      "spacing": "None"
+                    },
+                    {
+                      "type": "RichTextBlock",
+                      "inlines": [
+                        {
+                          "type": "TextRun",
+                          "text": "$13.00",
+                          "color": "Attention",
+                          "strikethrough": true
+                        },
+                        {
+                          "type": "TextRun",
+                          "text": "  $12.00",
+                          "isSubtle": true
+                        }
+                      ],
+                      "spacing": "None"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "size": "Small"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center",
+                  "spacing": "ExtraSmall"
+                }
+              ],
+              "targetWidth": "AtLeast:Narrow"
+            },
+            {
+              "type": "Container",
+              "spacing": "None",
+              "targetWidth": "VeryNarrow",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_2.png",
+                  "width": "64px",
+                  "height": "64px",
+                  "style": "RoundedCorners"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Bibimbap",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "spacing": "Small"
+                },
+                {
+                  "type": "RichTextBlock",
+                  "inlines": [
+                    {
+                      "type": "TextRun",
+                      "text": "$13.00",
+                      "color": "Attention",
+                      "strikethrough": true
+                    },
+                    {
+                      "type": "TextRun",
+                      "text": "  $12.00",
+                      "isSubtle": true
+                    }
+                  ],
+                  "spacing": "None"
+                }
+              ],
+              "horizontalAlignment": "Center"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Container",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "80px",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_3.png",
+                      "style": "RoundedCorners",
+                      "width": "80px",
+                      "height": "80px"
+                    }
+                  ],
+                  "minHeight": "80px"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Japchae Noodle Bowl",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Vermicelli noodles pan fried with a variety of vegetables with a sweet soy sauce.",
+                      "wrap": true,
+                      "spacing": "None"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "• Vegan",
+                      "wrap": true,
+                      "spacing": "None"
+                    },
+                    {
+                      "type": "RichTextBlock",
+                      "inlines": [
+                        {
+                          "type": "TextRun",
+                          "text": "• Local made - "
+                        },
+                        {
+                          "type": "TextRun",
+                          "text": "Hikari Ramen House",
+                          "italic": true,
+                          "color": "Accent"
+                        }
+                      ],
+                      "spacing": "None"
+                    },
+                    {
+                      "type": "RichTextBlock",
+                      "inlines": [
+                        {
+                          "type": "TextRun",
+                          "text": "$14.00",
+                          "color": "Attention",
+                          "strikethrough": true
+                        },
+                        {
+                          "type": "TextRun",
+                          "text": "  $11.99",
+                          "isSubtle": true
+                        }
+                      ],
+                      "spacing": "None"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Icon",
+                      "name": "ChevronRight",
+                      "size": "Small"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center",
+                  "spacing": "ExtraSmall"
+                }
+              ],
+              "targetWidth": "AtLeast:Narrow"
+            },
+            {
+              "type": "Container",
+              "spacing": "None",
+              "targetWidth": "VeryNarrow",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_3.png",
+                  "width": "64px",
+                  "height": "64px",
+                  "style": "RoundedCorners"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Japchae Noodle Bowl",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "spacing": "Small"
+                },
+                {
+                  "type": "RichTextBlock",
+                  "inlines": [
+                    {
+                      "type": "TextRun",
+                      "text": "$14.00",
+                      "color": "Attention",
+                      "strikethrough": true
+                    },
+                    {
+                      "type": "TextRun",
+                      "text": "  $11.99",
+                      "isSubtle": true
+                    }
+                  ],
+                  "spacing": "None"
+                }
+              ],
+              "horizontalAlignment": "Center"
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
+      "spacing": "Large",
+      "id": "menu"
+    },
+    {
+      "type": "Container",
+      "id": "info",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Menu",
+                  "wrap": true,
+                  "horizontalAlignment": "Center"
+                }
+              ],
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": ["menu", "info"]
+              }
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Info",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "horizontalAlignment": "Center"
+                },
+                {
+                  "type": "Container",
+                  "backgroundImage": {
+                    "fillMode": "RepeatHorizontally",
+                    "verticalAlignment": "Center",
+                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/tabline.png"
+                  },
+                  "minHeight": "3px",
+                  "style": "default",
+                  "spacing": "None"
+                }
+              ]
+            }
+          ],
+          "spacing": "Large"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Food Stations",
+          "wrap": true,
+          "weight": "Bolder",
+          "size": "Large"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Icon",
+                  "name": "Clock",
+                  "size": "xxSmall",
+                  "spacing": "ExtraSmall"
+                }
+              ],
+              "spacing": "ExtraSmall"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "spacing": "ExtraSmall",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Open Mon-Fri 8:00AM to 5:00PM",
+                  "wrap": true,
+                  "spacing": "ExtraSmall",
+                  "size": "Small",
+                  "color": "Default",
+                  "isSubtle": true,
+                  "weight": "Bolder"
+                }
+              ]
+            }
+          ],
+          "spacing": "ExtraSmall"
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Pranzetto",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": Curated sandwiches on house-made focaccia, organic produce, and more"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Eat Local",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": Rotating local brands such as Kalia, Maya’s Mexican and Facing East"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Diner",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": All-day breakfast and lunch"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Grilled",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": Made-to-order grilled proteins and sides"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Mediterranean",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": An array of grilled meats, falafel wraps, mezze bowls, and fresh salads"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Street Food",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": Ready-to-eat bites including sandwiches, tacos, and more"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ World Flavors",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": Gourmet cuisines from around the globe"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Sprout",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": Self-service salad bar featuring a variety of toppings and gourmet soups"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Oma Bap",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": Homestyle Korean fried chicken and bibimbap"
+            }
+          ]
+        },
+        {
+          "type": "RichTextBlock",
+          "inlines": [
+            {
+              "type": "TextRun",
+              "text": "￭ Flora",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextRun",
+              "text": ": Rotating vegan and vegetarian dishes"
+            }
+          ]
+        }
+      ],
+      "spacing": "Large",
+      "isVisible": false
+    }
+  ]
+}
