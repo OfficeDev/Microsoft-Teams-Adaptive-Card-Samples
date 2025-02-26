@@ -1,114 +1,114 @@
 {
-    "type": "AdaptiveCard",
-    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.5",
-    "body": [
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Time Off Request",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "Container",
+      "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-time-off-request/assets/hero.png"
+      },
+      "minHeight": "180px",
+      "roundedCorners": true,
+      "items": [
         {
-            "type": "TextBlock",
-            "text": "Time Off Request",
-            "wrap": true,
-            "size": "Large",
-            "weight": "Bolder"
-        },
-        {
-            "type": "Container",
-            "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-SimpleTimeOffRequest/samples/simple-time-off-request/assets/hero.png"
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "verticalContentAlignment": "Top",
+              "roundedCorners": true
             },
-            "minHeight": "180px",
-            "roundedCorners": true,
-            "items": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-time-off-request/assets/colorSpacer.png"
+              },
+              "items": [
                 {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "verticalContentAlignment": "Top",
-                            "roundedCorners": true
-                        },
-                        {
-                            "type": "Column",
-                            "width": "auto",
-                            "backgroundImage": {
-                                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-SimpleTimeOffRequest/samples/simple-time-off-request/assets/colorSpacer.png"
-                            },
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Take a Break",
-                                    "wrap": true,
-                                    "size": "ExtraLarge",
-                                    "weight": "Bolder",
-                                    "color": "Dark"
-                                }
-                            ],
-                            "roundedCorners": true,
-                            "spacing": "None"
-                        }
-                    ],
-                    "horizontalAlignment": "Right",
-                    "targetWidth": "AtLeast:Narrow",
-                    "spacing": "ExtraLarge"
+                  "type": "TextBlock",
+                  "text": "Take a Break",
+                  "wrap": true,
+                  "size": "ExtraLarge",
+                  "weight": "Bolder",
+                  "color": "Dark"
                 }
-            ],
-            "targetWidth": "AtLeast:Narrow"
-        },
-        {
-            "type": "Container",
-            "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-SimpleTimeOffRequest/samples/simple-time-off-request/assets/hero.png",
-                "horizontalAlignment": "Center"
-            },
-            "minHeight": "120px",
-            "targetWidth": "VeryNarrow",
-            "roundedCorners": true
-        },
-        {
-            "type": "Input.ChoiceSet",
-            "choices": [
-                {
-                    "title": "Vacation",
-                    "value": "Vacation"
-                },
-                {
-                    "title": "Sick leave",
-                    "value": "Sick Leave"
-                },
-                {
-                    "title": "Sick day",
-                    "value": "Sick day"
-                },
-                {
-                    "title": "Family medical leave",
-                    "value": "Family medical leave"
-                }
-            ],
-            "placeholder": "Enter your reason",
-            "label": "Reason for leave",
-            "value": "Vacation",
-            "isRequired": true,
-            "errorMessage": "Please enter a reason",
-            "id": "Reason"
-        },
-        {
-            "type": "Input.Date",
-            "label": "Date",
-            "isRequired": true,
-            "errorMessage": "Please enter your date",
-            "id": "Date"
-        },
-        {
-            "type": "ActionSet",
-            "actions": [
-                {
-                    "type": "Action.Submit",
-                    "title": "Submit",
-                    "style": "positive",
-                    "tooltip": "Submit form"
-                }
-            ],
-            "spacing": "ExtraLarge"
+              ],
+              "roundedCorners": true,
+              "spacing": "None"
+            }
+          ],
+          "horizontalAlignment": "Right",
+          "targetWidth": "AtLeast:Narrow",
+          "spacing": "ExtraLarge"
         }
-    ]
+      ],
+      "targetWidth": "AtLeast:Narrow"
+    },
+    {
+      "type": "Container",
+      "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-time-off-request/assets/hero.png",
+        "horizontalAlignment": "Center"
+      },
+      "minHeight": "120px",
+      "targetWidth": "VeryNarrow",
+      "roundedCorners": true
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "choices": [
+        {
+          "title": "Vacation",
+          "value": "Vacation"
+        },
+        {
+          "title": "Sick leave",
+          "value": "Sick Leave"
+        },
+        {
+          "title": "Sick day",
+          "value": "Sick day"
+        },
+        {
+          "title": "Family medical leave",
+          "value": "Family medical leave"
+        }
+      ],
+      "placeholder": "Enter your reason",
+      "label": "Reason for leave",
+      "value": "Vacation",
+      "isRequired": true,
+      "errorMessage": "Please enter a reason",
+      "id": "Reason"
+    },
+    {
+      "type": "Input.Date",
+      "label": "Date",
+      "isRequired": true,
+      "errorMessage": "Please enter your date",
+      "id": "Date"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Submit",
+          "style": "positive",
+          "tooltip": "Submit form"
+        }
+      ],
+      "spacing": "ExtraLarge"
+    }
+  ]
 }

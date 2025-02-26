@@ -13,7 +13,7 @@
     },
     {
       "type": "Image",
-      "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/blob/pabloas/set-2/samples/time-off-request/assets/hero-image-default.png?raw=true",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/time-off-request/assets/hero-image-default.png",
       "style": "RoundedCorners",
       "targetWidth": "AtMost:Standard",
       "altText": ""
@@ -21,7 +21,7 @@
     {
       "type": "Image",
       "targetWidth": "Wide",
-      "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/blob/pabloas/set-2/samples/time-off-request/assets/hero-wide.png?raw=true",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/time-off-request/assets/hero-wide.png",
       "style": "RoundedCorners",
       "altText": ""
     },
