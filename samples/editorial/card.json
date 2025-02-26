@@ -1,110 +1,190 @@
 {
-  "type": "AdaptiveCard",
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "backgroundImage": {
-    "horizontalAlignment": "Center"
-  },
-  "minHeight": "300px",
-  "body": [
-    {
-      "type": "Container",
-      "backgroundImage": {
-        "horizontalAlignment": "Center",
-        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
-      },
-      "bleed": true,
-      "minHeight": "290px",
-      "items": [
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "backgroundImage": {
+        "horizontalAlignment": "Center"
+    },
+    "minHeight": "300px",
+    "body": [
         {
-          "type": "TextBlock",
-          "text": "DESIGN TALK SERIES",
-          "wrap": true,
-          "weight": "Bolder",
-          "color": "Dark"
-        }
-      ],
-      "verticalContentAlignment": "Bottom",
-      "targetWidth": "AtLeast:Standard"
-    },
-    {
-      "type": "Container",
-      "backgroundImage": {
-        "horizontalAlignment": "Center",
-        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
-      },
-      "bleed": true,
-      "minHeight": "225px",
-      "items": [
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
+            },
+            "bleed": true,
+            "minHeight": "290px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "DESIGN TALK SERIES",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "color": "Dark"
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "AtLeast:Standard"
+        },
         {
-          "type": "TextBlock",
-          "text": "DESIGN TALK SERIES",
-          "wrap": true,
-          "weight": "Bolder",
-          "color": "Dark"
-        }
-      ],
-      "verticalContentAlignment": "Bottom",
-      "targetWidth": "Narrow"
-    },
-    {
-      "type": "Container",
-      "backgroundImage": {
-        "horizontalAlignment": "Center",
-        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
-      },
-      "bleed": true,
-      "minHeight": "180px",
-      "items": [
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
+            },
+            "bleed": true,
+            "minHeight": "225px",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "8px"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "DESIGN TALK SERIES",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+                                    "color": "Dark"
+                                }
+                            ],
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "Narrow"
+        },
         {
-          "type": "TextBlock",
-          "text": "DESIGN TALK SERIES",
-          "wrap": true,
-          "weight": "Bolder",
-          "color": "Dark"
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-StarterCardsSetThree/samples/editorial/assets/editorialHero.png"
+            },
+            "bleed": true,
+            "minHeight": "180px",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "8px"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "DESIGN TALK SERIES",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+                                    "color": "Dark",
+                                    "spacing": "None"
+                                }
+                            ],
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "VeryNarrow"
+        },
+        {
+            "type": "TextBlock",
+            "text": "AI-DESIGN THINKING",
+            "wrap": true,
+            "horizontalAlignment": "Center",
+            "size": "Small",
+            "weight": "Bolder",
+            "color": "Good",
+            "spacing": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Behind the design: Meet Pointe",
+            "wrap": true,
+            "horizontalAlignment": "Center",
+            "size": "ExtraLarge",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "When the system is the product: on crafting the next generation of home based experiences.",
+            "wrap": true,
+            "horizontalAlignment": "Center",
+            "size": "Large",
+            "color": "Default",
+            "isSubtle": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "horizontalAlignment": "Center",
+                            "name": "ArrowCircleRight",
+                            "size": "Medium",
+                            "color": "Good",
+                            "style": "Filled",
+                            "selectAction": {
+                                "type": "Action.OpenUrl",
+                                "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch"
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch"
+                }
+            ]
         }
-      ],
-      "verticalContentAlignment": "Bottom",
-      "targetWidth": "VeryNarrow"
-    },
-    {
-      "type": "TextBlock",
-      "text": "AI-DESIGN THINKING",
-      "wrap": true,
-      "horizontalAlignment": "Center",
-      "size": "Small",
-      "weight": "Bolder",
-      "color": "Good",
-      "spacing": "Medium"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Behind the design: Meet Pointe",
-      "wrap": true,
-      "horizontalAlignment": "Center",
-      "size": "ExtraLarge",
-      "weight": "Bolder"
-    },
-    {
-      "type": "TextBlock",
-      "text": "When the system is the product: on crafting the next generation of home based experiences.",
-      "wrap": true,
-      "horizontalAlignment": "Center",
-      "size": "Large",
-      "color": "Default",
-      "isSubtle": true
-    },
-    {
-      "type": "Icon",
-      "horizontalAlignment": "Center",
-      "name": "ArrowCircleRight",
-      "size": "Medium",
-      "color": "Good",
-      "style": "Filled",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples"
-      }
-    }
-  ]
+    ]
 }
