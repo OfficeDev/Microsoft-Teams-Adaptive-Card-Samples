@@ -1,586 +1,580 @@
 {
-  "type": "AdaptiveCard",
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "TextBlock",
-      "text": "Credit limit details",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
         {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "StellarEdge Outdoor Equipment",
-              "wrap": true,
-              "weight": "Bolder",
-              "size": "Default"
-            },
-            {
-              "type": "Badge",
-              "text": "Approved",
-              "size": "ExtraLarge",
-              "style": "Good",
-              "appearance": "Tint",
-              "icon": "CheckmarkCircle"
-            }
-          ]
-        }
-      ],
-      "targetWidth": "VeryNarrow"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "StellarEdge Outdoor Equipment",
-              "wrap": true,
-              "size": "Default",
-              "weight": "Bolder"
-            }
-          ]
+            "type": "TextBlock",
+            "text": "Credit limit details",
+            "wrap": true,
+            "size": "Large",
+            "weight": "Bolder"
         },
         {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "Badge",
-              "text": "Approved",
-              "size": "ExtraLarge",
-              "style": "Good",
-              "appearance": "Tint",
-              "icon": "CheckmarkCircle",
-              "horizontalAlignment": "Right"
-            }
-          ]
-        }
-      ],
-      "targetWidth": "AtLeast:Narrow"
-    },
-    {
-      "type": "ColumnSet",
-      "spacing": "ExtraLarge",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Current Risk Class",
-              "wrap": true,
-              "size": "Small",
-              "weight": "Bolder"
-            },
-            {
-              "type": "ColumnSet",
-              "columns": [
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Icon",
-                      "name": "CheckmarkCircle",
-                      "style": "Filled",
-                      "color": "Good",
-                      "size": "xSmall"
-                    }
-                  ]
-                },
-                {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "E (Low Risk)",
-                      "wrap": true,
-                      "spacing": "None",
-                      "size": "Small"
-                    }
-                  ],
-                  "spacing": "ExtraSmall"
-                }
-              ],
-              "spacing": "ExtraSmall"
-            }
-          ],
-          "verticalContentAlignment": "Center"
+            "type": "TextBlock",
+            "text": "StellarEdge Outdoor Equipment",
+            "wrap": true,
+            "weight": "Bolder",
+            "targetWidth": "AtMost:Narrow"
         },
         {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Requested by",
-              "wrap": true,
-              "size": "Small",
-              "weight": "Bolder"
-            },
-            {
-              "type": "ColumnSet",
-              "spacing": "ExtraSmall",
-              "columns": [
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-requestor.png",
-                      "style": "Person",
-                      "size": "Small",
-                      "width": "20px"
-                    }
-                  ]
-                },
-                {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "Mark Fullbright",
-                      "wrap": true,
-                      "size": "Small"
-                    }
-                  ],
-                  "spacing": "Small"
-                }
-              ]
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "ExtraLarge"
+            "type": "Badge",
+            "text": "Approved",
+            "style": "Good",
+            "appearance": "Tint",
+            "icon": "CheckmarkCircle",
+            "targetWidth": "AtMost:Narrow",
+            "spacing": "ExtraSmall",
+            "horizontalAlignment": "Left",
+            "size": "Large"
         },
         {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Approvers",
-              "wrap": true,
-              "size": "Small",
-              "weight": "Bolder"
-            },
-            {
-              "type": "ColumnSet",
-              "columns": [
+            "type": "ColumnSet",
+            "columns": [
                 {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver1.png",
-                      "width": "20px",
-                      "style": "Person"
-                    }
-                  ]
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver2.png",
-                      "width": "20px",
-                      "style": "Person"
-                    }
-                  ],
-                  "spacing": "Small"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver3.png",
-                      "width": "20px",
-                      "style": "Person"
-                    }
-                  ],
-                  "spacing": "Small"
-                }
-              ],
-              "spacing": "ExtraSmall"
-            }
-          ],
-          "spacing": "ExtraLarge"
-        }
-      ],
-      "targetWidth": "AtLeast:Narrow"
-    },
-    {
-      "type": "Container",
-      "items": [
-        {
-          "type": "TextBlock",
-          "text": "Current Risk Class",
-          "wrap": true,
-          "size": "Small",
-          "weight": "Bolder",
-          "color": "Default"
-        },
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Icon",
-                  "name": "CheckmarkCircle",
-                  "size": "xSmall",
-                  "style": "Filled",
-                  "color": "Good"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "spacing": "ExtraSmall",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "E (Low Risk)",
-                  "wrap": true,
-                  "size": "Small",
-                  "color": "Default"
-                }
-              ]
-            }
-          ],
-          "spacing": "ExtraSmall"
-        },
-        {
-          "type": "TextBlock",
-          "text": "Requested by",
-          "wrap": true,
-          "size": "Small",
-          "weight": "Bolder",
-          "color": "Default"
-        },
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-requestor.png",
-                  "width": "20px",
-                  "style": "Person"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Mark Fullbright",
-                  "wrap": true,
-                  "size": "Small",
-                  "color": "Default"
-                }
-              ],
-              "spacing": "Small"
-            }
-          ],
-          "spacing": "ExtraSmall"
-        },
-        {
-          "type": "TextBlock",
-          "text": "Approvers",
-          "wrap": true,
-          "size": "Small",
-          "weight": "Bolder",
-          "color": "Default"
-        },
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver1.png",
-                  "width": "20px",
-                  "style": "Person"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "auto",
-              "spacing": "ExtraSmall",
-              "items": [
-                {
-                  "type": "Image",
-                  "width": "20px",
-                  "style": "Person",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver2.png"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "auto",
-              "spacing": "ExtraSmall",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver3.png",
-                  "width": "20px"
-                }
-              ]
-            }
-          ],
-          "spacing": "ExtraSmall"
-        }
-      ],
-      "targetWidth": "VeryNarrow"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Current Credit Management Data",
-      "wrap": true,
-      "spacing": "ExtraLarge",
-      "size": "Small",
-      "weight": "Bolder"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "Container",
-              "targetWidth": "AtLeast:VeryNarrow",
-              "items": [
-                {
-                  "type": "ColumnSet",
-                  "columns": [
-                    {
-                      "type": "Column",
-                      "width": "stretch",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Current Credit Limit",
-                          "wrap": true,
-                          "size": "Small",
-                          "color": "Default",
-                          "isSubtle": true
-                        },
-                        {
-                          "type": "TextBlock",
-                          "text": "50.000.000 USD",
-                          "wrap": true,
-                          "spacing": "ExtraSmall",
-                          "size": "Small",
-                          "weight": "Bolder",
-                          "color": "Default"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "text": "Credit Exposure",
-                          "wrap": true,
-                          "size": "Small",
-                          "color": "Default",
-                          "isSubtle": true
-                        },
-                        {
-                          "type": "TextBlock",
-                          "text": "34.184 USD",
-                          "wrap": true,
-                          "spacing": "ExtraSmall",
-                          "weight": "Bolder",
-                          "size": "Small"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "text": "Limit Utilization",
-                          "wrap": true,
-                          "size": "Small",
-                          "color": "Default",
-                          "isSubtle": true
-                        },
-                        {
-                          "type": "TextBlock",
-                          "text": "68,4",
-                          "wrap": true,
-                          "spacing": "ExtraSmall",
-                          "size": "Small",
-                          "weight": "Bolder",
-                          "color": "Default"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "targetWidth": "VeryNarrow"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Current Credit Limit",
-              "wrap": true,
-              "size": "Small",
-              "color": "Default",
-              "isSubtle": true
-            },
-            {
-              "type": "TextBlock",
-              "text": "50.000.000 USD",
-              "wrap": true,
-              "spacing": "ExtraSmall",
-              "size": "Small",
-              "weight": "Bolder"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Credit Exposure",
-              "wrap": true,
-              "size": "Small",
-              "color": "Default",
-              "isSubtle": true
-            },
-            {
-              "type": "TextBlock",
-              "text": "34.184 USD",
-              "wrap": true,
-              "spacing": "ExtraSmall",
-              "size": "Small",
-              "weight": "Bolder"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Limit Utilization",
-              "wrap": true,
-              "size": "Small",
-              "color": "Default",
-              "isSubtle": true
-            },
-            {
-              "type": "TextBlock",
-              "text": "68,4",
-              "wrap": true,
-              "spacing": "ExtraSmall",
-              "size": "Small",
-              "weight": "Bolder"
-            }
-          ]
-        }
-      ],
-      "targetWidth": "AtLeast:Narrow"
-    },
-    {
-      "type": "ActionSet",
-      "spacing": "ExtraLarge",
-      "actions": [
-        {
-          "type": "Action.ShowCard",
-          "title": "Show graphical data",
-          "card": {
-            "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-            "type": "AdaptiveCard",
-            "version": "1.5",
-            "body": [
-              {
-                "type": "ColumnSet",
-                "columns": [
-                  {
                     "type": "Column",
-                    "width": 1,
+                    "width": "stretch",
                     "items": [
-                      {
-                        "type": "Chart.Donut",
-                        "data": [
-                          {
-                            "legend": "Limit",
-                            "value": 100
-                          },
-                          {
-                            "legend": "Exposure",
-                            "value": 700
-                          },
-                          {
-                            "legend": "Utilization",
-                            "value": 1600
-                          }
-                        ]
-                      },
-                      {
-                        "type": "ActionSet",
-                        "actions": [
-                          {
-                            "type": "Action.OpenUrl",
-                            "title": "Open analyzer",
-                            "url": "https://www.microsoft.com/en-us/"
-                          }
-                        ]
-                      }
+                        {
+                            "type": "TextBlock",
+                            "text": "StellarEdge Outdoor Equipment",
+                            "size": "Default",
+                            "weight": "Bolder",
+                            "maxLines": 4,
+                            "wrap": true
+                        }
                     ]
-                  }
-                ]
-              }
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "Approved",
+                            "size": "Large",
+                            "style": "Good",
+                            "appearance": "Tint",
+                            "icon": "CheckmarkCircle",
+                            "horizontalAlignment": "Right"
+                        }
+                    ]
+                }
+            ],
+            "targetWidth": "AtLeast:Standard"
+        },
+        {
+            "type": "ColumnSet",
+            "spacing": "ExtraLarge",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Current Risk Class",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "CheckmarkCircle",
+                                            "style": "Filled",
+                                            "color": "Good",
+                                            "size": "xSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "E (Low Risk)",
+                                            "wrap": true,
+                                            "spacing": "None",
+                                            "size": "Small"
+                                        }
+                                    ],
+                                    "spacing": "ExtraSmall"
+                                }
+                            ],
+                            "spacing": "ExtraSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Requested by",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "spacing": "ExtraSmall",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-requestor.png",
+                                            "style": "Person",
+                                            "size": "Small",
+                                            "width": "20px"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Mark Fullbright",
+                                            "wrap": true,
+                                            "size": "Small"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ]
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "ExtraLarge"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Approvers",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver1.png",
+                                            "width": "20px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver2.png",
+                                            "width": "20px",
+                                            "style": "Person"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver3.png",
+                                            "width": "20px",
+                                            "style": "Person"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "spacing": "ExtraSmall"
+                        }
+                    ],
+                    "spacing": "ExtraLarge"
+                }
+            ],
+            "targetWidth": "AtLeast:Standard"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Current Risk Class",
+                    "wrap": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "color": "Default"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "CheckmarkCircle",
+                                    "size": "xSmall",
+                                    "style": "Filled",
+                                    "color": "Good"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "spacing": "ExtraSmall",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "E (Low Risk)",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "color": "Default"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Requested by",
+                    "wrap": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "color": "Default"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-requestor.png",
+                                    "width": "20px",
+                                    "style": "Person"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Mark Fullbright",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "color": "Default"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Approvers",
+                    "wrap": true,
+                    "size": "Small",
+                    "weight": "Bolder",
+                    "color": "Default"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver1.png",
+                                    "width": "20px",
+                                    "style": "Person"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "spacing": "ExtraSmall",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "width": "20px",
+                                    "style": "Person",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver2.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "spacing": "ExtraSmall",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver3.png",
+                                    "width": "20px",
+                                    "style": "Person"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                }
+            ],
+            "targetWidth": "AtMost:Narrow",
+            "spacing": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Current Credit Management Data",
+            "wrap": true,
+            "spacing": "ExtraLarge",
+            "size": "Small",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Container",
+                            "targetWidth": "AtLeast:VeryNarrow",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Current Credit Limit",
+                                                    "wrap": true,
+                                                    "size": "Small",
+                                                    "color": "Default",
+                                                    "isSubtle": true
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "50.000.000 USD",
+                                                    "wrap": true,
+                                                    "spacing": "ExtraSmall",
+                                                    "size": "Small",
+                                                    "weight": "Bolder",
+                                                    "color": "Default"
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Credit Exposure",
+                                                    "wrap": true,
+                                                    "size": "Small",
+                                                    "color": "Default",
+                                                    "isSubtle": true
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "34.184 USD",
+                                                    "wrap": true,
+                                                    "spacing": "ExtraSmall",
+                                                    "weight": "Bolder",
+                                                    "size": "Small"
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Limit Utilization",
+                                                    "wrap": true,
+                                                    "size": "Small",
+                                                    "color": "Default",
+                                                    "isSubtle": true
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "68,4",
+                                                    "wrap": true,
+                                                    "spacing": "ExtraSmall",
+                                                    "size": "Small",
+                                                    "weight": "Bolder",
+                                                    "color": "Default"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "targetWidth": "VeryNarrow"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Current Credit Limit",
+                            "wrap": true,
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "50.000.000 USD",
+                            "wrap": true,
+                            "spacing": "ExtraSmall",
+                            "size": "Small",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Credit Exposure",
+                            "wrap": true,
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "34.184 USD",
+                            "wrap": true,
+                            "spacing": "ExtraSmall",
+                            "size": "Small",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Limit Utilization",
+                            "wrap": true,
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "68,4",
+                            "wrap": true,
+                            "spacing": "ExtraSmall",
+                            "size": "Small",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "targetWidth": "AtLeast:Narrow"
+        },
+        {
+            "type": "ActionSet",
+            "spacing": "ExtraLarge",
+            "actions": [
+                {
+                    "type": "Action.ShowCard",
+                    "title": "Show graphical data",
+                    "card": {
+                        "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                        "type": "AdaptiveCard",
+                        "version": "1.5",
+                        "body": [
+                            {
+                                "type": "ColumnSet",
+                                "columns": [
+                                    {
+                                        "type": "Column",
+                                        "width": 1,
+                                        "items": [
+                                            {
+                                                "type": "Chart.Donut",
+                                                "data": [
+                                                    {
+                                                        "legend": "Limit",
+                                                        "value": 100
+                                                    },
+                                                    {
+                                                        "legend": "Exposure",
+                                                        "value": 700
+                                                    },
+                                                    {
+                                                        "legend": "Utilization",
+                                                        "value": 1600
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "ActionSet",
+                                                "actions": [
+                                                    {
+                                                        "type": "Action.OpenUrl",
+                                                        "title": "Open analyzer",
+                                                        "url": "https://www.microsoft.com/en-us/"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
             ]
-          }
         }
-      ]
-    }
-  ]
+    ]
 }
