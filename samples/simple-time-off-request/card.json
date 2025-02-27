@@ -98,7 +98,8 @@
             "value": "Vacation",
             "isRequired": true,
             "errorMessage": "Please enter a reason",
-            "id": "Reason"
+            "id": "Reason",
+            "spacing": "Medium"
         },
         {
             "type": "Input.Date",
