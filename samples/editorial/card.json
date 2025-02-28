@@ -2,9 +2,6 @@
   "type": "AdaptiveCard",
   "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5",
-  "backgroundImage": {
-    "horizontalAlignment": "Center"
-  },
   "minHeight": "300px",
   "body": [
     {
