@@ -11,31 +11,22 @@
             "weight": "Bolder"
         },
         {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "StellarEdge Outdoor Equipment",
-                            "wrap": true,
-                            "weight": "Bolder",
-                            "size": "Default"
-                        },
-                        {
-                            "type": "Badge",
-                            "text": "Approved",
-                            "size": "ExtraLarge",
-                            "style": "Good",
-                            "appearance": "Tint",
-                            "icon": "CheckmarkCircle"
-                        }
-                    ]
-                }
-            ],
-            "targetWidth": "VeryNarrow"
+            "type": "TextBlock",
+            "text": "StellarEdge Outdoor Equipment",
+            "wrap": true,
+            "weight": "Bolder",
+            "targetWidth": "AtMost:Narrow"
+        },
+        {
+            "type": "Badge",
+            "text": "Approved",
+            "style": "Good",
+            "appearance": "Tint",
+            "icon": "CheckmarkCircle",
+            "targetWidth": "AtMost:Narrow",
+            "spacing": "ExtraSmall",
+            "horizontalAlignment": "Left",
+            "size": "Large"
         },
         {
             "type": "ColumnSet",
@@ -47,20 +38,21 @@
                         {
                             "type": "TextBlock",
                             "text": "StellarEdge Outdoor Equipment",
-                            "wrap": true,
                             "size": "Default",
-                            "weight": "Bolder"
+                            "weight": "Bolder",
+                            "maxLines": 4,
+                            "wrap": true
                         }
                     ]
                 },
                 {
                     "type": "Column",
-                    "width": "stretch",
+                    "width": "auto",
                     "items": [
                         {
                             "type": "Badge",
                             "text": "Approved",
-                            "size": "ExtraLarge",
+                            "size": "Large",
                             "style": "Good",
                             "appearance": "Tint",
                             "icon": "CheckmarkCircle",
@@ -69,7 +61,7 @@
                     ]
                 }
             ],
-            "targetWidth": "AtLeast:Narrow"
+            "targetWidth": "AtLeast:Standard"
         },
         {
             "type": "ColumnSet",
@@ -143,7 +135,7 @@
                                     "items": [
                                         {
                                             "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-requestor.png",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-requestor.png",
                                             "style": "Person",
                                             "size": "Small",
                                             "width": "20px"
@@ -189,7 +181,7 @@
                                     "items": [
                                         {
                                             "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver1.png",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver1.png",
                                             "width": "20px",
                                             "style": "Person"
                                         }
@@ -201,7 +193,7 @@
                                     "items": [
                                         {
                                             "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver2.png",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver2.png",
                                             "width": "20px",
                                             "style": "Person"
                                         }
@@ -214,7 +206,7 @@
                                     "items": [
                                         {
                                             "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver3.png",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver3.png",
                                             "width": "20px",
                                             "style": "Person"
                                         }
@@ -228,7 +220,7 @@
                     "spacing": "ExtraLarge"
                 }
             ],
-            "targetWidth": "AtLeast:Narrow"
+            "targetWidth": "AtLeast:Standard"
         },
         {
             "type": "Container",
@@ -291,7 +283,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-requestor.png",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-requestor.png",
                                     "width": "20px",
                                     "style": "Person"
                                 }
@@ -331,7 +323,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver1.png",
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver1.png",
                                     "width": "20px",
                                     "style": "Person"
                                 }
@@ -346,7 +338,7 @@
                                     "type": "Image",
                                     "width": "20px",
                                     "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver2.png"
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver2.png"
                                 }
                             ]
                         },
@@ -357,8 +349,9 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-ChartReveal/samples/insights/assets/avatar-approver3.png",
-                                    "width": "20px"
+                                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver3.png",
+                                    "width": "20px",
+                                    "style": "Person"
                                 }
                             ]
                         }
@@ -366,7 +359,8 @@
                     "spacing": "ExtraSmall"
                 }
             ],
-            "targetWidth": "VeryNarrow"
+            "targetWidth": "AtMost:Narrow",
+            "spacing": "Medium"
         },
         {
             "type": "TextBlock",

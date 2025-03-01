@@ -7,7 +7,7 @@
       "type": "Container",
       "roundedCorners": true,
       "backgroundImage": {
-        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/hero.png"
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/hero.png"
       },
       "minHeight": "160px",
       "items": [
@@ -26,7 +26,7 @@
     {
       "type": "Container",
       "backgroundImage": {
-        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/hero.png",
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/hero.png",
         "verticalAlignment": "Center"
       },
       "items": [
@@ -69,7 +69,7 @@
                       "backgroundImage": {
                         "fillMode": "RepeatHorizontally",
                         "verticalAlignment": "Center",
-                        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/tabline.png"
+                        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/tabline.png"
                       },
                       "minHeight": "3px",
                       "style": "default",
@@ -122,7 +122,7 @@
                   "items": [
                     {
                       "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_1.png",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/menuItem_1.png",
                       "style": "RoundedCorners",
                       "width": "80px",
                       "height": "80px"
@@ -210,7 +210,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_1.png",
+                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/menuItem_1.png",
                   "width": "64px",
                   "height": "64px",
                   "style": "RoundedCorners"
@@ -260,7 +260,7 @@
                   "items": [
                     {
                       "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_2.png",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/menuItem_2.png",
                       "style": "RoundedCorners",
                       "width": "80px",
                       "height": "80px"
@@ -326,7 +326,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_2.png",
+                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/menuItem_2.png",
                   "width": "64px",
                   "height": "64px",
                   "style": "RoundedCorners"
@@ -376,7 +376,7 @@
                   "items": [
                     {
                       "type": "Image",
-                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_3.png",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/menuItem_3.png",
                       "style": "RoundedCorners",
                       "width": "80px",
                       "height": "80px"
@@ -464,7 +464,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/menuItem_3.png",
+                  "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/menuItem_3.png",
                   "width": "64px",
                   "height": "64px",
                   "style": "RoundedCorners"
@@ -542,7 +542,7 @@
                   "backgroundImage": {
                     "fillMode": "RepeatHorizontally",
                     "verticalAlignment": "Center",
-                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-CafeMenu/samples/cafe-menu/assets/tabline.png"
+                    "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/cafe-menu/assets/tabline.png"
                   },
                   "minHeight": "3px",
                   "style": "default",

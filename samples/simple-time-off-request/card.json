@@ -13,7 +13,16 @@
         {
             "type": "Container",
             "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-SimpleTimeOffRequest/samples/simple-time-off-request/assets/hero.png"
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-time-off-request/assets/hero.png"
+            },
+            "minHeight": "140px",
+            "targetWidth": "Narrow",
+            "roundedCorners": true
+        },
+        {
+            "type": "Container",
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-time-off-request/assets/hero.png"
             },
             "minHeight": "180px",
             "roundedCorners": true,
@@ -31,7 +40,7 @@
                             "type": "Column",
                             "width": "auto",
                             "backgroundImage": {
-                                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-SimpleTimeOffRequest/samples/simple-time-off-request/assets/colorSpacer.png"
+                                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-time-off-request/assets/colorSpacer.png"
                             },
                             "items": [
                                 {
@@ -52,15 +61,15 @@
                     "spacing": "ExtraLarge"
                 }
             ],
-            "targetWidth": "AtLeast:Narrow"
+            "targetWidth": "AtLeast:Standard"
         },
         {
             "type": "Container",
             "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-SimpleTimeOffRequest/samples/simple-time-off-request/assets/hero.png",
+                "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-time-off-request/assets/hero.png",
                 "horizontalAlignment": "Center"
             },
-            "minHeight": "120px",
+            "minHeight": "100px",
             "targetWidth": "VeryNarrow",
             "roundedCorners": true
         },
@@ -89,7 +98,8 @@
             "value": "Vacation",
             "isRequired": true,
             "errorMessage": "Please enter a reason",
-            "id": "Reason"
+            "id": "Reason",
+            "spacing": "Medium"
         },
         {
             "type": "Input.Date",

@@ -59,23 +59,6 @@
               "width": "stretch"
             },
             {
-              "items": [
-                {
-                  "items": [
-                    {
-                      "maxLines": 0,
-                      "size": "Large",
-                      "text": "Book a private meeting room",
-                      "type": "TextBlock",
-                      "weight": "Bolder",
-                      "wrap": true
-                    }
-                  ],
-                  "roundedCorners": true,
-                  "style": "default",
-                  "type": "Container"
-                }
-              ],
               "type": "Column",
               "width": "150px"
             }
@@ -83,7 +66,7 @@
           "type": "ColumnSet"
         }
       ],
-      "minHeight": "160px",
+      "minHeight": "140px",
       "roundedCorners": true,
       "style": "emphasis",
       "targetWidth": "Narrow",
@@ -95,6 +78,59 @@
       "targetWidth": "VeryNarrow",
       "type": "Image",
       "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/book-a-room/assets/room_hero.png"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "The Rooftop Terrace",
+              "wrap": true,
+              "weight": "Bolder",
+              "color": "Accent"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Icon",
+                      "name": "Crown",
+                      "size": "xxSmall",
+                      "color": "Accent"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "spacing": "ExtraSmall",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Executive suite",
+                      "wrap": true,
+                      "size": "Small",
+                      "color": "Default",
+                      "isSubtle": true
+                    }
+                  ]
+                }
+              ],
+              "spacing": "ExtraSmall"
+            }
+          ]
+        }
+      ],
+      "spacing": "Medium",
+      "targetWidth": "AtMost:Narrow"
     },
     {
       "columns": [
@@ -123,14 +159,14 @@
           "targetWidth": "AtLeast:Narrow",
           "type": "Column",
           "width": "auto",
-          "verticalContentAlignment": "center"
+          "verticalContentAlignment": "Center"
         },
         {
           "items": [
             {
               "color": "Accent",
               "name": "Crown",
-              "size": "xSmall",
+              "size": "xxSmall",
               "type": "Icon"
             }
           ],
@@ -158,43 +194,8 @@
         }
       ],
       "spacing": "Medium",
-      "type": "ColumnSet"
-    },
-    {
-      "columns": [
-        {
-          "items": [
-            {
-              "color": "Accent",
-              "name": "Crown",
-              "size": "xSmall",
-              "type": "Icon"
-            }
-          ],
-          "spacing": "Small",
-          "type": "Column",
-          "verticalContentAlignment": "Center",
-          "width": "auto"
-        },
-        {
-          "items": [
-            {
-              "isSubtle": true,
-              "size": "Small",
-              "text": "Executive suite",
-              "type": "TextBlock",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "type": "Column",
-          "verticalContentAlignment": "Center",
-          "width": "stretch"
-        }
-      ],
-      "spacing": "None",
-      "targetWidth": "VeryNarrow",
-      "type": "ColumnSet"
+      "type": "ColumnSet",
+      "targetWidth": "AtLeast:Standard"
     },
     {
       "items": [
@@ -343,7 +344,7 @@
           "spacing": "Small",
           "type": "Column",
           "verticalContentAlignment": "Center",
-          "width": "stretch"
+          "width": "auto"
         }
       ],
       "spacing": "Medium",
