@@ -13,17 +13,15 @@
     },
     {
       "type": "Image",
-      "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/blob/pabloas/set-2/samples/time-off-request/assets/hero-image-default.png?raw=true",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/time-off-request/assets/hero-image-default.png",
       "style": "RoundedCorners",
-      "targetWidth": "AtMost:Standard",
-      "altText": ""
+      "targetWidth": "AtMost:Standard"
     },
     {
       "type": "Image",
       "targetWidth": "Wide",
-      "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/blob/pabloas/set-2/samples/time-off-request/assets/hero-wide.png?raw=true",
-      "style": "RoundedCorners",
-      "altText": ""
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/time-off-request/assets/hero-wide.png",
+      "style": "RoundedCorners"
     },
     {
       "type": "TextBlock",
@@ -795,59 +793,59 @@
       "spacing": "Medium"
     },
     {
-      "type": "ColumnSet",
       "columns": [
         {
-          "type": "Column",
-          "width": "auto",
           "items": [
             {
-              "type": "RichTextBlock",
               "inlines": [
                 {
-                  "type": "TextRun",
-                  "text": "Add comments",
                   "selectAction": {
-                    "type": "Action.ToggleVisibility",
-                    "targetElements": ["comments", "chevronDown", "chevronUp"]
-                  }
+                    "targetElements": ["comments", "chevronUp", "chevronDown"],
+                    "type": "Action.ToggleVisibility"
+                  },
+                  "text": "Add comments",
+                  "type": "TextRun"
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Icon",
-              "name": "ChevronDown",
-              "size": "xxSmall",
-              "selectAction": {
-                "type": "Action.ToggleVisibility",
-                "targetElements": ["comments", "chevronDown", "chevronUp"]
-              },
-              "color": "Accent",
-              "id": "chevronDown"
-            },
-            {
-              "type": "Icon",
-              "isVisible": false,
-              "id": "chevronUp",
-              "name": "chevronUp",
-              "size": "xxSmall",
-              "color": "Accent",
-              "selectAction": {
-                "type": "Action.ToggleVisibility",
-                "targetElements": ["comments", "chevronDown", "chevronUp"]
-              }
+              ],
+              "targetWidth": "AtLeast:Narrow",
+              "type": "RichTextBlock"
             }
           ],
-          "verticalContentAlignment": "Bottom",
-          "spacing": "ExtraSmall"
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "color": "Accent",
+              "id": "chevronDown",
+              "name": "ChevronDown",
+              "size": "xxSmall",
+              "type": "Icon"
+            },
+            {
+              "color": "Accent",
+              "id": "chevronUp",
+              "isVisible": false,
+              "name": "ChevronUp",
+              "size": "xxSmall",
+              "spacing": "None",
+              "type": "Icon"
+            }
+          ],
+          "selectAction": {
+            "targetElements": ["comments", "chevronUp", "chevronDown"],
+            "type": "Action.ToggleVisibility"
+          },
+          "spacing": "Small",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
         }
-      ]
+      ],
+      "spacing": "Medium",
+      "type": "ColumnSet"
     },
     {
       "type": "Input.Text",
