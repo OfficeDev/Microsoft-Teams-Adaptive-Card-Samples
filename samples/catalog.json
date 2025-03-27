@@ -54,6 +54,36 @@
       "name": "Expense Report",
       "description": "Expense report description TODO.",
       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/expense-report/card.json"
+    },
+    {
+      "name": "Book a Room",
+      "description": "Streamline your room reservations with the Book a Room Card. Capture essential details like date, duration, and extras like catering options. Highlight the need for a server and use the notes section to cover every important detail.",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/book-a-room/card.json"
+    },
+    {
+      "name": "Cafe Menu",
+      "description": "Enhance your cafeteria experience with the Cafe Menu Card. Featuring two intuitive tabs, the Menu tab showcases daily specials with images, descriptions, and prices, making it easy to decide what to order.",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/cafe-menu/card.json"
+    },
+    {
+      "name": "Editorial",
+      "description": "The Editorial Card showcases a full-bleed hero image, minimal text, and a bold call to action for strong visual impact and simplicity.",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/editorial/card.json"
+    },
+    {
+      "name": "Insights",
+      "description": "The Insights Card enhances user engagement by allowing them to access additional information on demand. Initially displaying key details, it features a button that reveals more in-depth data when clicked. This card is perfect for providing a streamlined and informative user experience without overwhelming the user at first glance.",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/insights/card.json"
+    },
+    {
+      "name": "Simple Event Registration",
+      "description": "The Simple Event Registration Card seamlessly combines visual appeal with functionality. Featuring a large hero image and basic event details, this card offers a straightforward way for users to reserve a seat. A prominent button opens a form for users to input their information and submit, making event registration quick and easy.",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/simple-event/card.json"
+    },
+    {
+      "name": "Simple Time Off Request",
+      "description": "The Simple Time Off Request Card is designed for ease and efficiency, allowing users to quickly submit their time off requests. Its minimalistic design ensures a clean and user-friendly experience while offering opportunities for visual customization.",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/simple-time-off-request/card.json"
     }
   ]
 }
