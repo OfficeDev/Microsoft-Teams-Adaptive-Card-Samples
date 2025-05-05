@@ -1,0 +1,239 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Icon",
+              "name": "MegaphoneLoud",
+              "color": "Accent",
+              "size": "Small"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Lucerne Publishing News",
+              "wrap": true,
+              "weight": "Bolder",
+              "size": "Large"
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "spacing": "ExtraSmall"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Stay updated with the latest news, book launches, and employee achievements.",
+      "wrap": true
+    },
+    {
+      "type": "Carousel",
+      "pages": [
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "Badge",
+              "text": "News",
+              "icon": "News",
+              "appearance": "Tint",
+              "style": "Informative",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Celebrating Lucerne Publishing's 50 Years",
+              "size": "Large",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Join us in celebrating Lucerne Publishing's 50th anniversary this Tuesday @4pm. Our CEO will share inspiring remarks about our journey and future.",
+              "wrap": true
+            },
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Watch livestream",
+                  "iconUrl": "icon:Live",
+                  "url": "https://adaptivecards.microsoft.com/designer"
+                },
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Share",
+                  "iconUrl": "icon:Share",
+                  "url": "https://adaptivecards.microsoft.com/designer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "Badge",
+              "text": "Recent book launches",
+              "icon": "Rocket",
+              "appearance": "Tint",
+              "style": "Good",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Maurice and Maralyn",
+              "size": "Large",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextBlock",
+              "text": "by **Sophie Elmhirst**",
+              "size": "Small",
+              "spacing": "None"
+            },
+            {
+              "type": "Container",
+              "layouts": [
+                {
+                  "type": "Layout.Flow",
+                  "columnSpacing": "ExtraSmall",
+                  "rowSpacing": "ExtraSmall",
+                  "horizontalItemsAlignment": "Left",
+                  "minItemWidth": "0px"
+                }
+              ],
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "A true story of a couple lost at sea for 118 days.",
+                  "wrap": true
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Icon",
+                          "color": "Warning",
+                          "name": "Trophy",
+                          "size": "xSmall",
+                          "spacing": "None"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "spacing": "ExtraSmall",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Winner of the Nero Gold prize.",
+                          "wrap": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "TextBlock",
+              "text": "Maurice and Maralyn couldn’t have been more different: he was cautious and awkward, she was charismatic and daring. But their yin-yang romance worked: she gave him confidence, he gave her freedom. Deeply bored by suburban English life, Maralyn suggested they sell their house,...",
+              "wrap": true,
+              "size": "Small"
+            },
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "View all books",
+                  "iconUrl": "icon:Library",
+                  "url": "https://adaptivecards.microsoft.com/designer"
+                }
+              ],
+              "separator": true
+            }
+          ]
+        },
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "Badge",
+              "text": "Employee achievements",
+              "icon": "Star",
+              "appearance": "Tint",
+              "style": "Accent",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Cyril's Journey Across Sub-Saharan Africa",
+              "size": "Large",
+              "weight": "Bolder"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Editorial Assistant to Chief Editor ",
+              "size": "Small",
+              "spacing": "None"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Cyril started their career at Lucerne Publishing as an editorial assistant, meticulously reviewing manuscripts and supporting the editorial team. Over the years, Cyril's dedication and innovative approach led them to become the Chief Editor. Cyril's adventurous spirit included a journey across Sub-Saharan Africa, where there was...",
+              "wrap": true
+            },
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Watch interview",
+                  "iconUrl": "icon:Video",
+                  "url": "https://adaptivecards.microsoft.com/designer"
+                },
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Connect",
+                  "iconUrl": "icon:People",
+                  "url": "https://adaptivecards.microsoft.com/designer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

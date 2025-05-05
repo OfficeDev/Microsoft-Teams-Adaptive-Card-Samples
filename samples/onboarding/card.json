@@ -1,0 +1,302 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "New employee onboarding",
+              "wrap": true,
+              "weight": "Bolder",
+              "size": "Large"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Icon",
+              "name": "PeopleTeam",
+              "style": "Filled",
+              "color": "Accent",
+              "size": "Small"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Welcome to Wingtip Toys**! We’re excited to have you join our team. To ensure a smooth transition into your role, we’ve compiled these essential resources to help you get started and feel at home.",
+      "wrap": true
+    },
+    {
+      "type": "Carousel",
+      "pages": [
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "NumberCircle1",
+                              "color": "Accent",
+                              "style": "Filled"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "stretch",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Welcome kit",
+                              "wrap": true,
+                              "size": "ExtraLarge",
+                              "weight": "Bolder"
+                            }
+                          ],
+                          "spacing": "Small"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "An introduction to our company culture, values, and what to expect in your first few weeks.",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "At Windtip Toys, we believe in creativity, innovation, and teamwork. Our welcoming environment is designed to help you thrive and contribute to our mission of bringing joy to children through imaginative play.",
+                      "wrap": true,
+                      "weight": "Default"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch"
+                }
+              ],
+              "height": "stretch"
+            },
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Download kit",
+                  "style": "positive",
+                  "iconUrl": "icon:ArrowDownload",
+                  "url": "https://adaptivecards.microsoft.com/designer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "NumberCircle2",
+                              "color": "Accent",
+                              "style": "Filled"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "stretch",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Setting up your work space",
+                              "wrap": true,
+                              "size": "ExtraLarge",
+                              "weight": "Bolder"
+                            }
+                          ],
+                          "spacing": "Small"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Step-by-step instructions on how to set up your workstation, including necessary software and tools.",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "From configuring your computer to accessing our internal systems, this guide will ensure you have everything you need to start your journey at Windtip Toys.",
+                      "wrap": true,
+                      "weight": "Default"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch"
+                }
+              ],
+              "height": "stretch"
+            },
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Visit site",
+                  "style": "positive",
+                  "iconUrl": "icon:Open",
+                  "url": "https://adaptivecards.microsoft.com/designer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "ColumnSet",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "NumberCircle3",
+                              "color": "Accent",
+                              "style": "Filled"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "stretch",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Meet the team",
+                              "wrap": true,
+                              "size": "ExtraLarge",
+                              "weight": "Bolder"
+                            }
+                          ],
+                          "spacing": "Small"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Get to know your colleagues and learn about their roles and how you will collaborate.",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Our team is made up of talented individuals who are passionate about creating innovative toys. Discover how each member contributes to our success and how you can work together.",
+                      "wrap": true,
+                      "weight": "Default"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch"
+                }
+              ],
+              "height": "stretch"
+            },
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "View your team",
+                  "style": "positive",
+                  "iconUrl": "icon:PeopleAdd",
+                  "url": "https://adaptivecards.microsoft.com/designer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "separator": true,
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Visit Wingtip Toys",
+          "url": "https://adaptivecards.microsoft.com/designer"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Contact HR",
+          "iconUrl": "icon:MailEdit",
+          "url": "https://adaptivecards.microsoft.com/designer"
+        }
+      ]
+    }
+  ]
+}

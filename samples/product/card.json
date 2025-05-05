@@ -1,0 +1,406 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Carousel",
+      "pages": [
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "height": "stretch",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1
+                },
+                {
+                  "type": "Column",
+                  "width": 2,
+                  "items": [
+                    {
+                      "type": "Badge",
+                      "text": "Hot product",
+                      "size": "ExtraLarge",
+                      "style": "Attention",
+                      "icon": "Fire",
+                      "appearance": "Tint"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Business Laptop 6",
+                      "wrap": true,
+                      "size": "ExtraLarge",
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Not just faster. Smarter. The AI-accelerated Business Laptop 6th Edition, an BizAgent+ PC, puts next-generation performance and BizAgent+ experienc...",
+                      "wrap": true,
+                      "height": "stretch"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Features",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "Table",
+                      "columns": [
+                        {
+                          "width": 1
+                        },
+                        {
+                          "width": 1
+                        }
+                      ],
+                      "rows": [
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• High-performance processor",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Lightweight design",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Long battery life",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        }
+                      ],
+                      "firstRowAsHeaders": false,
+                      "showGridLines": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "height": "stretch",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1
+                },
+                {
+                  "type": "Column",
+                  "width": 2,
+                  "items": [
+                    {
+                      "type": "Badge",
+                      "text": "25% off",
+                      "size": "ExtraLarge",
+                      "style": "Good",
+                      "icon": "Savings",
+                      "appearance": "Tint"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Whisper Headphones",
+                      "wrap": true,
+                      "size": "ExtraLarge",
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Our Premium Noise-Cancelling Headphones are designed to provide an immersive audio experience, whether you're working, traveling, or relaxing...",
+                      "wrap": true,
+                      "height": "stretch"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Features",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "Table",
+                      "columns": [
+                        {
+                          "width": 1
+                        },
+                        {
+                          "width": 1
+                        }
+                      ],
+                      "rows": [
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Advanced noise-cancellation",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Comfortable fit",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Wireless connectivity",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• High-fidelity sound",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        }
+                      ],
+                      "firstRowAsHeaders": false,
+                      "showGridLines": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CarouselPage",
+          "style": "emphasis",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "height": "stretch",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": 1
+                },
+                {
+                  "type": "Column",
+                  "width": 2,
+                  "items": [
+                    {
+                      "type": "Badge",
+                      "text": "Pre-order",
+                      "size": "ExtraLarge",
+                      "style": "Accent",
+                      "icon": "ShoppingBag",
+                      "appearance": "Tint"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Advanced Smart Watch",
+                      "wrap": true,
+                      "size": "ExtraLarge",
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Our Advanced Smart Watch is designed to keep you connected and help you monitor your health effortlessly. With a sleek design and a range of...",
+                      "wrap": true,
+                      "height": "stretch"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Features",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "Table",
+                      "columns": [
+                        {
+                          "width": 1
+                        },
+                        {
+                          "width": 1
+                        }
+                      ],
+                      "rows": [
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "Heart rate monitoring",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• GPS navigation",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Sleep tracking",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Long battery life",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        }
+                      ],
+                      "firstRowAsHeaders": false,
+                      "showGridLines": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "separator": true,
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "View Catalog",
+          "url": "https://adaptivecards.microsoft.com/designer"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Chat with sales",
+          "iconUrl": "icon:Chat",
+          "url": "https://adaptivecards.microsoft.com/designer"
+        }
+      ]
+    }
+  ]
+}
