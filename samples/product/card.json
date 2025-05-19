@@ -18,7 +18,15 @@
               "columns": [
                 {
                   "type": "Column",
-                  "width": 1
+                  "targetWidth": "Wide",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/product/assets/Hero1.png",
+                      "style": "RoundedCorners"
+                    }
+                  ]
                 },
                 {
                   "type": "Column",
@@ -33,6 +41,13 @@
                       "appearance": "Tint"
                     },
                     {
+                      "targetWidth": "AtMost:Standard",
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/product/assets/Hero1b.png",
+                      "style": "RoundedCorners",
+                      "size": "Stretch"
+                    },
+                    {
                       "type": "TextBlock",
                       "text": "Business Laptop 6",
                       "wrap": true,
@@ -43,7 +58,20 @@
                       "type": "TextBlock",
                       "text": "Not just faster. Smarter. The AI-accelerated Business Laptop 6th Edition, an BizAgent+ PC, puts next-generation performance and BizAgent+ experienc...",
                       "wrap": true,
-                      "height": "stretch"
+                      "maxLines": 3
+                    },
+                    {
+                      "type": "RichTextBlock",
+                      "inlines": [
+                        {
+                          "type": "TextRun",
+                          "text": "Learn more",
+                          "selectAction": {
+                            "type": "Action.OpenUrl",
+                            "url": "https://adaptivecards.microsoft.com/designer"
+                          }
+                        }
+                      ]
                     },
                     {
                       "type": "TextBlock",
@@ -53,6 +81,7 @@
                     },
                     {
                       "type": "Table",
+                      "targetWidth": "atLeast:Standard",
                       "columns": [
                         {
                           "width": 1
@@ -124,6 +153,73 @@
                       ],
                       "firstRowAsHeaders": false,
                       "showGridLines": false
+                    },
+                    {
+                      "type": "Table",
+                      "targetWidth": "atMost:Narrow",
+                      "columns": [
+                        {
+                          "width": 1
+                        }
+                      ],
+                      "rows": [
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• High-performance processor",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Long battery life",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Lightweight design",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        }
+                      ],
+                      "firstRowAsHeaders": false,
+                      "showGridLines": false
                     }
                   ]
                 }
@@ -143,7 +239,15 @@
               "columns": [
                 {
                   "type": "Column",
-                  "width": 1
+                  "targetWidth": "Wide",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/product/assets/Hero2.png",
+                      "style": "RoundedCorners"
+                    }
+                  ]
                 },
                 {
                   "type": "Column",
@@ -158,6 +262,12 @@
                       "appearance": "Tint"
                     },
                     {
+                      "targetWidth": "AtMost:Standard",
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/product/assets/Hero2b.png",
+                      "style": "RoundedCorners"
+                    },
+                    {
                       "type": "TextBlock",
                       "text": "Whisper Headphones",
                       "wrap": true,
@@ -168,7 +278,20 @@
                       "type": "TextBlock",
                       "text": "Our Premium Noise-Cancelling Headphones are designed to provide an immersive audio experience, whether you're working, traveling, or relaxing...",
                       "wrap": true,
-                      "height": "stretch"
+                      "maxLines": 3
+                    },
+                    {
+                      "type": "RichTextBlock",
+                      "inlines": [
+                        {
+                          "type": "TextRun",
+                          "text": "Learn more",
+                          "selectAction": {
+                            "type": "Action.OpenUrl",
+                            "url": "https://adaptivecards.microsoft.com/designer"
+                          }
+                        }
+                      ]
                     },
                     {
                       "type": "TextBlock",
@@ -178,6 +301,7 @@
                     },
                     {
                       "type": "Table",
+                      "targetWidth": "atLeast:Standard",
                       "columns": [
                         {
                           "width": 1
@@ -250,6 +374,91 @@
                       ],
                       "firstRowAsHeaders": false,
                       "showGridLines": false
+                    },
+                    {
+                      "type": "Table",
+                      "targetWidth": "atMost:Narrow",
+                      "columns": [
+                        {
+                          "width": 1
+                        }
+                      ],
+                      "rows": [
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Advanced noise-cancellation",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Comfortable fit",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Wireless connectivity",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• High-fidelity sound",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        }
+                      ],
+                      "firstRowAsHeaders": false,
+                      "showGridLines": false
                     }
                   ]
                 }
@@ -269,7 +478,15 @@
               "columns": [
                 {
                   "type": "Column",
-                  "width": 1
+                  "targetWidth": "Wide",
+                  "width": 1,
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/product/assets/Hero3.png",
+                      "style": "RoundedCorners"
+                    }
+                  ]
                 },
                 {
                   "type": "Column",
@@ -284,6 +501,12 @@
                       "appearance": "Tint"
                     },
                     {
+                      "targetWidth": "AtMost:Standard",
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/product/assets/Hero3b.png",
+                      "style": "RoundedCorners"
+                    },
+                    {
                       "type": "TextBlock",
                       "text": "Advanced Smart Watch",
                       "wrap": true,
@@ -291,10 +514,23 @@
                       "weight": "Bolder"
                     },
                     {
+                      "type": "RichTextBlock",
+                      "inlines": [
+                        {
+                          "type": "TextRun",
+                          "text": "Learn more",
+                          "selectAction": {
+                            "type": "Action.OpenUrl",
+                            "url": "https://adaptivecards.microsoft.com/designer"
+                          }
+                        }
+                      ]
+                    },
+                    {
                       "type": "TextBlock",
                       "text": "Our Advanced Smart Watch is designed to keep you connected and help you monitor your health effortlessly. With a sleek design and a range of...",
                       "wrap": true,
-                      "height": "stretch"
+                      "maxLines": 3
                     },
                     {
                       "type": "TextBlock",
@@ -304,6 +540,7 @@
                     },
                     {
                       "type": "Table",
+                      "targetWidth": "atLeast:Standard",
                       "columns": [
                         {
                           "width": 1
@@ -321,7 +558,7 @@
                               "items": [
                                 {
                                   "type": "TextBlock",
-                                  "text": "Heart rate monitoring",
+                                  "text": "• Heart rate monitoring",
                                   "wrap": true,
                                   "size": "Small",
                                   "weight": "Bolder"
@@ -358,6 +595,91 @@
                                 }
                               ]
                             },
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Long battery life",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        }
+                      ],
+                      "firstRowAsHeaders": false,
+                      "showGridLines": false
+                    },
+                    {
+                      "type": "Table",
+                      "targetWidth": "atMost:Narrow",
+                      "columns": [
+                        {
+                          "width": 1
+                        }
+                      ],
+                      "rows": [
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Heart rate monitoring",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• GPS navigation",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
+                            {
+                              "type": "TableCell",
+                              "items": [
+                                {
+                                  "type": "TextBlock",
+                                  "text": "• Sleep tracking",
+                                  "wrap": true,
+                                  "size": "Small",
+                                  "weight": "Bolder"
+                                }
+                              ]
+                            }
+                          ],
+                          "style": "emphasis"
+                        },
+                        {
+                          "type": "TableRow",
+                          "cells": [
                             {
                               "type": "TableCell",
                               "items": [

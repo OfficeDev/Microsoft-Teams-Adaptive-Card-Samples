@@ -37,7 +37,20 @@
     {
       "type": "TextBlock",
       "text": "**Welcome to Wingtip Toys**! We’re excited to have you join our team. To ensure a smooth transition into your role, we’ve compiled these essential resources to help you get started and feel at home.",
-      "wrap": true
+      "wrap": true,
+      "targetWidth": "AtLeast:Standard"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Welcome to Wingtip Toys**! We’re excited to have you join our team. We’ve compiled a few essential resources to help you get started.",
+      "wrap": true,
+      "targetWidth": "Narrow"
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Welcome to Wingtip Toys**! We’ve compiled a few essential resources to help you get started.",
+      "wrap": true,
+      "targetWidth": "VeryNarrow"
     },
     {
       "type": "Carousel",
@@ -66,7 +79,8 @@
                               "type": "Icon",
                               "name": "NumberCircle1",
                               "color": "Accent",
-                              "style": "Filled"
+                              "style": "Filled",
+                              "targetWidth": "AtLeast:Narrow"
                             }
                           ]
                         },
@@ -87,6 +101,12 @@
                       ]
                     },
                     {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/onboarding/assets/Hero1b.png",
+                      "targetWidth": "AtMost:Standard",
+                      "style": "RoundedCorners"
+                    },
+                    {
                       "type": "TextBlock",
                       "text": "An introduction to our company culture, values, and what to expect in your first few weeks.",
                       "wrap": true,
@@ -94,15 +114,115 @@
                     },
                     {
                       "type": "TextBlock",
+                      "targetWidth": "AtLeast:Narrow",
                       "text": "At Windtip Toys, we believe in creativity, innovation, and teamwork. Our welcoming environment is designed to help you thrive and contribute to our mission of bringing joy to children through imaginative play.",
                       "wrap": true,
                       "weight": "Default"
+                    },
+                    {
+                      "type": "ColumnSet",
+                      "id": "closedState1",
+                      "targetWidth": "VeryNarrow",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "See more",
+                              "wrap": true,
+                              "color": "Accent"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "ChevronDown",
+                              "size": "xxSmall",
+                              "color": "Accent"
+                            }
+                          ],
+                          "verticalContentAlignment": "Center",
+                          "spacing": "ExtraSmall"
+                        }
+                      ],
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "openState1",
+                          "closedState1"
+                        ]
+                      }
+                    },
+                    {
+                      "id": "openState1",
+                      "type": "ColumnSet",
+                      "targetWidth": "VeryNarrow",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "See less",
+                              "wrap": true,
+                              "color": "Accent"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "ChevronUp",
+                              "size": "xxSmall",
+                              "color": "Accent"
+                            }
+                          ],
+                          "verticalContentAlignment": "Center",
+                          "spacing": "ExtraSmall"
+                        }
+                      ],
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "openState1",
+                          "closedState1"
+                        ]
+                      },
+                      "isVisible": false
+                    },
+                    {
+                      "id": "content1",
+                      "type": "TextBlock",
+                      "text": "At Windtip Toys, we believe in creativity, innovation, and teamwork. Our welcoming environment is designed to help you thrive and contribute to our mission of bringing joy to children through imaginative play.",
+                      "wrap": true,
+                      "isVisible": false,
+                      "targetWidth": "VeryNarrow"
                     }
                   ]
                 },
                 {
                   "type": "Column",
-                  "width": "stretch"
+                  "width": "stretch",
+                  "targetWidth": "Wide",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/onboarding/assets/Hero1.png",
+                      "style": "RoundedCorners"
+                    }
+                  ]
                 }
               ],
               "height": "stretch"
@@ -145,7 +265,8 @@
                               "type": "Icon",
                               "name": "NumberCircle2",
                               "color": "Accent",
-                              "style": "Filled"
+                              "style": "Filled",
+                              "targetWidth": "AtLeast:Narrow"
                             }
                           ]
                         },
@@ -166,6 +287,12 @@
                       ]
                     },
                     {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/onboarding/assets/Hero2b.png",
+                      "targetWidth": "AtMost:Standard",
+                      "style": "RoundedCorners"
+                    },
+                    {
                       "type": "TextBlock",
                       "text": "Step-by-step instructions on how to set up your workstation, including necessary software and tools.",
                       "wrap": true,
@@ -173,15 +300,115 @@
                     },
                     {
                       "type": "TextBlock",
+                      "targetWidth": "AtLeast:Narrow",
                       "text": "From configuring your computer to accessing our internal systems, this guide will ensure you have everything you need to start your journey at Windtip Toys.",
                       "wrap": true,
                       "weight": "Default"
+                    },
+                    {
+                      "type": "ColumnSet",
+                      "id": "closedState2",
+                      "targetWidth": "VeryNarrow",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "See more",
+                              "wrap": true,
+                              "color": "Accent"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "ChevronDown",
+                              "size": "xxSmall",
+                              "color": "Accent"
+                            }
+                          ],
+                          "verticalContentAlignment": "Center",
+                          "spacing": "ExtraSmall"
+                        }
+                      ],
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content2",
+                          "openState2",
+                          "closedState2"
+                        ]
+                      }
+                    },
+                    {
+                      "id": "openState2",
+                      "type": "ColumnSet",
+                      "targetWidth": "VeryNarrow",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "See less",
+                              "wrap": true,
+                              "color": "Accent"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "ChevronUp",
+                              "size": "xxSmall",
+                              "color": "Accent"
+                            }
+                          ],
+                          "verticalContentAlignment": "Center",
+                          "spacing": "ExtraSmall"
+                        }
+                      ],
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content2",
+                          "openState2",
+                          "closedState2"
+                        ]
+                      },
+                      "isVisible": false
+                    },
+                    {
+                      "id": "content2",
+                      "type": "TextBlock",
+                      "text": "From configuring your computer to accessing our internal systems, this guide will ensure you have everything you need to start your journey at Windtip Toys.",
+                      "wrap": true,
+                      "isVisible": false,
+                      "targetWidth": "VeryNarrow"
                     }
                   ]
                 },
                 {
                   "type": "Column",
-                  "width": "stretch"
+                  "width": "stretch",
+                  "targetWidth": "Wide",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/onboarding/assets/Hero2.png",
+                      "style": "RoundedCorners"
+                    }
+                  ]
                 }
               ],
               "height": "stretch"
@@ -224,7 +451,8 @@
                               "type": "Icon",
                               "name": "NumberCircle3",
                               "color": "Accent",
-                              "style": "Filled"
+                              "style": "Filled",
+                              "targetWidth": "AtLeast:Narrow"
                             }
                           ]
                         },
@@ -245,6 +473,12 @@
                       ]
                     },
                     {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/onboarding/assets/Hero3b.png",
+                      "targetWidth": "AtMost:Standard",
+                      "style": "RoundedCorners"
+                    },
+                    {
                       "type": "TextBlock",
                       "text": "Get to know your colleagues and learn about their roles and how you will collaborate.",
                       "wrap": true,
@@ -252,15 +486,115 @@
                     },
                     {
                       "type": "TextBlock",
+                      "targetWidth": "AtLeast:Narrow",
                       "text": "Our team is made up of talented individuals who are passionate about creating innovative toys. Discover how each member contributes to our success and how you can work together.",
                       "wrap": true,
                       "weight": "Default"
+                    },
+                    {
+                      "type": "ColumnSet",
+                      "id": "closedState3",
+                      "targetWidth": "VeryNarrow",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "See more",
+                              "wrap": true,
+                              "color": "Accent"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "ChevronDown",
+                              "size": "xxSmall",
+                              "color": "Accent"
+                            }
+                          ],
+                          "verticalContentAlignment": "Center",
+                          "spacing": "ExtraSmall"
+                        }
+                      ],
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content3",
+                          "openState3",
+                          "closedState3"
+                        ]
+                      }
+                    },
+                    {
+                      "id": "openState3",
+                      "type": "ColumnSet",
+                      "targetWidth": "VeryNarrow",
+                      "columns": [
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "TextBlock",
+                              "text": "See less",
+                              "wrap": true,
+                              "color": "Accent"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Column",
+                          "width": "auto",
+                          "items": [
+                            {
+                              "type": "Icon",
+                              "name": "ChevronUp",
+                              "size": "xxSmall",
+                              "color": "Accent"
+                            }
+                          ],
+                          "verticalContentAlignment": "Center",
+                          "spacing": "ExtraSmall"
+                        }
+                      ],
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content3",
+                          "openState3",
+                          "closedState3"
+                        ]
+                      },
+                      "isVisible": false
+                    },
+                    {
+                      "id": "content3",
+                      "type": "TextBlock",
+                      "text": "Our team is made up of talented individuals who are passionate about creating innovative toys. Discover how each member contributes to our success and how you can work together.",
+                      "wrap": true,
+                      "isVisible": false,
+                      "targetWidth": "VeryNarrow"
                     }
                   ]
                 },
                 {
                   "type": "Column",
-                  "width": "stretch"
+                  "width": "stretch",
+                  "targetWidth": "Wide",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/pabloas/carousel/samples/onboarding/assets/Hero3.png",
+                      "style": "RoundedCorners"
+                    }
+                  ]
                 }
               ],
               "height": "stretch"
