@@ -1,0 +1,246 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "bleed": true,
+      "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-event/assets/eventHero.png",
+        "verticalAlignment": "Center"
+      },
+      "minHeight": "200px",
+      "verticalContentAlignment": "Bottom",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "MAY",
+          "wrap": true,
+          "color": "Light",
+          "size": "Large"
+        },
+        {
+          "type": "TextBlock",
+          "text": "31",
+          "wrap": true,
+          "color": "Light",
+          "size": "ExtraLarge",
+          "spacing": "None",
+          "weight": "Bolder"
+        }
+      ],
+      "targetWidth": "Standard",
+      "roundedCorners": false
+    },
+    {
+      "type": "Container",
+      "bleed": true,
+      "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-event/assets/eventHero.png",
+        "verticalAlignment": "Center"
+      },
+      "minHeight": "200px",
+      "verticalContentAlignment": "Bottom",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "MAY",
+          "wrap": true,
+          "color": "Light",
+          "size": "Large"
+        },
+        {
+          "type": "TextBlock",
+          "text": "31",
+          "wrap": true,
+          "color": "Light",
+          "size": "ExtraLarge",
+          "spacing": "None",
+          "weight": "Bolder"
+        }
+      ],
+      "targetWidth": "Wide",
+      "roundedCorners": false
+    },
+    {
+      "type": "Container",
+      "bleed": true,
+      "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-event/assets/eventHero.png"
+      },
+      "minHeight": "200px",
+      "verticalContentAlignment": "Bottom",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "8px"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "MAY",
+                  "wrap": true,
+                  "color": "Light",
+                  "size": "Large"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "31",
+                  "wrap": true,
+                  "color": "Light",
+                  "size": "ExtraLarge",
+                  "spacing": "None",
+                  "weight": "Bolder"
+                }
+              ],
+              "spacing": "None"
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch"
+            }
+          ]
+        }
+      ],
+      "targetWidth": "Narrow",
+      "roundedCorners": true
+    },
+    {
+      "type": "Container",
+      "bleed": true,
+      "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/simple-event/assets/eventHero.png"
+      },
+      "minHeight": "200px",
+      "verticalContentAlignment": "Bottom",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "8px"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "MAY",
+                  "wrap": true,
+                  "color": "Light",
+                  "size": "Large"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "31",
+                  "wrap": true,
+                  "color": "Light",
+                  "size": "ExtraLarge",
+                  "spacing": "None",
+                  "weight": "Bolder"
+                }
+              ],
+              "spacing": "None"
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch"
+            }
+          ]
+        }
+      ],
+      "targetWidth": "VeryNarrow",
+      "roundedCorners": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "AI",
+      "wrap": true,
+      "size": "Small",
+      "weight": "Bolder",
+      "isSubtle": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "AI Reality Check: Accessibility and Personalization ",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Fri, Aug 23, 12:00 PM",
+      "wrap": true,
+      "size": "Small",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Online (Teams)",
+      "wrap": true,
+      "size": "Small",
+      "isSubtle": true,
+      "spacing": "None"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.ShowCard",
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "Input.Text",
+                "id": "name",
+                "placeholder": "Enter your full name",
+                "label": "Name"
+              },
+              {
+                "type": "Input.Text",
+                "id": "email",
+                "placeholder": "Enter your email address",
+                "label": "Email address",
+                "isRequired": true,
+                "errorMessage": "An email is required"
+              },
+              {
+                "type": "ActionSet",
+                "actions": [
+                  {
+                    "type": "Action.Submit",
+                    "title": "Submit",
+                    "style": "positive"
+                  }
+                ]
+              }
+            ],
+            "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+            "version": "1.5"
+          },
+          "title": "Reserve a seat",
+          "style": "positive"
+        }
+      ]
+    }
+  ],
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json"
+}
