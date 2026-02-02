@@ -1,340 +1,308 @@
 {
-    "type": "AdaptiveCard",
-    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.6",
-    "body": [
+  "type": "AdaptiveCard",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.6",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Get ready for takeoff",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Stay prepared with live flight updates, travel tips, and more...",
+      "wrap": true,
+      "spacing": "None"
+    },
+    {
+      "type": "TabSet",
+      "pages": [
         {
-            "type": "TextBlock",
-            "text": "Get ready for takeoff",
-            "wrap": true,
-            "size": "Large",
-            "weight": "Bolder"
-        },
-        {
-            "type": "TextBlock",
-            "text": "Stay prepared with live flight updates, travel tips, and more...",
-            "wrap": true,
-            "spacing": "None"
-        },
-        {
-            "type": "TabSet",
-            "pages": [
+          "type": "TabPage",
+          "style": "emphasis",
+          "iconName": "Airplane",
+          "title": "Flight details",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
                 {
-                    "type": "TabPage",
-                    "style": "emphasis",
-                    "iconName": "Airplane",
-                    "title": "Flight details",
-                    "showBorder": true,
-                    "roundedCorners": true,
-                    "items": [
-                        {
-                            "type": "ColumnSet",
-                            "columns": [
-                                {
-                                    "type": "Column",
-                                    "width": "auto",
-                                    "items": [
-                                        {
-                                            "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/newYork.png",
-                                            "width": "75px",
-                                            "height": "75px"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Flight number:",
-                                            "wrap": true,
-                                            "weight": "Bolder"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "AA123",
-                                            "wrap": true,
-                                            "spacing": "None"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Departure time:",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "9:00 AM",
-                                            "wrap": true,
-                                            "spacing": "None"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Departure airport:",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Los Angeles (LAX)",
-                                            "wrap": true,
-                                            "spacing": "None"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Arrival airport:",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "New York (JFK)",
-                                            "wrap": true,
-                                            "spacing": "None"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Arrival time:",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "5:15 PM",
-                                            "wrap": true,
-                                            "spacing": "None"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Flight status:",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Medium"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "On-time",
-                                            "wrap": true,
-                                            "color": "Good",
-                                            "spacing": "None"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Gate:",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "B12",
-                                            "wrap": true,
-                                            "spacing": "None"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Terminal:",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "4",
-                                            "wrap": true,
-                                            "spacing": "None"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/newYork.png",
+                      "width": "75px",
+                      "height": "75px",
+                      "style": "RoundedCorners"
+                    }
+                  ],
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.microsoft.com"
+                  }
                 },
                 {
-                    "type": "TabPage",
-                    "style": "emphasis",
-                    "iconName": "Location",
-                    "showBorder": true,
-                    "roundedCorners": true,
-                    "title": "Destination guide",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "New York City today",
-                            "wrap": true,
-                            "size": "Large",
-                            "weight": "Bolder"
-                        },
-                        {
-                            "type": "TextBlock",
-                            "text": "☀️ 75°F and sunny",
-                            "wrap": true,
-                            "size": "Medium",
-                            "weight": "Bolder",
-                            "spacing": "Medium"
-                        },
-                        {
-                            "type": "TextBlock",
-                            "text": "with a low of 67°F and 10% chance of precipitation",
-                            "wrap": true,
-                            "spacing": "None",
-                            "isSubtle": true
-                        },
-                        {
-                            "type": "TextBlock",
-                            "text": "Top attractions",
-                            "wrap": true,
-                            "weight": "Bolder",
-                            "spacing": "Medium"
-                        },
-                        {
-                            "type": "TextBlock",
-                            "text": "I'd recommend these two attractions for your 2-day stay. Think you'll have more time? See all",
-                            "wrap": true,
-                            "spacing": "Small",
-                            "isSubtle": true
-                        },
-                        {
-                            "type": "ColumnSet",
-                            "columns": [
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/timesSquare.png",
-                                            "size": "Stretch",
-                                            "height": "150px"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Times Square",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/centralPark.png",
-                                            "size": "Stretch",
-                                            "height": "150px"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Central Park",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        }
-                                    ],
-                                    "spacing": "Small"
-                                }
-                            ],
-                            "spacing": "Medium"
-                        },
-                        {
-                            "type": "ColumnSet",
-                            "columns": [
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/statueOfLiberty.png",
-                                            "size": "Stretch",
-                                            "height": "150px"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Statue of Liberty",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "Image",
-                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/brooklynBridge.png",
-                                            "size": "Stretch",
-                                            "height": "150px"
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Brooklyn Bridge",
-                                            "wrap": true,
-                                            "weight": "Bolder",
-                                            "spacing": "Small"
-                                        }
-                                    ],
-                                    "spacing": "Small"
-                                }
-                            ],
-                            "spacing": "Small"
-                        },
-                        {
-                            "type": "Container",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Travel tip",
-                                    "wrap": true,
-                                    "weight": "Bolder",
-                                    "color": "Accent"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Purchase a MasterCard at JFK for unlimited subway access.",
-                                    "wrap": true,
-                                    "spacing": "Small"
-                                }
-                            ],
-                            "style": "accent",
-                            "spacing": "Medium",
-                            "bleed": true
-                        }
-                    ]
-                },
-                {
-                    "type": "TabPage",
-                    "style": "warning",
-                    "iconName": "Luggage",
-                    "title": "Travel tips",
-                    "showBorder": true,
-                    "roundedCorners": true,
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "PAGE 3 of 6",
-                            "wrap": true,
-                            "size": "Large"
-                        },
-                        {
-                            "type": "TextBlock",
-                            "text": "First TextBlock",
-                            "wrap": true
-                        }
-                    ]
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    { "type": "TextBlock", "text": "Flight number:", "wrap": true, "weight": "Bolder" },
+                    { "type": "TextBlock", "text": "AA123", "wrap": true, "spacing": "None" },
+                    { "type": "TextBlock", "text": "Departure time:", "wrap": true, "weight": "Bolder", "spacing": "Small" },
+                    { "type": "TextBlock", "text": "9:00 AM", "wrap": true, "spacing": "None" },
+                    { "type": "TextBlock", "text": "Departure airport:", "wrap": true, "weight": "Bolder", "spacing": "Small" },
+                    { "type": "TextBlock", "text": "Los Angeles (LAX)", "wrap": true, "spacing": "None" },
+                    { "type": "TextBlock", "text": "Arrival airport:", "wrap": true, "weight": "Bolder", "spacing": "Small" },
+                    { "type": "TextBlock", "text": "New York (JFK)", "wrap": true, "spacing": "None" },
+                    { "type": "TextBlock", "text": "Arrival time:", "wrap": true, "weight": "Bolder", "spacing": "Small" },
+                    { "type": "TextBlock", "text": "5:15 PM", "wrap": true, "spacing": "None" },
+                    { "type": "TextBlock", "text": "Flight status:", "wrap": true, "weight": "Bolder", "spacing": "Medium" },
+                    { "type": "TextBlock", "text": "On-time", "wrap": true, "color": "Good", "spacing": "None" },
+                    { "type": "TextBlock", "text": "Gate:", "wrap": true, "weight": "Bolder", "spacing": "Small" },
+                    { "type": "TextBlock", "text": "B12", "wrap": true, "spacing": "None" },
+                    { "type": "TextBlock", "text": "Terminal:", "wrap": true, "weight": "Bolder", "spacing": "Small" },
+                    { "type": "TextBlock", "text": "4", "wrap": true, "spacing": "None" }
+                  ]
                 }
-            ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TabPage",
+          "style": "emphasis",
+          "iconName": "Location",
+          "showBorder": true,
+          "roundedCorners": true,
+          "title": "Destination guide",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "New York City today",
+              "wrap": true,
+              "weight": "Bolder"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/sun.png",
+                      "width": "28px",
+                      "height": "28px"
+                    }
+                  ],
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.microsoft.com"
+                  }
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "75°F and sunny",
+                      "wrap": true,
+                      "size": "Large",
+                      "weight": "Bolder"
+                    }
+                  ],
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
+                }
+              ],
+              "spacing": "Medium"
+            },
+            {
+              "type": "TextBlock",
+              "text": "with a low of 67°F and 10% chance of precipitation",
+              "wrap": true,
+              "spacing": "Small",
+              "size": "Small",
+              "isSubtle": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Top attractions",
+              "wrap": true,
+              "weight": "Bolder",
+              "spacing": "Large",
+              "separator": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Check out these popular spots during your 3-day stay.",
+              "wrap": true,
+              "spacing": "None",
+              "size": "Small",
+              "isSubtle": true
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/attract_timesSuare.png",
+                      "size": "Stretch",
+                      "style": "RoundedCorners"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Times Square",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "spacing": "Small"
+                    }
+                  ],
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.microsoft.com"
+                  }
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/centralPark.png",
+                      "size": "Stretch",
+                      "style": "RoundedCorners"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Central Park",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "spacing": "Small"
+                    }
+                  ],
+                  "spacing": "Small",
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.microsoft.com"
+                  }
+                }
+              ],
+              "spacing": "Medium"
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/statueOfLiberty.png",
+                      "size": "Stretch",
+                      "style": "RoundedCorners"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Statue of Liberty",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "spacing": "Small"
+                    }
+                  ],
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.microsoft.com"
+                  }
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/refs/heads/Suz-JanUpdates/samples/travel-tab/assets/brooklynBridge.png",
+                      "size": "Stretch",
+                      "style": "RoundedCorners"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "Brooklyn Bridge",
+                      "wrap": true,
+                      "weight": "Bolder",
+                      "spacing": "Small"
+                    }
+                  ],
+                  "spacing": "Small",
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.microsoft.com"
+                  }
+                }
+              ],
+              "spacing": "Small"
+            },
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Travel tip",
+                  "wrap": true,
+                  "weight": "Bolder",
+                  "color": "Accent"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Purchase a MasterCard at JFK for unlimited subway access.",
+                  "wrap": true,
+                  "spacing": "None",
+                  "size": "Small",
+                  "color": "Accent"
+                }
+              ],
+              "style": "accent",
+              "spacing": "ExtraLarge",
+              "showBorder": true,
+              "roundedCorners": true,
+              "separator": true
+            }
+          ]
+        },
+        {
+          "type": "TabPage",
+          "style": "warning",
+          "iconName": "Luggage",
+          "title": "Travel tips",
+          "showBorder": true,
+          "roundedCorners": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "PAGE 3 of 6",
+              "wrap": true,
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "First TextBlock",
+              "wrap": true
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
