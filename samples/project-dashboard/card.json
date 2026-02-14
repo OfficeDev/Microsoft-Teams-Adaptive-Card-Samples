@@ -1,0 +1,785 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Contoso Mobile App Redesign",
+            "wrap": true,
+            "size": "Large",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "In Progress",
+                            "style": "Informative",
+                            "appearance": "Tint",
+                            "icon": "ArrowSync",
+                            "size": "Large"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Due Mar 15, 2025",
+                            "wrap": true,
+                            "size": "Small",
+                            "isSubtle": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "targetWidth": "AtLeast:Narrow"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Due Mar 15, 2025",
+            "wrap": true,
+            "size": "Small",
+            "isSubtle": true,
+            "targetWidth": "VeryNarrow",
+            "spacing": "ExtraSmall"
+        },
+        {
+            "type": "Container",
+            "layouts": [
+                {
+                    "type": "Layout.AreaGrid",
+                    "targetWidth": "atLeast:Standard",
+                    "columns": [25, 25, 25],
+                    "areas": [
+                        { "name": "kpi1" },
+                        { "name": "kpi2", "column": 2 },
+                        { "name": "kpi3", "column": 3 },
+                        { "name": "kpi4", "column": 4 }
+                    ],
+                    "columnSpacing": "Small"
+                },
+                {
+                    "type": "Layout.AreaGrid",
+                    "targetWidth": "Narrow",
+                    "columns": [50],
+                    "areas": [
+                        { "name": "kpi1" },
+                        { "name": "kpi2", "column": 2 },
+                        { "name": "kpi3", "row": 2 },
+                        { "name": "kpi4", "column": 2, "row": 2 }
+                    ],
+                    "columnSpacing": "Small",
+                    "rowSpacing": "Small"
+                }
+            ],
+            "items": [
+                {
+                    "type": "Container",
+                    "grid.area": "kpi1",
+                    "style": "emphasis",
+                    "roundedCorners": true,
+                    "showBorder": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Completion",
+                            "wrap": true,
+                            "size": "Small",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "68%",
+                            "wrap": true,
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "color": "Good",
+                            "spacing": "ExtraSmall"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "grid.area": "kpi2",
+                    "style": "emphasis",
+                    "roundedCorners": true,
+                    "showBorder": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Tasks Done",
+                            "wrap": true,
+                            "size": "Small",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "34 / 50",
+                            "wrap": true,
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "spacing": "ExtraSmall"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "grid.area": "kpi3",
+                    "style": "emphasis",
+                    "roundedCorners": true,
+                    "showBorder": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Open Bugs",
+                            "wrap": true,
+                            "size": "Small",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "7",
+                            "wrap": true,
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "color": "Attention",
+                            "spacing": "ExtraSmall"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "grid.area": "kpi4",
+                    "style": "emphasis",
+                    "roundedCorners": true,
+                    "showBorder": true,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Days Left",
+                            "wrap": true,
+                            "size": "Small",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "31",
+                            "wrap": true,
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "color": "Warning",
+                            "spacing": "ExtraSmall"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Medium",
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "layouts": [
+                {
+                    "type": "Layout.AreaGrid",
+                    "targetWidth": "atLeast:Standard",
+                    "columns": [60],
+                    "areas": [
+                        { "name": "milestones" },
+                        { "name": "team", "column": 2 }
+                    ],
+                    "columnSpacing": "Default"
+                }
+            ],
+            "items": [
+                {
+                    "type": "Container",
+                    "grid.area": "milestones",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Milestones",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "size": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "CheckmarkCircle",
+                                            "size": "xSmall",
+                                            "style": "Filled",
+                                            "color": "Good"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Design review",
+                                            "wrap": true,
+                                            "size": "Small"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Jan 20",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "targetWidth": "AtLeast:Narrow"
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "CheckmarkCircle",
+                                            "size": "xSmall",
+                                            "style": "Filled",
+                                            "color": "Good"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "API integration",
+                                            "wrap": true,
+                                            "size": "Small"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Feb 3",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "targetWidth": "AtLeast:Narrow"
+                                }
+                            ],
+                            "spacing": "ExtraSmall"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "ArrowSync",
+                                            "size": "xSmall",
+                                            "color": "Accent"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Beta testing",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "weight": "Bolder"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Feb 28",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "targetWidth": "AtLeast:Narrow"
+                                }
+                            ],
+                            "spacing": "ExtraSmall"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "Circle",
+                                            "size": "xSmall",
+                                            "color": "Default"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "GA release",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Mar 15",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "targetWidth": "AtLeast:Narrow"
+                                }
+                            ],
+                            "spacing": "ExtraSmall"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "grid.area": "team",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Team",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "size": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-requestor.png",
+                                            "width": "24px",
+                                            "height": "24px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Alex Chen",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "weight": "Bolder"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Project Lead",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true,
+                                            "spacing": "None"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver1.png",
+                                            "width": "24px",
+                                            "height": "24px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Priya Sharma",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "weight": "Bolder"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "UX Designer",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true,
+                                            "spacing": "None"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver2.png",
+                                            "width": "24px",
+                                            "height": "24px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Marcus Johnson",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "weight": "Bolder"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "iOS Developer",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true,
+                                            "spacing": "None"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver3.png",
+                                            "width": "24px",
+                                            "height": "24px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Sara Kim",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "weight": "Bolder"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Android Developer",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "isSubtle": true,
+                                            "spacing": "None"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Medium",
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "spacing": "Medium",
+            "separator": true,
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Recent Activity",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "size": "Small"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "Checkmark",
+                                    "size": "xxSmall",
+                                    "color": "Good"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "RichTextBlock",
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": "Alex ",
+                                            "weight": "Bolder",
+                                            "size": "Small"
+                                        },
+                                        {
+                                            "type": "TextRun",
+                                            "text": "merged PR #142 — Auth flow redesign",
+                                            "size": "Small"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "2h ago",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "isSubtle": true
+                                }
+                            ],
+                            "targetWidth": "AtLeast:Narrow"
+                        }
+                    ],
+                    "spacing": "Small"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "Bug",
+                                    "size": "xxSmall",
+                                    "color": "Attention"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "RichTextBlock",
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": "Marcus ",
+                                            "weight": "Bolder",
+                                            "size": "Small"
+                                        },
+                                        {
+                                            "type": "TextRun",
+                                            "text": "opened bug #87 — Nav bar overlap on iPad",
+                                            "size": "Small"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "5h ago",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "isSubtle": true
+                                }
+                            ],
+                            "targetWidth": "AtLeast:Narrow"
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "Design",
+                                    "size": "xxSmall",
+                                    "color": "Accent"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "RichTextBlock",
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": "Priya ",
+                                            "weight": "Bolder",
+                                            "size": "Small"
+                                        },
+                                        {
+                                            "type": "TextRun",
+                                            "text": "uploaded new mockups for Settings page",
+                                            "size": "Small"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "1d ago",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "isSubtle": true
+                                }
+                            ],
+                            "targetWidth": "AtLeast:Narrow"
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "spacing": "Medium",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Open project",
+                    "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "View all tasks",
+                    "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples"
+                }
+            ]
+        }
+    ]
+}

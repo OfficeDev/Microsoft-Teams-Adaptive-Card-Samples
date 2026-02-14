@@ -84,6 +84,16 @@
       "name": "Simple Time Off Request",
       "description": "The Simple Time Off Request Card is designed for ease and efficiency, allowing users to quickly submit their time off requests. Its minimalistic design ensures a clean and user-friendly experience while offering opportunities for visual customization.",
       "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/simple-time-off-request/card.json"
+    },
+    {
+      "name": "Team Standup Summary",
+      "description": "The Team Standup Summary Card provides a quick overview of your team's daily standup status. It uses Layout.AreaGrid to display team members in a responsive 2-column grid on desktop that collapses to a single-column stack on mobile, with highlighted blockers for immediate visibility.",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/team-standup-summary/card.json"
+    },
+    {
+      "name": "Project Dashboard",
+      "description": "The Project Dashboard Card provides a comprehensive at-a-glance view of project health with responsive KPI tiles, milestone timeline, team roster, and activity feed. Uses multiple Layout.AreaGrid definitions with targetWidth breakpoints to adapt from a 4-column KPI row on desktop to a 2x2 grid on tablet to a stacked layout on mobile.",
+      "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Card-Samples/main/samples/project-dashboard/card.json"
     }
   ]
 }

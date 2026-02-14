@@ -1,0 +1,454 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Daily Standup Summary",
+            "wrap": true,
+            "size": "Large",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Design Systems Team",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "3 of 4 reported",
+                            "style": "Informative",
+                            "appearance": "Tint",
+                            "icon": "People"
+                        }
+                    ]
+                }
+            ],
+            "targetWidth": "AtLeast:Narrow"
+        },
+        {
+            "type": "Container",
+            "targetWidth": "VeryNarrow",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Design Systems Team",
+                    "wrap": true,
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "Badge",
+                    "text": "3 of 4 reported",
+                    "style": "Informative",
+                    "appearance": "Tint",
+                    "icon": "People",
+                    "spacing": "ExtraSmall",
+                    "horizontalAlignment": "Left"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Wed, Feb 12, 2025 · 9:30 AM",
+            "wrap": true,
+            "size": "Small",
+            "isSubtle": true,
+            "spacing": "ExtraSmall"
+        },
+        {
+            "type": "Container",
+            "layouts": [
+                {
+                    "type": "Layout.AreaGrid",
+                    "targetWidth": "atLeast:Standard",
+                    "columns": [50],
+                    "areas": [
+                        { "name": "member1" },
+                        { "name": "member2", "column": 2 },
+                        { "name": "member3", "row": 2 },
+                        { "name": "member4", "column": 2, "row": 2 }
+                    ],
+                    "columnSpacing": "Default",
+                    "rowSpacing": "Default"
+                }
+            ],
+            "items": [
+                {
+                    "type": "Container",
+                    "grid.area": "member1",
+                    "style": "emphasis",
+                    "roundedCorners": true,
+                    "showBorder": true,
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-requestor.png",
+                                            "width": "32px",
+                                            "height": "32px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Alex Chen",
+                                            "wrap": true,
+                                            "weight": "Bolder",
+                                            "size": "Small"
+                                        },
+                                        {
+                                            "type": "Badge",
+                                            "text": "On track",
+                                            "style": "Good",
+                                            "appearance": "Tint",
+                                            "icon": "CheckmarkCircle",
+                                            "size": "Medium"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Yesterday:** Completed token migration for Button component",
+                            "wrap": true,
+                            "size": "Small",
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Today:** Starting Dialog accessibility audit",
+                            "wrap": true,
+                            "size": "Small",
+                            "spacing": "ExtraSmall"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "grid.area": "member2",
+                    "style": "emphasis",
+                    "roundedCorners": true,
+                    "showBorder": true,
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver1.png",
+                                            "width": "32px",
+                                            "height": "32px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Priya Sharma",
+                                            "wrap": true,
+                                            "weight": "Bolder",
+                                            "size": "Small"
+                                        },
+                                        {
+                                            "type": "Badge",
+                                            "text": "Blocked",
+                                            "style": "Attention",
+                                            "appearance": "Tint",
+                                            "icon": "Warning",
+                                            "size": "Medium"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Yesterday:** Worked on responsive grid component",
+                            "wrap": true,
+                            "size": "Small",
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Blocker:** Waiting on design specs for breakpoints",
+                            "wrap": true,
+                            "size": "Small",
+                            "spacing": "ExtraSmall",
+                            "color": "Attention"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "grid.area": "member3",
+                    "style": "emphasis",
+                    "roundedCorners": true,
+                    "showBorder": true,
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver2.png",
+                                            "width": "32px",
+                                            "height": "32px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Marcus Johnson",
+                                            "wrap": true,
+                                            "weight": "Bolder",
+                                            "size": "Small"
+                                        },
+                                        {
+                                            "type": "Badge",
+                                            "text": "On track",
+                                            "style": "Good",
+                                            "appearance": "Tint",
+                                            "icon": "CheckmarkCircle",
+                                            "size": "Medium"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Yesterday:** Fixed 3 a11y issues in DatePicker",
+                            "wrap": true,
+                            "size": "Small",
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Today:** Writing unit tests for DatePicker fixes",
+                            "wrap": true,
+                            "size": "Small",
+                            "spacing": "ExtraSmall"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "grid.area": "member4",
+                    "style": "emphasis",
+                    "roundedCorners": true,
+                    "showBorder": true,
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples/main/samples/insights/assets/avatar-approver3.png",
+                                            "width": "32px",
+                                            "height": "32px",
+                                            "style": "Person"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Sara Kim",
+                                            "wrap": true,
+                                            "weight": "Bolder",
+                                            "size": "Small"
+                                        },
+                                        {
+                                            "type": "Badge",
+                                            "text": "Not reported",
+                                            "style": "Warning",
+                                            "appearance": "Tint",
+                                            "icon": "Clock",
+                                            "size": "Medium"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "No status update submitted yet.",
+                            "wrap": true,
+                            "size": "Small",
+                            "isSubtle": true,
+                            "spacing": "Small"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Medium",
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "style": "attention",
+            "roundedCorners": true,
+            "showBorder": true,
+            "spacing": "Medium",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "Warning",
+                                    "size": "xSmall",
+                                    "color": "Attention"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "1 blocker needs attention",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "weight": "Bolder"
+                                }
+                            ],
+                            "spacing": "Small",
+                            "verticalContentAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Priya Sharma is blocked waiting on design specs for responsive breakpoints.",
+                    "wrap": true,
+                    "size": "Small",
+                    "spacing": "ExtraSmall"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Sprint 24 · Day 7 of 14",
+                            "wrap": true,
+                            "size": "Small",
+                            "isSubtle": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "12 tasks remaining",
+                            "wrap": true,
+                            "size": "Small",
+                            "isSubtle": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "targetWidth": "AtLeast:Narrow"
+                }
+            ],
+            "spacing": "Medium",
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "12 tasks remaining",
+            "wrap": true,
+            "size": "Small",
+            "isSubtle": true,
+            "targetWidth": "VeryNarrow",
+            "spacing": "ExtraSmall"
+        },
+        {
+            "type": "ActionSet",
+            "spacing": "Medium",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "View sprint board",
+                    "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Submit update",
+                    "url": "https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples"
+                }
+            ]
+        }
+    ]
+}
