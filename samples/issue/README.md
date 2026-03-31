@@ -59,7 +59,7 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 }
 ```
 
-<a href="https://dev.teams.microsoft.com/cards/new" target="_blank">
+<a href="https://adaptivecards.microsoft.com/designer" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
